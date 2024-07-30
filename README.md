@@ -1,2 +1,2 @@
-# Python-for-Data-Science-AI-Development
-Python for Data Science, AI &amp; Development For IBM Course
+# My Coursera Cache
+Various folders used to organize my Coursera projects and course studies.
