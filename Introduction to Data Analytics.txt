@@ -1,0 +1,15 @@
+Introduction to Data Analytics:
+A modern day Data Ecosystem includes a network of interconnected and continually evolving entities that includes:
+        -Data that is available in a host of different formats, structures, and sources.
+        -Enterprise Data Enviroments: in which raw data is staged so it can be organized, cleaned, and optimized for use by end-users.
+        -End-users such as Busness Stakeholder, Analyzers, and Programmers who consume data for various purposes.
+
+Key Players in the Data Ecosystem:
+    -Data Engineers: Data Architectures, Busness Operations, and Anaysis.
+        -Work within the data ecosystem to, Extract, Intergrate, and Organize data from disperate sources.
+        -Clean, Transform, and prepare data.
+        -Design, Store, and Manage data indata repositories.
+        -They enabled data to be accesible in formats and systems that the various business apllications, 
+        as well as stakeholder like data analysis and data scientists can utilize.
+        -Requires Good knowledge at programing, Sound knowledge of systems and technology archetectures, and in depth
+        understanding of relational data bases and non-relational data stores. 
