@@ -1,15 +1,71 @@
 Introduction to Data Analytics:
-A modern day Data Ecosystem includes a network of interconnected and continually evolving entities that includes:
-        -Data that is available in a host of different formats, structures, and sources.
-        -Enterprise Data Enviroments: in which raw data is staged so it can be organized, cleaned, and optimized for use by end-users.
-        -End-users such as Busness Stakeholder, Analyzers, and Programmers who consume data for various purposes.
+- A modern day Data Ecosystem includes a network of interconnected and continually evolving entities that includes:
+        - Data that is available in a host of different formats, structures, and sources.
+        - Enterprise Data Enviroments: in which raw data is staged so it can be organized, 
+            cleaned, and optimized for use by end-users.
+        - End-users such as Busness Stakeholder, Analyzers, and Programmers who consume data for various purposes.
 
-Key Players in the Data Ecosystem:
-    -Data Engineers: Data Architectures, Busness Operations, and Anaysis.
-        -Work within the data ecosystem to, Extract, Intergrate, and Organize data from disperate sources.
-        -Clean, Transform, and prepare data.
-        -Design, Store, and Manage data indata repositories.
-        -They enabled data to be accesible in formats and systems that the various business apllications, 
-        as well as stakeholder like data analysis and data scientists can utilize.
-        -Requires Good knowledge at programing, Sound knowledge of systems and technology archetectures, and in depth
-        understanding of relational data bases and non-relational data stores. 
+- Key Players in the Data Ecosystem:
+    - Data Engineers: Data Architectures, Busness Operations, and Anaysis.
+        - Work within the data ecosystem to, Extract, Intergrate, and Organize data from disperate sources.
+        - Clean, Transform, and prepare data.
+        - Design, Store, and Manage data indata repositories.
+        - They enabled data to be accesible in formats and systems that the various business apllications, 
+            as well as stakeholder like data analysis and data scientists can utilize.
+        - Requires Good knowledge at programing, Sound knowledge of systems and technology archetectures, and in depth
+            understanding of relational data bases and non-relational data stores. 
+    - Data Analyst: Translates data and numbers into plain language so organizations can make decisions.
+        - Inspect and clean data for driving insights.
+        - Identify coralations, find patterns, apply statistical methods to Analytics, Mine data, and visualize data to interpret
+            and present the findings of data analysis.
+        - Requires good knowledge of spreadsheets, writing queries and using statistical tools to create charts and dashboards.
+        - Programing skills, strong analytical and story telling skills.
+    - Data Scientist: Analyse data for actionable insights.
+        - Create predictive models using machine learing and deep learning that train on past data
+            to create predictive models.
+        - Requires knowledge of mathmatics and statistics.
+        - Understading of programming languages and building data models.
+        - Domain knowledge
+    - Business Analytics:
+        - Leverage the work of data analyst and data scientists to look at possible implications for their business
+            and the actions they need to take or recommed.
+    - Business Intellagence:
+        - Focus on the market forces and external influences that shape their business.
+        - Provide business intelegence solutions.
+        - Organize and monitor data on different business functions.
+        - Explore data to extract insight and acttions that improve business performace.
+
+- What is Data Analyse?
+    - Gathering, cleaning, analysing, and mining data
+    - Interpreting results
+    - Reporting findings
+    - We find patterns within data and coralations between differnet data paints.
+    - Thru this insights are generated and conclusions are drawn.
+    - Data Analysis helps business Understand past performances and informs decison making that 
+        validate our course of actions before commiting to it.
+
+- Differnt types of Data Analysis:
+    - Descriptive Analytics: 
+        - Helps answer questions about what happenied for a given period of theme by summerizing
+            past data and presenting finding to stakeholders.
+        - Helps provide insight into past events.
+    - Diagnostic Analytics: 
+        - Helps answer the question, Why did it happen?
+        - Takes the insights from descriptive analysing to dig deeper to find the cause of the outcome.
+    - Predictive Analytics:
+        - Helps answer the question, What will happen next?
+        - Leverages historical data and trends to predict future outcomes.
+    - Prescriptive Analytics:
+        - Helps answer the question, What should be dont about it?
+        - By analyzing past decisoins and events the likelihood of different outcomes is estimated on the
+            bases of which course of action is decided
+
+- Keysteps in any Data Analysis Process:
+    - Understanding the problem and desired resault.
+    - Setting a clear metric:  Deciding what will be measured.
+    - Gathering data soureces end tools
+    - Cleaning data:  Fixing quality issues with data that could effect the accuracy of the data.
+    - Analyzing and Mining data: Extracting and analyxing the data from differnet perspectives.
+    - Interpreting resaults: Evaluate if your analysis is defendable againts objection, or any limitaions
+        or circumstances may not hold true.
+    - Presenting your findings: Communicate finding in clear, impactful, and convincing ways.
