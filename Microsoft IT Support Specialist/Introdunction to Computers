@@ -17,4 +17,29 @@
     - Describe the work management capabilities fo Microsoft 365, including Microsoft Project, Planner, Bookings,
         Forms, Lists, and To-Do.
 
--  
+- Describe collaboratiion solutions of Microsoft 365
+    -Describe the collaboration benefits and capabilities of Microsoft 365, including Microsoft Exchange, Outlook,
+        SharePoint, OneDrive, and Stream.
+    - Describe the collaboration benefits and capabilites fo Microsoft Teams and Teams Phone.
+    - Describe the Microsoft Viva apps.
+    - Describe the ways that you an extend Microsoft Teams by using collabrorative apps.
+
+- Describe endpoint modernization, management concepts, and deployment options in Microssoft 365
+    - Describe the endpoint managemment capabilities of Microsoft 365, including Microsoft.
+    - Endpoint Manager (MEM), Intune, AutoPilot, and Configureation Manager with cloud attach.
+    - Compare the differences between Windows 365 and Azure Virtual Desktop.
+    -Describe the deployment and release models for Windows-as-a-Service (WaaS), Including deployment rings.
+    - Indentify deployment and update channels for Microsoft 365 Apps.
+
+- Describe analytics capabilities of Microsoft 365
+    - Describe the capabilities of Viva Insights.
+    - Describe the capbailities of the Microsoft 365 Admin Center and Microsoft 365 user portal.
+    - Describe the reports available in the Microsoft 365 Admin Center and other admin centers.
+
+- Descibe Security, Compliance, Privacy, and Trust in Microsoft 365
+    - Describe identity and access management solutions of Microsoft 365
+    - Describe cloud identity, on-premises identity, and hybrid identity concepts.
+    - Descrie how Microsoft uses methods such as multi-factor authentication (MFA), self-service password reset
+        (SSPR), and conditional access to keep identites, access, and data secure.
+
+- 
