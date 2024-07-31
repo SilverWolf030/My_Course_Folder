@@ -10,4 +10,31 @@
     - Data Synthasis
 
 - Capabilities of Generative AI for Business Functions
-    - 
+    - Data Collection
+    - Data Preprocessing 
+    - Model Training
+    - Model Optimizaton
+    - Content Generation
+    - Evaluation
+
+- Technical Foundations of Generative AI
+    - (GANs)
+        - Involve two neutal networks, the generator and the discriminator, 
+            working in tandem to profuce hightly realistic outputs.
+                - [Latent Space] -> Noise -> Generator -> Fake Sample
+                - Real Samples -> Discriminator -> Real
+    
+     Transformer Models (GPT and BERT)
+        - Use Attention mehanisms to create text that is contextually relevant 
+            and stylistically coherent.
+        - Focus Selectively
+        - Highlight Information
+        - Coherent 
+        - Contextually Appropriate
+    
+- Human design choices, Engineering and Oversight
+    [Training Data] -> [Machine Learning] -> [Model + Inputs: Producton data/Information] 
+        -> [Processing] -> {Continuous Learning -> Machine Learning} ->
+        Outputs: Predictions, Actions, Recommendations, and Decisions.
+    
+- 
