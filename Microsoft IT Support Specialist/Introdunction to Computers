@@ -36,7 +36,7 @@
     - Describe the capbailities of the Microsoft 365 Admin Center and Microsoft 365 user portal.
     - Describe the reports available in the Microsoft 365 Admin Center and other admin centers.
 
-- Descibe Security, Compliance, Privacy, and Trust in Microsoft 365
+- Describe Security, Compliance, Privacy, and Trust in Microsoft 365
     - Describe identity and access management solutions of Microsoft 365
     - Describe cloud identity, on-premises identity, and hybrid identity concepts.
     - Descrie how Microsoft uses methods such as multi-factor authentication (MFA), self-service password reset
@@ -74,5 +74,3 @@
     - Desribe service-level agreements (SLAs), uncluding service credits
     - Determind service heath status by using the Microsoft 365 admin center or 
         the Microsoft Entra admin center.
-
--  
