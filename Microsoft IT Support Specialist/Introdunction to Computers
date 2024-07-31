@@ -42,4 +42,37 @@
     - Descrie how Microsoft uses methods such as multi-factor authentication (MFA), self-service password reset
         (SSPR), and conditional access to keep identites, access, and data secure.
 
-- 
+- Describe threat protection solutions in Microsoft 365
+    - Describe Micrososft 365 Defender, Defender for Endpoint, Defender for Office 365,
+        Defender for identity Defender for Cloud Apps, and the Microsoft 365 Defender Portal.
+    - Describe Microsoft Secure Score benefits and capabilities.
+    - Describe how Microsoft 365 addresses the most common types of threats against endpoints,
+        applications, and identities.
+    
+- Describe trust, privacy, risk, and compliance solutions of Microsoft 365
+    - Describe the Zero Trust Model
+    - Describe Microsoft Purview information Protection features, such as sensitivity labels and
+        data loss prevention.
+    - Describe Microsoft Purview compliance solutions such as isider risk, auditingm and eDiscovery,
+    - Describe how Microsoft supports data residency to ensure regulatory compliance.
+    - Describe the capbailites and benefits fo Microsoft Priva.
+
+- Describe Microsoft 365 pricing, licensing, and support
+    - Identify Microsoft 365 pricing and billing management options
+    - Describe the pricing models for Microsoft cloud services, including enerprise agreements,
+        cloud solution providers, and direct billing,
+    - Describe available billing anb bil management options, inlcluding ebilling frequency and mthods of
+        payment.
+    
+- Identify licensing options available in Microsoft 365
+    - Describe license management.
+    - Desribe the difference between base licensing and add-on licensing.
+
+- Identify support options for Mirosoft 365 services.
+    -Describe how to create a support request for Microsoft 365 services.
+    - Describe support options for Microsoft 365 services.
+    - Desribe service-level agreements (SLAs), uncluding service credits
+    - Determind service heath status by using the Microsoft 365 admin center or 
+        the Microsoft Entra admin center.
+
+-  
