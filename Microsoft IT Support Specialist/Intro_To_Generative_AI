@@ -141,4 +141,55 @@
         in an effort to bridge the gap between human communication and computer understanding.
     - Key techniques in (NLP) include syntax tree parsing, entity recognition, and sentiment analysis,
         among others.
-    - 
+    - These techniques help computers to process and anaylze large amounts of natural language data.
+    - (NLP) is used in a variety of applications, such as automated chatbots, translation services,
+        email filtering, and voice-activated global position systems (GPS).
+    - Each application requires the computer to understand the input provided by humans, process
+        that data in meaningful way, and if necessary, respong in a language that humans understand.
+
+-  Transformers:
+    - Introduced by Google researchers in the seminal 2017 paper " Attention is All You Need".
+        transformers use a mechanism known as self-attention to wigh the importance of each word in
+        a sentence regardless of it position. Unlike previous models that processed data sequentially,
+        Transformers process all words or tokens in parallel, whichsignificantly increases
+        efficiency and performance on tasks that require understanding context over long distances within
+        text.
+    - This architecture avoids recurrence and vonvolutions entirely, relying instead on stacked
+        self-attention and point-wise, fully connected layers for both the encoder and the decoder
+        components
+    - This design allows for more scalable learning and has been fundamental in developing models that
+        achieve state-of-the-art results on a variety of (NLP) tasks, including machine translation,
+        text summerization, and sentiment analysis.
+    - The Transformer's ability to handle sequential data extends beyond text, making it versatile in other
+        domains like image processing and even music generation.
+
+- Gernerative Pre-Trained Transformers (GPT):
+    - (GPT) are state-of-the-art language models developed by OpenAI that us DL techniques, 
+        specifically the transformer architecture, for natural language understanding and generation.
+    - These models are first pre-trained on a deverse range of internet text to develop a broad 
+        understanding of language structure and context.
+    - The pre-training involves unsupervised learning, where the model predicts the next
+        word in a setence without human-labeled corrections. This allows GPT models to generate 
+        coherent and contextually appropriate text sequences based on the prompt hey are given.
+    - Once Pre-trained, GPT models can be fine-tuned on specific tasks such a translation, 
+        question-answering, and summerization, enhancing their applicabilitiy across various
+        domains.
+    - Their ability to generate human-like text and perform language-based tasks has implications
+        across fields such as AI-assisted writing, conversational agents, and automated content creation.
+    - Each sucessive version fo GPT has been larger and more complex, with GPT-4, the latest iteration,
+        containing 175 billion parameters, which signigicantly advances its learning and generative 
+        capabilities.
+
+- Tokenization, Word2vec, and BERT
+    - Tokenization in NLP involves splitting text into smaller units known as tokens, which
+        can be words characters, or subwords. This step is crucial for preparing text for processing
+        with various NLP models, as it standardized the initil input into manageable pieces for
+        algorithms to process.
+    - Word2vec, developed by researchers at Google, is a technique that embeds words into numerical vectors
+        using shallow, two-layer NNs. The models are trained to reconstruct the linguistic contexts of words, thereby capturing the relationships and multiple degrees of similarity among them.
+    - Meanwhile, Bidirectional Encoder Representations from Transformers (BERT) represent a significant
+        advancement in pre-training language representations. Developed also by Google, BERT incorporates
+        a transformer architecture that processes words in relation to all the other words in a sentence,
+        rather than one-by-one in order. This allows BERT to capture the full context of a word based on all its surroundings leading to a deeper  understanding of language nuances. BERT's ability to handle context from both directions makes it exeptionally powerful for tasks where context is crusial such as question answering and sentiment anaylsis.
+    
+- 
