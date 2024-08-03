@@ -163,6 +163,9 @@
     - The Transformer's ability to handle sequential data extends beyond text, making it versatile in other
         domains like image processing and even music generation.
 
+- Generative AI models like GPT and BERT use a mechanism called { self-attention } to understand
+    and generate contextually relevant text.
+
 - Gernerative Pre-Trained Transformers (GPT):
     - (GPT) are state-of-the-art language models developed by OpenAI that us DL techniques, 
         specifically the transformer architecture, for natural language understanding and generation.
