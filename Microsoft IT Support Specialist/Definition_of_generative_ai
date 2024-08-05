@@ -44,4 +44,54 @@
         by OpenAI uses only the decoder block.
 
 - Tokenization:
+    - The first step in training a Transformer model is to decompose the training text into tokens - in other
+        words, identify each unique text value. Tokens can be generated for partial words, or combinations
+        of words and punctuation.
+
+        - Example: I heard a dog bark loudly at a cat.
+            - To tokenize this text, you can identify each discrete word and assign token ids to them.
+
+            - I (1)
+            - heard (2)
+            - a (3)
+            - dog (4)
+            - bark (5)
+            - loudly (6)
+            - at (7)
+            - *("a" is already tokenized as 3)*
+            - cat (8)
+
+- Embeddings:
+    - To create a vocabulary that encapsulates semantic relationships between the tokens, we define contextual
+        vectors, known as embeddings, for them.
+    - Vectors are multi-valued numeric representations of information, [10,3,1] in which each numeric element 
+        represents a particular attribute of the information.
+    - For language tokens, each element of a token's vector represents some semantic attribute of the token.
+        The specific catagories for the elements of the vectors in a language model are determined during training
+        based on how commonly words are used toghethor or in similar context.
+    - Vectors represent lines in multidimensional space, describing direction(amplitude) and distance(magnitude)
+         along multiple axes. It can be useful to think of the ellements in an embedding vector for a token
+          as representing a path in 3- Dimensional space in which the element values indicate the units traveled
+          forword/back, left/right and up/down. Overall, the vector describes the direction and distance of the
+          path from origin to end.
+    - The elements of the tokens in the embeddings space each represent some semantic attribute of the token,
+        so that emantically similar tokens should result in vectors that have a similar orientation - in other 
+        words they point in the same direction.
+    - A technique called cosine similarity is used to determine if two vectors have a similar directions
+        (regardless of the direction), and therofor represent simantically linked words.
+
+        Example: Suppose the embeddins for our tokens consist of vectors with three elements:
+            
+            4 ("dog"): [10,3,2]
+            8 ("cat"): [10,3,1]
+            9 ("puppy"): [5,2,1]
+            10 ("skateboard"): [-3,3,2]
+        
+        The embedding vectors for "dog" and "puppy" describe a path along an elmost identical direction, 
+            which is also fairly similar to the direction for "cat". The embedding vector for "skateboard"
+            however describes journey in a very different direction.
+        There are multiple ways you can calculate appropriate embeddings for a given set of tokens, including 
+            language modeling algorithms like Word2Vec or the encoder block in a transformer model.
+
+- Attention:
     - 
