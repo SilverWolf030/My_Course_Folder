@@ -94,4 +94,52 @@
             language modeling algorithms like Word2Vec or the encoder block in a transformer model.
 
 - Attention:
+    - The encoder and decoder blocks in a transformer model includes multiple layers that form the neural network
+        for the model.
+    - Attention layers: A technique used to examine a sequence of text tokens and try to quantify the strangth 
+        of the relationships between them. In particular, self-attention incolves considering how other tokens
+        around one particular token unfluence that token's meaning.
+    - In an encoder block, each token is carefully examined in context, and and appropriate encodeing
+        is determind for its vector embedding. The vector values are based on the relationships between
+        the tokens and other tokens with which it frequently appears. This contextualized approach means that
+        the same word might have multiple embeddins depending on the conext in which it's used.
+         - for example, " the bark of a tree" means something different to " i heard a dog bark."
+    - In a decoder block, attention layers are used to predict the next token in a sequence. For each token
+        generated, the model has an attention layer that takes into account the sequence of tokens up to that point.
+        The model considers which of the tokens are the most influenctial when considering what the
+        next token should be. For example , given the sequence " i heard a dog." the attention layer might
+        assign greater weight to the tokens "heard" and "dog" when considering the next word in the sequence:
+            
+            I heard a dog [bark]
+        
+    - Remember that the attention layer is working with numeric vector representations of the tokens, not 
+        the acutal text. In a decoder, the process starts with a sequence of token embeddings representing the 
+        text to be completed. The first thing that happens is that another positional encoding layer adds a 
+        value to each embedding to indicate its position in the sequence: 
+
+            [1,5,6,2] (I)
+            [2,9,3,1] (heard)
+            [3,1,1,2] (a)
+            [4,10,3,2] (dog)
+
+    - During training, the goal is to predict the vector for the final token in the sequence based on the
+        precding tokens. The attention layer assigns a numberic weight to each token in the sequence so far.
+        It uses that value to perform a calculation on the weighted vectors that produces an attention score
+        that can be used to calculate a possible vector for the next token.
+    - In Practice, a technique called Multi-head attention uses differnet elements of the embeddings to calculate
+        multiple attention scores.
+    - A Neural Network is then used to evaluate all possible tokens to determine the most probable token with 
+        which to continue the sequence. The process continues iteratively for each token in the sequence, with the
+        output sequence so far being used regressively as the input for the next iteration - essentially building
+        the output on token at a time.
+    - During training, the actual sequence of tokens is known - we just mask the ones that come later in the sequence 
+        than the toekn position currently being considered.
+    - As in any neural network, the predicted value for the token vectors is compared to the actual value of the next 
+        vector in the sequence, and the loss is calculated. The weights are then incrementally adjusted to reduce
+        the loss and improve the model.
+    - When used for inferencing (predicting a new sequence of tokens), the trained attention layer applies weights 
+        that predict the most probable token in the model's vocabulary that is semantically algined to the sequence 
+        so far.
+
+- Using Language Models:
     - 
