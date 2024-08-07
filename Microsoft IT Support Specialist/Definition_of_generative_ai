@@ -142,4 +142,73 @@
         so far.
 
 - Using Language Models:
-    - 
+    - There are mnay language models available that you can use to power generative ai applications.
+        In general, language models can be considered in two categorize: Large language models (LLMs) and 
+        Small Language models (SLMs).
+    - LLMs are trained with vast quantities of text that represent a wide range of general subject matter 
+        typically by sourcing data from the internet and other generally available publications.
+        - When trained, LLMs have many billions of parameters (weights that can be applied to vector embeddings 
+            to calculate token sequences).
+        - Able to exhibit comprehensive language generation copabilities in a wide range of conversational contexts.
+        - Their large size can impact their performance and make them difficult to deploy locally on devices and 
+            computers.
+        - Fine-tuning the model with additional data to customize its subject expertise an be time-consuming, 
+            and expensive in terms of the compute power required to perform the additional training.
+    - SLMs are trained with smaller, more subject-focused datasets
+        - Typically have fewer parameters than LLMs.
+        - This focused vocabulary makes them very effective at more general lanuage generation.
+        - The smaller size of SLMs can provide more options for deployment, including local deployment to 
+            devices and on-premises computers; and makes them faster and easier to fine-tune.
+        - Fine-tuning can potentiallly be less time-conduming and expensive.
+
+- On Microsoft Azure, you can find foundation models in the Azure OpenAI service and in the Model Catalog.
+    The Model Catalog is a curated source of models for data scientists and developers using Azure AI Studios 
+    and Azure Machine Learning. This offers the benefit of cutting-edge language models like the gererative 
+    pre-trained transformers (GPT) collection of models (on which ChatGPT and Microsoft's own generative AI 
+    services are based) as well as the DALL-E model for image generation. Using these modles from the Azure 
+    OpenAI service means that you also get the benefit of a secure, scalable Azure cloud platform in which the 
+    models are hosted.
+        - In addition the model catalog includes the latest open-source models form Microsoft and multiple partners,
+            including
+            - OpenAI
+            - HuggingFAce
+            - Mistral
+            - Meta and others
+
+- What are CoPilots?
+    - CoPilots are generative AI assistants that are intergrated into applications often as chat interfaces.
+        They provide contextualized support for common tasks in those applications.
+    - Microsoft CoPilot is integrated into a wide range of Microsoft applications and user experiences. It is 
+        based on an open architecture that enables third-party developers to create their own plug-ins to extend or 
+        customize ther user experience with CoPilot.
+        Addiionally, third-party developers can create their own CoPilots using the same open architecture.
+
+- Levels of CoPilot adoption:
+    - In general, you can categorize industry and personal cipilot adoption into three buchets:
+        - off-the-shelf use
+        - extending Microsoft CoPilot
+        - and, custom development.
+    - off-the-shelf copilotsm like Microsoft 365 to empower users and increase their productivity.
+    - extend copilot to support custom business processes or tasks, using your own data to control how copilot 
+        responds touser prompts in your orgiization.
+    - buidling custom copilots to intergrate generative ai into business apps or to create unique experiences for 
+        your customers.
+
+- Microsoft CoPilot:
+    - Web browsing with AI: 
+        Copilots can answer questions, create content, and search the web.
+    - AI assistance for information workers: 
+        - Integrates copilot into the productivity applications that information workers use every day, you can 
+            use copilot in Word to gernerate a new document based on a NLP prompt, and the refine, summarize, and 
+            improve the document with a few prompts.
+        - Copilot in Powerpoint can create a whole presentation based on the contents of a document or email, and 
+            then add graphics, reformat slides, and otherwise improve your presentation.
+        - In Outlook, copilot can help you summarize your emails, check your schedule, and even find relevant emails 
+            and documents to prepare for meetings.
+    - Use AI to support busniess processes:
+        - Copilot in Dynamics 365 Customer Service: Modernizes contact centers with gernerative AI. Customer service 
+            agents us copilot to analyze support tickets, research similar issues, and find resolutions, and communicate 
+            them to users with only a few clicks and prompts.
+        - 
+
+        
