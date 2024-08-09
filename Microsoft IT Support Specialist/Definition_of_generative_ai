@@ -194,21 +194,5 @@
     - buidling custom copilots to intergrate generative ai into business apps or to create unique experiences for 
         your customers.
 
-- Microsoft CoPilot:
-    - Web browsing with AI: 
-        Copilots can answer questions, create content, and search the web.
-    - AI assistance for information workers: 
-        - Integrates copilot into the productivity applications that information workers use every day, you can 
-            use copilot in Word to gernerate a new document based on a NLP prompt, and the refine, summarize, and 
-            improve the document with a few prompts.
-        - Copilot in Powerpoint can create a whole presentation based on the contents of a document or email, and 
-            then add graphics, reformat slides, and otherwise improve your presentation.
-        - In Outlook, copilot can help you summarize your emails, check your schedule, and even find relevant emails 
-            and documents to prepare for meetings.
-    - Use AI to support busniess processes:
-        - Copilot in Dynamics 365 Customer Service: Modernizes contact centers with gernerative AI. Customer service 
-            agents us copilot to analyze support tickets, research similar issues, and find resolutions, and communicate 
-            them to users with only a few clicks and prompts.
-        - 
 
         
