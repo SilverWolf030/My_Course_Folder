@@ -1,0 +1,46 @@
+- Threat States:
+
+  - Breaking Down Modern Cybercrime:
+
+    - Trojan Attacks:
+
+      - This is a umbrella term that covers several attack types, including:
+
+        - Exploit Trojans
+        - Downloader Trojans
+        - Ransom Trojans
+        - Backdoor Trojans
+
+      - While trojans wil behave differently depending on the type, the common trait of this approach is
+        that a user inadvertently introduces malicious code into the organization and triggers it behind
+        the defensive walls. The best defense against trojan attacks is to practice vigilant internet usage.
+        Some guidelines are to never click on an unsolicited email with unexpected attachments, and always
+        examine domain names and links before clicking on them. Be particularly vigilant with misspellings,
+        such as zeroes that have been misspelled with O's, a trick used to lure an unwary user into bringing the
+        horse behind the gate.
+
+    - Ransomware attacks:
+
+      - The secoond most common type of attack from the previous data is ransomware. Recall that ransomware is an
+        approach to cybercrime that is designed to cause disruption to sercives. This approach is featrued frequently in the news due to the scope of impact. It is not uncommon for these attacks to occur on a national scale, with infrastructure and vital services being the target. Recent Examples:
+
+        - Ireland's Health Service's Executive (HSE) in 2021
+        - Critical Ukraine Infrastructure in 2022
+        - Costa Rica, which declared a state of emergency when 30 institutions of government were held to ransom
+
+      - The methodology behind these types of attacks is to gain access to a system and lock out the legitimate owners
+        untill a demand has been met. One approach to best mitigate against this type of attack is to ensure that no external actors gain accesss to your system. Best practices for achieving this unclude:
+        - Use strong passwords, A strong password is one that is difficult to guess and typically woudl include a mix
+          of characters, numbers, and symbols.
+        - Keep your system up-to-date with the latest security pathces.
+        - Ensure that only people with authorixation for a system can use its systems.
+
+    - Botnet Attakcs:
+      - A bot can be defined as an online software program that performs automated and repetitive tasks. They are a
+        means of creating a Denial of Service to an organization. If a trojan attack is a subtle attempt to circumnavigate an application's defenses, a bot attack could be described as a full scalling of the walls.
+      - These attacks are orchestrated so that a system is plagued with innumerable requests for information and
+        services. These requests can come from any capable devices on the Internet of Things (IoT) that have an IP address.
+      - This type of attack can be coupled with the trojan attack, when some of the code maliciously embedded in a
+        system in used to make the request of another system. In this way, an attacker makes use of someone else's digital resources to negate the resources of a targeted victim. One defensive approach to mitigate against these types of attacks is to monitor network traggic for suspicious activity. If a particular source is identified as making repeated calls that impact the operations of a system, then this address can be blocked. However, more sophisticated approaches must be emplyed when a variety of compromised systems are used.
+
+-
