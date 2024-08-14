@@ -86,3 +86,17 @@
           recognizable in their emails. Look for logos, brand colors, and contact infromation in the message.
 
   - Explain common network-related security threats:
+
+    - Eavesdropping: Also known as network sniffing, occurs when a hacker captures network packets that workstations
+      connected to your network send and receive. Eavesdropping attacks can compromise your organization's sensitive data, such as passwords, which can lead to other, more damaging attacks.
+
+    - Denial of Service (DoS) attack: This type of attack limits the function of a nerwork apps, or renders an app
+      or network resource unavailable. Hackers can initiate a DoS attack in several ways, and often are aware of vulnerabilities in the target app that they can exploit to render it unavailable. Hackers typically perform a DoS attackby overloading a service that replies to network requests, such as Domain Name Systems (DNS), with a large number of fake requests in an attempt to overload and shut down a service or the server that hosts the service. A distributed denial of service (DDoS) attack is a version of a DoS attack.
+
+    - Port Scanning: Apps that run on a computer using the TCP/IP protocol use Transmission Control Protocal (TCP)
+      or User Datagram Protocol (UDP) parts to identify themselves. One way that attackers exploit a network is to query hosts for open ports on which they listen for client requests. Once attackers identify an open port, they can use othere attack techniques to access the services that are running on the computer.
+
+    - Man-in-the-middle (MITM) attack: The network attacker uses a computer to impersonate a legitimate host on the
+      network with which your computers are communicating. The attacker intercepts all of the communications that are inteded for a destination host. The attackers might wish to view the data in transit between the two hosts, but also can modify that data before forwarding the packets to the destination host.
+
+  -
