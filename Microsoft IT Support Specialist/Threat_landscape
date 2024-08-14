@@ -99,4 +99,26 @@
     - Man-in-the-middle (MITM) attack: The network attacker uses a computer to impersonate a legitimate host on the
       network with which your computers are communicating. The attacker intercepts all of the communications that are inteded for a destination host. The attackers might wish to view the data in transit between the two hosts, but also can modify that data before forwarding the packets to the destination host.
 
+  - Determine mitigations for newtork-related securtiy treats:
+
+    - Eavesdropping : IPsec, VPNs, DirectAccess, Intrusion detection.
+    - DoS: Firewalls, Perimeter networks, IPsec, Server Hardening.
+    - Port Scanning: Server Hardening, Firewalls.
+    - MITM: IPsec, DNSSEC.
+    - Virus, Malicious Code: Software Updates.
+
+    - Internet Protocol security (IPsec): Which authenticates IP-Based communications between two hosts and, where
+      desirable, encrypt that network traffic.
+    - Firewalls: Which allow or block network traffic based on the type of traffic.
+    - Perimeter Networks: Which are isolated areas on your network to and from which you can define network traffic
+      flow. When you need to make network services available on the internet, it isn't advisable to connecct hosting servers directly to the internet. However, by placing these servers in a perimeter network, you can make them available to internet users without allowing those users access to your corporate intranet.
+    - VPNs and Direct Access: It's important that users have the ability to connect to their organization's intranet
+      from the internet as securely as possible. The internet is a public network, and data in transit across the internet is susceptible to eavesdropping or MITM attacks, However, by using VPNs or DirectAccess, you can authenticate and encrypt connections between remote users and your organizations's intranet. This can help to mitigate risk.
+    - Server Hardening: When you run only ther services that you need, you can make servers inherently more secure. To
+      determine what services you require, you must estavlish a security bseline among your servers. To determine precisely which Windows Server servieces you need to support the functionality that you or your enterprise requires, you can use tools such as the Securtiy Configuration Wizard or the Microsoft Baseline Security Analyzer.
+    - Intrusion Detection: It's important to implement the preceding techniques to secure your network, and it also is
+      sensible to monitor your network regularly for signs of attack. You can use intrusion-detection systems to do this by implementing them on perimeter devices, such as internet-facing routers.
+    - Domain NAme system Securtiy Extension (DNSSEC): Which use digital signatures for validation, so that DNS servers
+      and resolvers can trust DNS responses. The DNS zone contains all signatures that are generated in the new resource records. When a resolver issues a query for a name, the DNS server returns the accoplanying digital signature in the response. The resolver then validates the dignature by using a preconfigured trush anchor, Successful validation proves that no data modification or tampering has occurred.
+
   -
