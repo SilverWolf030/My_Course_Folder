@@ -14,9 +14,7 @@
 
     - Drivers don't always have to be developed by the device's manufacturer. If a device follows a published hardware standard, Microsoft can write the driver, so the device designer doesn't have to provide one.
 
-    - Not all drivers communicate directly witha device. Often, several drivers layered in a driver stack
-      take part in an I/O request. The conventional way to visualize the stack is with the first participant at
-      the top and the last participant at the bottom, as shown in this diagram. Some drivers in the stack change the request from one format to another. These drivers don't communicate directly with the device. Instead, they chage the request and pass it to drivers that are lower in the stack.
+    - Not all drivers communicate directly witha device. Often, several drivers layered in a driver stack take part in an I/O request. The conventional way to visualize the stack is with the first participant at the top and the last participant at the bottom, as shown in this diagram. Some drivers in the stack change the request from one format to another. These drivers don't communicate directly with the device. Instead, they chage the request and pass it to drivers that are lower in the stack.
 
     {Application} <--> {Windows Operating System} <--> {Driver1 Filter Driver} <--> {Driver2 Filter Driver} <--> {Driver3 function driver} <--> {Device}
 
@@ -28,3 +26,30 @@
   - We can refine our definition of a driver as any software component that observes or participates in the communication between the operating system and a device.
 
   - Software Drivers:
+
+    - Our expanded definition is reasonably accurate but is stil incomplete because some drivers aren't associated with any hardware device at all.
+    - For example, if you need to write a tool that accesses core operating system data structures, you can splt the tool into two components. The first component runs in user mode and presents the user interface. The second component runs in kernal mode and accesses the core operating system data. The component that runs in user mode is called application, and the componment that runs in kernal mode is called a software driver. A software driver isn't associate with a hardware driver.
+      [application] <Usermode--Kernalmode> [ software driver] <--> (protected data)
+    - Software drivers always run in kernal mode, They're primarily written to access protected data only available in kernal mode. However, not all device drivers need access to kernal-mode data and resources, some device derivers run in user mode.
+      https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode
+
+  - Bus Drivers
+
+    - Another type of driver is the bus driver. To understand bus drivers, you need to understand device nodes and the device tree.
+      https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/device-nodes-and-device-stacks
+
+  - More information on Function Drivers:
+
+    - Our explanation so far oversimplifies the definition of function driver. We stated that the function driver for a device is the one driver in the stack that communicates directly withthe device. This is true for a device that connects directly to the Peripheral Component Interconnnect (PCI) bus. The function driver for a PCI device obtains addresses that are mapped to port and memory resources on the device. The function driver communicates directly with the device by writing to those addresses.
+      However, in many cases, a device doesn't connect directly to the PCI bus. instead, the device connects to a host bus adapeer that is connected to the PCI bus. For example, a USB toaster connects to a host bus adapter (called a USB host controller), whichis connected to the PCI bus. The USB toaster has a function driver, and the USB host controller also has a function driver. The function driver for the toaster communicates inderectly with the toaster by sending a request to the function driver for the USB host controller. The function driver for the USB host controller then communicates directly with the USB host controller hardware, which communicates with the toaster.
+      [filter driver] <--> [Function Driver] <--Otherdrivers--> [Function Driver for USB host controller] <--> (USB host controller) <--> (USB Toaster)
+
+  - Best Practices for managing RAM usage in high-level applications:
+    https://learn.microsoft.com/en-us/azure-sphere/app-development/application-memory-usage?view=azure-sphere-integrated&tabs=windows&pivots=visual-studio
+    - Allocate memory upfront (ideally statically) and leave it allocated for the lifetime of your application whenever possible. This will greatly increase the determinism of your application's RAM usage, and reduce the risk fo memory footprint increases and fragmentation over you application's lifetime.
+    - When dynamic allocation is absolutley necessary:
+      - Try to minimize the frequency of heap memory allocations and deallocation that are being performed by the application to reduce risks of heap memory fragmentation, for example, by leveraging chunck allocation/memory pool techniques.
+      - Review stack pages and when possible, wrap calls to malloc() with calls to memset() to force pages to commit. This helps unsure that if an allocation causes your application to exceed its RAM limit, the OS will terminate it immediately and predictably. Waiting to access allocated pages will introduce the risk of a delayed out-of-memory crash, which is harder to reproduce and diagnose.
+      - Enable heap memory allocation tracking while in development mode.
+        https://learn.microsoft.com/en-us/azure-sphere/app-development/application-memory-usage?view=azure-sphere-integrated&tabs=windows&pivots=visual-studio#add-heap-memory-allocation-tracking
+    - Avoid using Log_Debug with large strings and remove these alls (for example, with an #ifdef) when not in development mode. Log_Debug causes temporary buffers to be allocated, leading to sudden bursts in RAM usage when used with large strings.
