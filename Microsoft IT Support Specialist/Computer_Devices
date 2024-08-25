@@ -72,4 +72,11 @@
     // Place the following along with other calls to curl_easy_setopt
     curl_easy_setopt(curl, CURLOPT_SOCKOPTFUNCTION, &sockopt_callback);
 
-  -
+  - see the CURLOPT_SOCKOPTFUNCTION libcurl doc:
+    https://curl.se/libcurl/c/CURLOPT_SOCKOPTFUNCTION.html
+
+    The higher-level CURLOPT_BUFFERSIZE and CURLOPT_UPLAOD_BUFFERSIZE parameters can be similarly tuned.
+
+  - Libcurl also supports overriding its internal memory functions by using curl_global_init_mem and passing in callback functions for malloc, free, realloc, strdup, and calloc. This functionality enables you to allocate libcurl memory from that pool. This can be an effective technique for setting guardrails and increasing determinism of your application. See https://curl.se/libcurl/c/curl_global_init_mem.html got more information on how to use the callbacks.
+
+- CPU Analysis:
