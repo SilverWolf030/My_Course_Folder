@@ -46,6 +46,7 @@
 
   - Best Practices for managing RAM usage in high-level applications:
     https://learn.microsoft.com/en-us/azure-sphere/app-development/application-memory-usage?view=azure-sphere-integrated&tabs=windows&pivots=visual-studio
+
     - Allocate memory upfront (ideally statically) and leave it allocated for the lifetime of your application whenever possible. This will greatly increase the determinism of your application's RAM usage, and reduce the risk fo memory footprint increases and fragmentation over you application's lifetime.
     - When dynamic allocation is absolutley necessary:
       - Try to minimize the frequency of heap memory allocations and deallocation that are being performed by the application to reduce risks of heap memory fragmentation, for example, by leveraging chunck allocation/memory pool techniques.
@@ -53,3 +54,22 @@
       - Enable heap memory allocation tracking while in development mode.
         https://learn.microsoft.com/en-us/azure-sphere/app-development/application-memory-usage?view=azure-sphere-integrated&tabs=windows&pivots=visual-studio#add-heap-memory-allocation-tracking
     - Avoid using Log_Debug with large strings and remove these alls (for example, with an #ifdef) when not in development mode. Log_Debug causes temporary buffers to be allocated, leading to sudden bursts in RAM usage when used with large strings.
+    - Use th EventLoop API whenever possible for periodic asynchronous tasks (such as iteracting with peripherals) instead of creating threads. Creating threads causes the Linux kernal to allocate additional memory attributed to your application. This reduces the determinism of your app as it increases the probability of the OS sceduler switching between multiple, distinct operations that may cause your application to exceed its RAM limit. Many of the Azure Sphere Sample Applications such as the GPIO_HighLevelApp, demonstrate how to use the EventLoop.
+    - Avoid premature use of memory caches for values that an be recomputed in runtime.
+    - While using Libcurl:
+      - Tune the max socket buffer sizes when using libcurl. Azure Sphere OS will allocate sockets buffers that are attributed to your application's RAM footprint of your application.
+        Note that making the socket buffers too small will adversely impant the performance of libcurl. Instead, tune the max buffer sizes for your scenario:
+
+    static int sockopt_callback(void* clientp, curl_socket_t curlfd, curlsocktype purpose)
+    {
+    int size = /*specify max buffer sizes here (in bytes)\*/
+    int size_size = sizeof(size);
+    setsockopt(curlfd, SOL_SOCKET, SO_SNDBUF, &size, &size_size);
+    setsockopt(curlfd, SOL_SOCKET, SO_RCVBUF, &size, &size_size);
+    return CURL_SOCKOPT_OK;
+    }
+
+    // Place the following along with other calls to curl_easy_setopt
+    curl_easy_setopt(curl, CURLOPT_SOCKOPTFUNCTION, &sockopt_callback);
+
+  -
