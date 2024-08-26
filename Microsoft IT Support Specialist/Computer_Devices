@@ -80,3 +80,31 @@
   - Libcurl also supports overriding its internal memory functions by using curl_global_init_mem and passing in callback functions for malloc, free, realloc, strdup, and calloc. This functionality enables you to allocate libcurl memory from that pool. This can be an effective technique for setting guardrails and increasing determinism of your application. See https://curl.se/libcurl/c/curl_global_init_mem.html got more information on how to use the callbacks.
 
 - CPU Analysis:
+
+  - Background: Modern computers can contain multiple CPUs that are installed in separate sockets. Each CPU can host multiple physical processor cores, each capable of processing one or two separate instruction streams simultaneously. These individual instruction stream processors are managed by the Windows operating system as logical processors.
+    Logical Processor: a hardware device that the operating system can use to execute program instuctions.
+    Windows 10 actively manages processor hardware in two main ways: power management, to balance power consumption and performance; and usage, to balance the processing requirement s of programs and drivers.
+
+  - Processor Power Management: Processors do not always exist in an operating state. When no instructions are ready to execute, Windows will put a processor into a target idle stat(or C-State), as determined by the Windows Power Manager. Based on CPU usage patterns, a processor's target C-state will be adjusted over time.
+    Idle states are numbered states form C0 (active; no idle) throught progressively lower-power states. These states include C1 (halted but the clock is still enabled), C2 ( halted and the clock is disabled), and so forth. The implementation of idle states is processor specific. However, a higher state number in all processors relfects lower power consumption, but also a longer wait time before the processor can return to unstruction processing. Time that is spend in idle states significantly affcts energy use and battery life.
+    Some processors can operate in performance (P-) and throttle (T-) states even when they are actively processing instructions. P-states define the clock frequencies and voltage levels the processor supports. T-states do not directly change the clock frequency, but can lower the effective clock speed by skipping processing activity on soem fraction of clock ticks. Together, the current P- and T- states determine the effective operating frequency of the processor. Lower frequencies correspond to lower performce and lower power consumption.
+    The Windows Power Manager determines an appropriate P- and T- state for each processor, based on CPU usage patterns and system power policly. Time that is spent in high-performance states versus low-performance states significantly affects energy use and battery life.
+
+  - Processor Usage Management:
+    - Windows uses three major abstractions to manage processor usage:
+      Proccess, Threads, ad Deferred Procedure Calls (DPCs) and Interrupt Service Routines (IRSs)
+  - Processes and Threads:
+    - All user-mode programs in Windows run in the context of a process. A process includes the following attributes and components:
+      - A virtual address space
+      - Priority class
+      - Loaded program modules
+      - Environment and configuration information
+      - At least one thread
+    - Although processes contain the program modules, context and environment, they are not directly scheduled to run on a processor. Instead, threads that are owned by a process are scheduled to run on a processor.
+    - A Thread maintains execution context information. Almost all computation is managed as part of a thread. Thread activity fundamentally affects measurements and system performance.
+    - Because the number of processors in a system is limited, all threads cannont be run at the same time. Windows implements processor time-sharing, which allows a thread to run for a period of time before the processor switches to another thread. The act of swithcing between threads is called a context-switch and it is performed by a Windows component called the dispatcher. The dispatcher makes thread scheduling decisions based on priority, ideal processor and affinity, quantum, and state.
+  - Priority:
+    - Priority is a key factor in how the dispatcher selects which thread to run. Thread priority is an integer from 0 to 31. If a thread is executable and has a higher priority than a currently running thread the lower-priority thread is immediatly preempted and the highter-priority thread is context-switched in.
+    - When a thread is running or is ready to run, no lower-priority threads can run unless there are enough preocessors to run both threads at the same time, or unless the higher-priority thread is restricted to run on only a subset of available processors. Threads have a base priority that can be temporarily elevated to higher priorities at certain times: for example, when the process owns the froeground window, or when an I/O completes.
+  - Ideal Processor and Affinity:
+    -
