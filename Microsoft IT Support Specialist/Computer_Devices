@@ -116,8 +116,19 @@
     - Context switches are expensive operations. Windows generally allows each thread to run for a period of time that is called a quantum before it switches to another thread. Quantum duration is designed to preserve apparent system responsiveness. It maximizes throughput by minimizing the overhead of context switching. Quantum durations can vary between clients and server. Quantum durations are typically longer on a server to maximize throughput at the expense of apparent responsiveness. On client computers, Windows assigns shorter quantums overall, but provides alonger quantum to the thread associated with the current foreground windows.
 
   - State:
+
     - Each thread exists in a particular execution state at any given time. Windows uses three states that are relevant to performance; these are: Running, Ready, and Waiting.
     - Threads that are currently being executed are in the Running state. Threads that an execute but are urrently not running are in the Ready state. Threads that cannont run because they are waiting for a particular event are in the Waiting state.
     - Thread State Transitons is explained as follows:
     - A thread in thr Running state initiates a transition to the Waiting state by calling a wait funcion such as WaitForSingleObject or Sleep (>0).
-    -
+    - A Running thread or kernal operation readies a thread in the Waiting state (for example, SetEvent or timer expiration). if a processor is idle or if the readied thread has a higher priority than a currently runnin gthread, the readied thread can switch directly to the Running state. Otherwise, it is put into the Ready state.
+    - A Thread in thr REady state is scheduled for processing by the dispatcher when it is preempted by a higher priority thread, yields (Sleep(0)), or when its quantum ends.
+    - Threads that exists in the Waiting state does not necessarliy indicate a performance problem. Most threads spend significant time in the Waiting state, which allows processors to enter Idle states and save energy. Thread state becomes an important factor in performeance only when a user is waiting for thread to complete an operation.
+
+  - DPCs and ISRs:
+
+    - In addition to processing threads, processors respond to notifications from hardware devices such as netwrok cards or timers. When a hardware device requires processor attention, it generates an Interrupt. Whindows responds to a hardware interrupt by suspending a currently running thread and executing the ISR that is associated with the interrupt.
+    - During the time that it is executing an ISR, a processor can be prevented from handleing any other activity, uncluding other interrupts. For this reason, ISRs must complete quickly or system performance can degrade. To decrease execution time, ISRs commonly schedule DPCs to perform work that must be done in response to an interrup. For each logical processor, Windows maintains a queue of scheduled DPCs. DPCs take priority over threads at any priority level. Before a processor returns to processing threads, it executes all of the DPCs in its queue.
+    - During the time that a processor is executing DPCs and ISRs, no threads can run on that processor. This property can lead to problems for thread that must perform work at a ceratin throughput or with precise timing, such as a thread that plays audio or video. If the processer thime that is used to execute DPCs and ISRs prevents these threads fro receiving sufficient processing time, the thread might not achieve its required throughput or complete its work items on time.
+
+  - Windows ADK Tools:
