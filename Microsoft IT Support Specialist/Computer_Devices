@@ -107,4 +107,17 @@
     - Priority is a key factor in how the dispatcher selects which thread to run. Thread priority is an integer from 0 to 31. If a thread is executable and has a higher priority than a currently running thread the lower-priority thread is immediatly preempted and the highter-priority thread is context-switched in.
     - When a thread is running or is ready to run, no lower-priority threads can run unless there are enough preocessors to run both threads at the same time, or unless the higher-priority thread is restricted to run on only a subset of available processors. Threads have a base priority that can be temporarily elevated to higher priorities at certain times: for example, when the process owns the froeground window, or when an I/O completes.
   - Ideal Processor and Affinity:
+
+    - A thread's ideal processor and affinity determine the processors on which a given thread is scheduled to run. Each thread has an ideal processor that is set either by the program or automatically by Windows. Windows uses a round-robin methodology so that an approximately equal number of threads in each process are assigned to each processor. When possible, Windows schedules a thread torun on its ideal processor; however, the thread can occasionally run on other processors.
+    - A thread's processor affinity restricts the processors on which a thread will run. This is a stronger restriction that the thread's ideal processor attribute. The program sets affintiy by using SetThreadAffintiyMask. Affinity can prevent threads from ever running on particular processors.
+
+  - Quantum:
+
+    - Context switches are expensive operations. Windows generally allows each thread to run for a period of time that is called a quantum before it switches to another thread. Quantum duration is designed to preserve apparent system responsiveness. It maximizes throughput by minimizing the overhead of context switching. Quantum durations can vary between clients and server. Quantum durations are typically longer on a server to maximize throughput at the expense of apparent responsiveness. On client computers, Windows assigns shorter quantums overall, but provides alonger quantum to the thread associated with the current foreground windows.
+
+  - State:
+    - Each thread exists in a particular execution state at any given time. Windows uses three states that are relevant to performance; these are: Running, Ready, and Waiting.
+    - Threads that are currently being executed are in the Running state. Threads that an execute but are urrently not running are in the Ready state. Threads that cannont run because they are waiting for a particular event are in the Waiting state.
+    - Thread State Transitons is explained as follows:
+    - A thread in thr Running state initiates a transition to the Waiting state by calling a wait funcion such as WaitForSingleObject or Sleep (>0).
     -
