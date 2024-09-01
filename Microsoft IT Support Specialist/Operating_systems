@@ -12,7 +12,34 @@
   - Real-Time Operating System
 
   - Batch Operating System (BOS)
-  - A BOS allows multiple users to work in tandem by compartmentalizing each user's action sand only allowing
-    one user control at any given time. Users connont communicate with one another and when the task is completed,
-    control is passed to the next user. The advantage of this approach is that is allows many users to work on large
-    projects at the same time.
+
+    - A BOS allows multiple users to work in tandem by compartmentalizing each user's action sand only allowing
+      one user control at any given time. Users connont communicate with one another and when the task is completed,
+      control is passed to the next user. The advantage of this approach is that is allows many users to work on large
+      projects at the same time.
+
+    - The rationale behind this approach is that large projects are broken into smaller, more manageable chunks and hence do not require being loaded into memory all at once. Another advantage is that simialr types of jobs that are queued to run will be run together. This is quicker as it reduces the overhead in loading and queuing the resources that are mutual to each task. The challenge is in coorginating many different users operating at once. This resualts in some tasks runing slower because excessive time is spent waiting for the IS to free up the resources.
+
+  - Time-Sharing Operating Systems (TOS)
+
+    - This approach is also known as a Multitasking System as it enable the execution of many differerrent tasks. A TOS operates in a timed manner: a unit of time called a quantum is allocated to each task. These tasks are queued for the CPU, which will work on each one for a quantum before rotating to the next task.
+
+    - This approach is beneficial when that task load is running several tasks. The major advantage of this approach is that it minimizes CPU wait time, and every user is given a fair time location. The disadvantage to this approach is that the rapid switching between tasks can resualt in some communication issues, with data being mixed up.
+
+  - Distributed Operating System (DOS)
+
+    - This approach to processin gis a natural progression as internet communication improves. A DOS connects several dispersed CPUs to execute task. Theres is no central source and communication is achieved through using clear protocols on a communication network.
+
+    - The advantage of using a distributed approach is that it can scale up or down depending on the processing need. As the network is dispersed there is greater robustness to failure. A drawback is that it is still a relativley new approach and so the communication protocols are not well defined.
+
+  - Network Operating System (NOS)
+
+    - This type of operating system runs on a network and allows for the sharing of users, groups, securities, and applications. Typically, the network would contain one server-based OS that interacts with the OS of each individual device on the system. It is possible to have any number of devices on the network, and they can be of different types. For example, you could add a printer, digital thermometer, and several computers to one system and have them all interact. This type of approachwould be considered tightly-coupled, as the devices utilize a shared netwrok and demonstrate high interactivity with each other.
+
+    - The advantage of this approach is that users can remotely log on, enabling easy upgrading as new devices and technology can be added to the existing network. It can however be costly to amintain and rquires a centrailized location for performing operations.
+
+  - Real-time Operating System (RTOS)
+
+    - An RTOS is a type of OS for applications that need real-time computations. While many approaches may share resources and operate under a time share, RTOS differs in that it prioritizes tasks by importance. This approach is event-driven with an emphasis on engaging and completin task as soon as they arise. This distinguishes RTOS from the other approaches, in which the priority of a task is determined by the time allocating. These operating systems are generally task-specific approaches and are commonly found in systems such as autonomous cars, air traffic controls, and more.
+
+    - The advantage of this approach is that it can generate resualt with exceptional speed by using a priority queue that emphasizes completing a task reactivley. The disadvantage is that it is very specialized and does not generaize will to performing a diverse range of tasks.
