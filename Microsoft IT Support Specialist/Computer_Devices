@@ -79,7 +79,7 @@
 
   - Libcurl also supports overriding its internal memory functions by using curl_global_init_mem and passing in callback functions for malloc, free, realloc, strdup, and calloc. This functionality enables you to allocate libcurl memory from that pool. This can be an effective technique for setting guardrails and increasing determinism of your application. See https://curl.se/libcurl/c/curl_global_init_mem.html got more information on how to use the callbacks.
 
-- CPU Analysis:
+- CPU Analysis: https://learn.microsoft.com/en-us/windows-hardware/test/wpt/cpu-analysis
 
   - Background: Modern computers can contain multiple CPUs that are installed in separate sockets. Each CPU can host multiple physical processor cores, each capable of processing one or two separate instruction streams simultaneously. These individual instruction stream processors are managed by the Windows operating system as logical processors.
     Logical Processor: a hardware device that the operating system can use to execute program instuctions.
