@@ -1,0 +1,17 @@
+- Operating System: (OS) is a term for software that oversees the interation between hardware and 
+software operations and provides a means through which a human can interact with the system. 
+Systems will have different needs and funcionalities, so there are several variations of operating systems 
+that can run the applications.
+
+- Types of Operating System:
+    - Batch Operating System
+    - Time-sharing Operating System
+    - Distributed Operating System
+    - Networks Operating System
+    - Real-Time Operating System
+
+    - Batch Operating System (BOS)
+     - A BOS allows multiple users to work in tandem by compartmentalizing each user's action sand only allowing
+     one user control at any given time. Users connont communicate with one another and when the task is completed, 
+     control is passed to the next user. The advantage of this approach is that is allows many users to work on large 
+     projects at the same time.
