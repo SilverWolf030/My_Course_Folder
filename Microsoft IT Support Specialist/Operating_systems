@@ -28,7 +28,9 @@
 
   - Distributed Operating System (DOS)
 
-    - This approach to processin gis a natural progression as internet communication improves. A DOS connects several dispersed CPUs to execute task. Theres is no central source and communication is achieved through using clear protocols on a communication network.
+    - This approach to processing is a natural progression as internet communication improves. A DOS connects several dispersed CPUs to execute task. Theres is no central source and communication is achieved through using clear protocols on a communication network.
+
+    - Distributed Operating System is designed to run on multiple machines connected over a network. It allows tasks to be divided and executed acreoss multiple machines, enabling parallel processing and resource sharing.
 
     - The advantage of using a distributed approach is that it can scale up or down depending on the processing need. As the network is dispersed there is greater robustness to failure. A drawback is that it is still a relativley new approach and so the communication protocols are not well defined.
 
@@ -42,4 +44,13 @@
 
     - An RTOS is a type of OS for applications that need real-time computations. While many approaches may share resources and operate under a time share, RTOS differs in that it prioritizes tasks by importance. This approach is event-driven with an emphasis on engaging and completin task as soon as they arise. This distinguishes RTOS from the other approaches, in which the priority of a task is determined by the time allocating. These operating systems are generally task-specific approaches and are commonly found in systems such as autonomous cars, air traffic controls, and more.
 
-    - The advantage of this approach is that it can generate resualt with exceptional speed by using a priority queue that emphasizes completing a task reactivley. The disadvantage is that it is very specialized and does not generaize will to performing a diverse range of tasks.
+    - Time-sharing operating systems allows multiple users to share the same systems resources, such as the CPU an memory, by dividing the time into small time slices. Each user gets a fiar share of the resources, and the operating system switches between task rapidly.
+
+    - The advantage of this approach is that it can generate resualt with exceptional speed by using a priority queue that emphasizes completing a task reactivley. The disadvantage is that it is very specialized and does not generaize well to performing a diverse range of tasks.
+
+  - https://www.techopedia.com/definition/4333/proprietary-software
+  - https://opensource.com/resources/what-open-source
+  - https://learn.microsoft.com/en-us/training/modules/explore-windows-architecture/2-compare-windows-client-devices
+  - https://learn.microsoft.com/en-us/mem/configmgr/osd/understand/introduction-to-operating-system-deployment
+  - https://learn.microsoft.com/en-us/training/modules/explore-windows-architecture/4-examine-windows-registry
+  - https://support.microsoft.com/en-us/windows/improve-my-pc-performance-in-windows-c6e820b5-ef98-3b0e-0b95-d4f60f1b0468
