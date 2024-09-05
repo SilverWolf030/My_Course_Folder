@@ -1,0 +1,14 @@
+- In computer architeture, the server is an essential compnonent of the client-server model. A server will provide a service for aclient. Typically, one computer called the server will be reserved entirley for the execution of a given task. Then, additional coputers are connected to this server, which awaits a request for a service. Much like your waiter is tasked with taking your order to the kitchen and returning with food, the server is tasked with providing a service to a client. This was highlighted previously when web servers and databse servers were discussed.
+
+- Storage:
+
+  - Modern businesses often kep their records in a digital format. Much like the application server, a database server wil provide the service of returning stored information. Therefore, businesses should think about using dedicated databse solutions if there is a larger amount of data to keep. If the storage requirementts are samll, a Microsoft Excel sheet or dedicated acounting software suffices.
+
+  - RAM, is volatile, so if the power is cut, the information will be lost. Therefore, it is crucial to save your information on a regualr basis in your main memory. It is worth keeping a backup of your information. There are four considerations when making a backup.
+
+  - Durability: Most storage decisions should meet the durability requirements. Data is durable when the information is saved from RAM into a secondary storage location.
+
+  - Scalability: Purchasing the hardware to act as a database server means you must have money available to acquire the machines. This involves sufficient planning because you need to know how much memory is needed. Buying too much memory is wawsteful: if it's not utilized, it is better to invest the money elsewhere. Alternatively,not buying enough hard drives might require acquiring and configuring more later. This potentially present an additional expense of hiring a professional to perform the task.
+    Using the cloud to store the information is preferable in this situation because you only pay or the storage you use. So, if a business wants to expand its current cloud storage capacity, it will pay for more space. Equally, if there is an excess amout of space, it can easily let go of the extra space at no additional cost. This option is ofter challenging fi the hardware was purchased.
+
+  - Availabiltiy:
