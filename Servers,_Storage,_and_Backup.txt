@@ -36,4 +36,26 @@
     - An OLE DB data source
   - An OLE DB provider is a DLL that manages and interacts with a specific data source. An OLE DB data source identifies the specific database that can be accessed through OLD DB. Although data sources queried through linked server definitions are ordinarily databases, OLE DB providers exist for a variety of files and file formats. These include text files, spreadsheet data, and the results of full-text content searches.
 
-  -
+  - https://learn.microsoft.com/en-us/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver16
+
+  - Linked servers to Microsoft Access and Excel sources are only supported by Microsoft when using the 32-bit Microsoft,JET.OLEDB.4.0 DB provider.
+  
+  - Linked Server Detaisl:
+    - Typically, Microsoft, linked servers are used to handle distributed queries. When a client applicaion executes a distributed query through a linked server, SQL Server parses the command and sends requests to OLE DB. The rowset request may be in the form of executing a query against the provider or opening a base table form the providers.
+    - For a data source to return data through a linked server, the OLE DB provider (DLL) for that data source must be present on the same server as the instance of SQL Server.
+    - When an OLE DB provider is used, the account under which the SQL Server service runs must have read and execute permissions for the directory, and all the subdirectories, in which the provider is installed. This includes Microsoft-released providers, and any third-party providers.
+    - Linked servers support Active Directory pass-through authenticaion with constrained delegationis also supported; however, resource-based constrained delegation in not supported.
+
+  - Manage Providers:
+    - There is a set of options that control how SQL Server loads and uses OLE DB providers that are specified in the registry.
+  - Manage linked servers definitions:
+    - When you are setting up a linked server, register the connection information and ata source information wit SQL Server. After bieng regestered, that data source ca be referred to with a single logical name.
+    - You can use stored procedures and catalog views to manage linked server definitions:
+      - Create a linked server definition by running sp_addlinkedserver.
+      - View information about the linked server defined in a specific instance of SQL Server by running a query agianst the sys.servers system catalog view.
+      - Delete a linked server definition by running sp_dropserver. You can also use this stored procedure to remove a remote server.
+    - You can also define linked server by using SQL Server Management Studio. In the Object Explorer, right-click Server Objects, select New, and select Linked Server. You can delete a linked server definition by right-clicking the linked server name and selected Delete.
+    - When you execute a distributed query agianst a linked server, include a fully qualified, four-part table linked_server_name.catalog.schema.object_name.
+      - Linked servers can be defined to point back (loop back) to the server on which they are defined. Loopback server are most useful when testing an application that uses distributed queries on a single server network. Loopback linked servers are intended for testing and are not supported for many operations, such as distributed transactions.
+
+    -  
