@@ -58,4 +58,23 @@
     - When you execute a distributed query agianst a linked server, include a fully qualified, four-part table linked_server_name.catalog.schema.object_name.
       - Linked servers can be defined to point back (loop back) to the server on which they are defined. Loopback server are most useful when testing an application that uses distributed queries on a single server network. Loopback linked servers are intended for testing and are not supported for many operations, such as distributed transactions.
 
-    -  
+  -  Linked server with Azure SQL Managed Instance:
+    - Azure SQL Managed Instance linked servers support both SQL authentication and authenticaiotn with Microsoft Entra aID (formerly Azure Active Directory)
+    - To use SQL Agent jobs on Azure SQL Managed Instance to query a remote server through a linked server, use sp_addlinkedsrvlogin to create a mapping from a login on the local server on the remote server. When the SQL Agent job connects to the remote server through the linked server, it executes the T-SQL query in the context of the remote login.
+    https://learn.microsoft.com/en-us/sql/ssms/agent/implement-sql-server-agent-security?view=sql-server-ver16#linked-servers
+
+  - Microsoft Entra aunthentication:
+    - Two supported Microsoft Entra authentication modes are: managed identity and pass-through. Managed identity authentication can be used to allow local logins to query remote linked servers. Pass-through authentication allows a principle that can authenticate with a local instance to access a remote instance via a linked server.
+    - To use Microsoft Extra pass-through authentication for a linked server in Azure SQL Managed Instance, you need the following prerequisites:
+      - The same principle is added as a login on the remote server.
+      - Both instances are members of the SQL trust group.
+      - Existing definitions of linked servers that were configured for pass-through mode support Microsoft Entra authenticaiton. The only requirement for this would be to add SQL Managed Instance to the Server Trust Group :https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/server-trust-group-overview?view=azuresql
+    - The following limitations apply to Microsoft Entra authenticaiton for linked servers in Azure SQL Managed Instance:
+      - Microsoft Entra authenticaitonis not supported for SQL managed instances in different Microsoft Entra tenants.
+      - Microsoft Entra authentication for linked severs is supported only with OLE DB driver version 18.2.1 and higher.
+      - Microsoft Entra authentication for linked servers from SQL Managed Instance to SQL Server is supported for mapped local logins only. Propagating security context in not supported. That measn that managed identity authenticaion is supported, while pass-through authenticaion is not supported.
+
+  - MSOLEDBSQL19 and linked server:
+    - Currently, MSOLEDBSQL19 prevents the creation of linked servers without encryption and a trusted certificate (a self-signed certificate is insufficeint). If linked servers are required, use the existing supported version of MSOLEDBSQL19.
+
+  - 
