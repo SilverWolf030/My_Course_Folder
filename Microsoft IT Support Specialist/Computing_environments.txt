@@ -54,4 +54,5 @@
         - More Control: Resources are not shared with others, so higher levels of control and privacy are possible.
         - More scalability: Private clouds often offer more scalabitly compared to on-permises infrastructure in the.
     
-  - 
+  - Mitigate threats by using Windows 10 security features:
+    - 
