@@ -54,5 +54,19 @@
         - More Control: Resources are not shared with others, so higher levels of control and privacy are possible.
         - More scalability: Private clouds often offer more scalabitly compared to on-permises infrastructure in the.
     
-  - Mitigate threats by using Windows 10 security features:
+  - Mitigateing threats by using Windows 10 security features:
+    - Windows Defender SmartScreen: Can check the reputation of a downloaded application by using a service that Microsoft maintains. The first time a user runs an app that originates from the internet (even if the user copied it from another PC), SmartScreen checks to see if the app lacks a reputation or is known to be malicious, and responds accordilngly.
+    - Credential Guard: Uses virtualization-based security to isolate secreets, such as NTLM password hashes and Kerberos Ticket Granting Tekcets, so that only privileged system software can access them.
+    - Enterprise Certificate pinning: Enables you to protect your internal domain names from chaining to unwanted certificates or to fraudulently issued certain certificates. With enterprise certficate pinning, you can "pin" (associate) an X.509 certificate and its public key to its Certification Authority.
+    - Device Guard: Includes a Code intergrity policy that you create; an allowlist of trusted apps-the only apps allowed to run in your organization.Device Guard also includes a powerful system mitigation called hypervisor-protected code intergrity (HVCI), which uses virtualization-based security (VBS) to protect Windows'kernal-mode code integrity vallidation process. HVCI has specific hardware requirements, and works with Code Integrity policies to help stop atacks even if they gain access to the kernal. Device Guard is included in Win 10 Enterprise and Win Server 2016
+    - Microsfot Defender Antivirus: A robust inbox anti-malware solution, which helps keep devices free of viruses and other malware.
+    - Memory Proctection: Helps to proctect against memory-based attacks, where malware or other code manipulation memory to gain control of a system (for example, malware that attempts to use buffer overruns to inject malicious executable code into memory). Note: a subset of apps won't be able to run if some of these mitigations are set to their most restrictive sttings. Testing can help you maximize proctectionwhile still allowing these apps to run.
+    - Early Launch Antimalware (ELAM) Designed to enable the anti-malware solution to start before all non-Microsoft drivers and apps. If malware modifies a boot-related driver. ELAM will detect the change, and Windows will prevent the driver from starting, thus blocking driver-based rootkits.
+    - Device Health Attestation: (DHA) provides a way to confirm that devices attempting to connect to an orgaization's network are in a healthy state, not compromised with malware. When SHA has been configured, a device's actual boot data measurements can be checked agiant the expected "healthy" boot data. If the ckeck indicates a device is unhealthy, the device can be prevented from accessing the network.
+
+    - Configuralbe Windows 10 mitigations designed to help proctect against memory manipulation require in-depth understanding of these threats and mitigations and knowledge about how the operating system and applications handle memory. The standard process for maximizing these types of mitigations is to work in a test lab to discover whether a given setting interferes with any applications tha you use so that you can deploy setting that maximize protections while still sllowing apps to run correctly.
+    
+    -  As an IT professional, you can ask application developers and software vendors to deliver applications that include an extra proctection called Control Flow Guard (CFG). No configuration is needed in the operating system- the proctection is compiled into applicatons. 
+
+  - Configruable Win 10 mitigations designed to help protect agians memory exploits:
     - 
