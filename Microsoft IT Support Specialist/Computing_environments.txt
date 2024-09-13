@@ -68,5 +68,12 @@
     
     -  As an IT professional, you can ask application developers and software vendors to deliver applications that include an extra proctection called Control Flow Guard (CFG). No configuration is needed in the operating system- the proctection is compiled into applicatons. 
 
-  - Configruable Win 10 mitigations designed to help protect agians memory exploits:
+  - Configruable Win 10 mitigations designed to help protect against memory exploits:
+    - Data Execution Prevention (DEP): A system-level memory proctectio feature availabe in Windows operating systems. DEP enables the operating system to mark one or more pages of memory as non-executable, which prevents code from being run from that region of memory, to help prevent exploitation of buffer overruns.
+    DEP hleps prevent code from data pages such as the default heap, stakcs, and emory pools. Although some applications have compatibitly problams with DEP, most applications dont.
+    Group Policy settings: DEP is on by default for 64-bit applications, but you can configure more DEP proctecions by using the Group Policy settings.
+    - SEHOP: Structured Exception Handling Overwrite Procetion is designed to help block exploits that use the Structed Exception Hangles (SEH) overwrite technique. Because this protection mechanism is provided at run-time, it helps to protect apps regarless of whether they've been compiled with the latest improvements. A few applications have compatibility problems with SEHOP, so be sure to test for your environment.
+    - ASLR: Address Space Layout Randomization loads DLLs into random memory addresses at boot time. This loading - of specific DLLs - helps mitigate malware that's designed to attack specific memory locations.
+  
+  - Windows Defender SmartScreen:
     - 
