@@ -1,0 +1,33 @@
+- This encompasses all areas associated with running the business, from managing payroll to compiling and presenting customer analytics. In this reading, you'll becaome familiar with the considerations that go into selecting suitable software.
+- Considerations for choosing business software:
+  - Business Size: How many people in you company would use the software? Would this be affected by the staff size changing over time?
+  - Business Needs: Are there funcions that the business cannot currently perform, or would like to do more effectively or efficiently?
+  - Task that can be Automated: Are there tasks that the business completes manually which could be done by software instead?
+- Software Types:
+  - Accouting Software: for recording and managing financial transactions.
+  - Billing Software: for handling invoices and payments.
+  - Database Software: for creating and maintaining databases.
+  - Payroll Software: for calculating and administering payments to employees.
+  - Analytics Software: for presenting data in ways that produce new insights.
+- Microsoft Dynamics:
+
+  - Microsoft Customer Relationship Management (CRM) combines popular standalone applications, such as Word and Excel, and more advanced applications such as Power Bi, Power Automate, and Power Virtual Agents. A business whishing to manage its need could use Dynamics CRM to organize its marketing, sales, and services that could be selted include that following:
+
+  - Microsoft Dynamics 365 Marketing: This easy-to-use business application providesa a graphical interface for plotting the customer journey. A customer journey is a real-time marketing tool that monitors customer behavior and enables push notificats, alers and updates to direct a customer to engage with a product. This service includes customizable emails and text messages that can be automated to execite after a specific trigger condition is met. The success of each approach can be recored to generate analytics on how best to engage your customers.
+
+  - Microsoft Dynamics 365 Sales: An adaptive sales system that actively monitors sales signals. It uses AI and machine learning to generate sales initiatives from everydat workflows. This application allows you to iport Excel worksheets that ocntain your sales data. Form this, the applicastion can perform sales analysis and identify trends.
+
+  - Microsoft Dynamcis 365 Customer Service: This is a knowledge management center. It retains customer and agent experiences to provide company-wide-knowledge-based for interactions witha company's customers.
+
+  - Microsoft Dynamics 365 Field Service: This servie helps a company's field agents by providing the required tools for mobile workers. The application provides tools for creating work orders, achedules, inventory, and billing. It enables a working document and updates all services provide from onsite.
+
+  - Microsoft Dynamics 365 Project Operation: This is a project delivery tools that aims to connect sales, staffing, resources, project managment, and finance teams. It assists project managers by providing work-breakdown structures, resources scheduling, and progress-tracking tools such as Gannt Charts.
+
+- Dealing with Limitations:
+
+  - Software: Software limitations refer to the internal constaints imposed by the software, which can affect system performance. One common issue is the presence of resource-heavy applications. These applications require segnificant system resources, such as CPU processing power, memory, or storage. Multiple resource-heavy applicastions running simultaneously can strain the system, resulting in slower performance and decreased user experience.
+
+  - Compatibility: Compatibility problemn are a significast challenge due to software limitations. Incompatibility between software components or with hardware can cause system instability and reduced functionality. For instance, conflicts between software and the operating system or hardware often lead to crashes or launch failures.
+    These issues hinder user efficieny, impacting company productivity. Thorough testing during development and utilizing compatibility layers can help mitigate these challenges Ensuring compatibiliy among all software and hardware components minimizes disruptions and enhances operational efficiency.
+
+  -
