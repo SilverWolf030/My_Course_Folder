@@ -62,3 +62,16 @@
     - Internet connectibity reliance: Cloud computing's dependence on internet access may be a cause for concern. Since cloud services are accessed online, a steady and dependable internet connection is neccessary.
     - Costs: Another concern is higher daily overheads. Adopting cloud computing eliminates the need for company hardware but is offset by higher daily operaional expenses for running diverse services. If the cloud servic decides to raise prices, daily operations could become less profitable for a business.
     - Vender lock-in: There is a concern about vendor lock-in when a company's infrastructure is provided solely by one vendor. The company may wish to use other services, but their infrastructure is incompatible. Equally, a company may find it difficult to switch vendors as their infrastructure is too heavily reliant on the current provider.
+
+- Practical solutions to hardware and software limitations:
+
+  - Gathering Information: Determine the specific hardware components of the computer, including the CPU model, RAM size, Storage type, and Capacity. Next, identify the hardware requirements of the application or software.
+  - By understanding the specific applicastions the person runs and finding its resource requirements form the respective product supports pages, you will have more infromation to pinpoint the applicastions causeing the performance bottlenecks.
+  - Check the system's hardwaer configuration and confirm it matches the software requirements.
+
+  - Identify the Root cause:
+    - Excessive resource consumption: If the resource-intensive applications condidtently max out the CPU, RAM, or Storage, they are likely the primary cause of the performance issues.
+    - Background Processes: You should also check for unnecessary or rogue background processes that might be consuming system resouces.
+    - Hardware limitations: If you find that the person's system ahs suitable hardware, the resource requirements of the person's applications may have outgrown the hardware's capabilities, leading to the perofmrance degradation.
+    - Software optimization: Check for outdated software versions or configurations. This may be contributing to the performance issues.
+  - Gathering the nesesssary data and locating the root cause can be a complx process. While completing your investigations, you may find more than one cause for the problem the person is experiencing and more than one answer to fix the issue.
