@@ -75,3 +75,32 @@
     - Hardware limitations: If you find that the person's system ahs suitable hardware, the resource requirements of the person's applications may have outgrown the hardware's capabilities, leading to the perofmrance degradation.
     - Software optimization: Check for outdated software versions or configurations. This may be contributing to the performance issues.
   - Gathering the nesesssary data and locating the root cause can be a complx process. While completing your investigations, you may find more than one cause for the problem the person is experiencing and more than one answer to fix the issue.
+
+- Propose Solutions:
+
+  - A proposed solution based on the data already acquired can comprise of one or more of the following.
+  - Reduce application usage: Encourage the person to optimize their resource-intensive applications by adjusting settings, using lighter alernatives, or temporarliy suspening non-essential background proceses.
+  - Clean up unnecessary files: Remove any unnecessary temporary files, clear the browser cache, ad delete unused applications.
+    This will not only clear up disk space but also enhance performence by stopping background processes that are no longer needed.
+  - Optimize startup programs: Review the startup program list and disable any unneccessary programs that start automatically; this will reducie the load on the system during boot and initial usage.
+  - Upgrade Hardware: If the system is significantly underpowered for the user's workload, consider upgrading the CPU, RAM,or storage to provide better performance headroom.
+  - Cloud-based Solutions: Recourse-intensive applications performance issues, consider migrating them to cloud-based alternatives that can leverage the scalability and power of cloud infrastructure.
+
+- Implement and Monitor:
+
+  - In most scenarios, this involves a multi-faceted approach, For example, try completing the following steps;
+    - First, delete the browser cahce and temporary files.
+    - Next, remove any unused applications.
+    - Now, ensure only applicasiotn used regularly are beginning on startup.
+    - Lastly, if necessar, upgrade hardware where applicable. For example, install additional RAM.
+  - Once these steps are completed, it's crucial to monitor the system's performance metrics meticulously to evaluate the effectiveness of the implemented solutions. This monitoring process regularly tracks various performance indicators, such as COU usage, memory usage, disk activitly, network activiy, and applications responsiveness.
+  - One practical tool for monitoring these metrics is the Task Manager, which provides real-time insight into the performance of your system.
+
+- Outgoing solutions:
+
+  - Lastly, think about how you can support the user in the future. This may involve several ongoing steps, including:
+    - Educating the user on the importance of resource management and encouraging them to come using lightweight applications and optimization techniques.
+    - Schedule regular system maintenance checks to identify and address potential issues before they cause performance problems.
+
+- Navigating hardware and software limitations is integral for any organization's productivity and reputation. This activity provided you with a practical scenario to hone your problem-solving skills in real-life technology challenge. By systematically identifying issues, understanding system specifications, and proposing tailored solutions, you can enhance your critical thinking. From reduing applications usage to considering hardware upgrades or cloud-based alternatives, the process underscored the importance of proactive maintenance and user education.
+- By implemening and monitoring your solutions, you ensure sustatined performance optimization. This activiy not only sharped your technical prowess but also fostered a proactive mindset in addressing future technology hurdles.
