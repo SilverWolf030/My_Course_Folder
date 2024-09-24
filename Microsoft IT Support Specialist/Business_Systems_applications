@@ -104,3 +104,37 @@
 
 - Navigating hardware and software limitations is integral for any organization's productivity and reputation. This activity provided you with a practical scenario to hone your problem-solving skills in real-life technology challenge. By systematically identifying issues, understanding system specifications, and proposing tailored solutions, you can enhance your critical thinking. From reduing applications usage to considering hardware upgrades or cloud-based alternatives, the process underscored the importance of proactive maintenance and user education.
 - By implemening and monitoring your solutions, you ensure sustatined performance optimization. This activiy not only sharped your technical prowess but also fostered a proactive mindset in addressing future technology hurdles.
+
+- Computers under pressure:
+
+  - Example:
+
+    - Processor: Intel Core i7-1165G7 with a base clock speed of 2.8 Gigahertz (GHz) and a maximum clock speed of 4.7 GHz
+    - Memory: 16 GB DDR4 RAM
+    - Storage: 512 GB Solid State Drive (SSD)
+    - Operating System: Windows 10 Home
+
+  - Performing multiple tasks:
+
+    - Checking emails,
+    - Creating reports,
+    - And analyzing data.
+    - Opening email application needs to download and process data from the email server, which my CPU and RAM resources can handle. Suppose that there is also running other simultanious task, such as data analysis or graphics-inensive task; clock speed may range from 2.8GHz to 3.8 GHz, depending on the intensity of the tasks.
+
+  - Clock Speed: Refers to the frequency at which a computer's central processing unit (CPU) can complete in one second. The clock speed determines how fast the CPU can process information and execute instructions, which affects the computer's overall performance. Generally, the higher the clock speed, the faster the CPU can perform operations and the faster the computer can run. Not that 1GHz is equil to one billion Hz.
+
+  - During workday, softwares like Microsoft Excel and PowerPoint to create reports and analyze data. These applicastions require significant processing power, especially when working with large datasets or creating complex graphics. When working on large spreadsheets or presentations with lots of images, this can place asignificant stain on CPU and RAM. If these tasks run simultaneosly with other taks, it can cause my CPU to throttle down its clock speed towards the lower end of the range to prevent overheating or reduce power consumption.
+  - Throttling down the clock speed refers to reducing the operating frequency of a computer's processor or central processing unit (CPU) to manage heat and power consumption. CPUs are designed to operate within a specific range of clock speeds, and running them at higher frequencies can gernate much heat and consume more power.
+
+  - Regulating heavy loads:
+    - While throttling down the lcock speed can be useful for lessening the CPU's impact on power consumption and heat, it is not ideal in every case, as there are situations in which performance suffers noticeably.
+    - For example, software applications like Zoom or Microsoft Teams when having video onferences. Theses applications require a lot of processing power to compress and transmit audio and video data over the internet. As a result, my CPU and RAM are heavily utilized during these video conference. IF the CPU were to throttle down in this instance, it may result in choppy video playback, and a really awkward conference. Fortunately, these is a workaround; to offload this, i may use multiple cores and thread the activities instead.
+    - Multi0threading divides a CPU's workload into multiple threads, allowing different program parts to execite concurrently. This means that running Zoom or Teams during a video conference, the processor can use multiple threads to handle the video and audio encoding and tranmission while also processing other task at the same time. The image demonstrates how some tasks might be distributed across threads.
+    - With multi-threading, i can help the processor handle the heavy processing load required by video conferencing applications with out throttling down the clock speed. This can help improve the overall performance and responsiveness of the system, allowing for a smoother video conferencing experience.
+    - Throughout the day, diligently stores work on storage devices. Handling large files, such as videos or high-resolution images, demands rapid data read and write speeds, potentially straining the performance of the storage devices.
+    - When concurrently running other resource-intensive tasks,
+      - It can further impede the fficiency of my storage system,
+      - and affect the overall performance of the system.
+    - Maintaining a harmonious balance in managing task, communictio with input-output devices, and executing background operations like maintenance and pathcing poses a formidable challenge. Nonetheless, i find immense satisfactionin the work despite its complexities.
+
+- https://www.coursera.org/learn/introduction-to-computers/supplement/c5Thn/additional-resources-business-sofware
