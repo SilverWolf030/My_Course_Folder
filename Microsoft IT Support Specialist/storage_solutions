@@ -1,0 +1,77 @@
+- Data warehousing and data lakes:
+
+  - Data Lakes:
+
+    - Recall that data comes in many forms, such as images, text, or audio. Data can also be stored using different mediums like Blobs or text. You recently learned that Blobs store large amounts of unstructured data.
+
+    - A repository storing large amounts of data for later processing is known as a data lake. A data lake allows actionable information to be extracted from data at a later stage. This is useful in certain situations, such as the following:
+
+      - IoT Sensors analysis: Where there are noticeable data patterns that can be extracted from the devices and sensors on-premises.
+
+      - Big Data processing: Where machine learning or analytical algorithms can be applied to find actionalbe infromation in unsorted data.
+
+      - Analytics: For evaluating the results of performing certain actions.
+
+      - Reporing: For gathering concrete insights about overall performance within a given period.
+
+- Data lake benefits and challenges:
+
+  - Data lakes are widely used and maintained by businesses, but why is that the case? Some of the reasons might include:
+
+    - The data might be more valuable in the future, in a way that is unknown right now.
+
+    - In storing the data wholesale, scientists can take different exploratory queries with the goal of discerning some valuable insight. These potential insights might be lost if the data is processed before storing.
+
+    - The unstructured nature of a data lake means the data can be stored in various ways, and it doesn't need to be processed and transformed beforehand.
+
+  - In addition to their benefits, data lakes do also present certain challenges, such as the following:
+
+    - The lack of a schema means that data does not need to be processed before it is stored. However, this does make it more difficult to query and locate specific data.
+
+    - The lack of data analysis means that there is no way of unsuring that the data stored has merit or worth.
+
+    - The lack of structure to the data means that some information can become lost or forgotten over time.
+
+  - Azure for data lakes:
+
+    - Azure features several technologies that can be used by business for managing and making use of data lakes. You'll learn about them in greater detail later, but some services of not include:
+
+      - Azure Hd Insight: a managed, full-spectrum, open-source analytics service in the cloud for enterprises.
+
+      - Azure Data Lake Store: a hyper scale repository that is also compatible with the Hadoop collection of software utilities for data.
+
+      - Azure Data Lake Analytics: an on-demand job service that simplifies big data analytis.
+
+  - Data Warehouse:
+
+    - A Data Warehouse is like a data lake except that the information found there has been processed and cleaned, so it is easily acceptable. To schieve this, data from the lake is extracted, formatted, validated, summarized, and otherwise processed and stored in the data warehouse. Once the data is in the warehouse; it is possible to get actionable intelligece from the data.
+
+    - Other data that my be stored in a dta warehouse is historical operational data. This is done to separate current transactions from past ones.
+
+- Data warehouse benefits and challenges:
+
+  - A buniness might opt for a data warehouse over a data lake for the following reasons:
+
+    - It acts as a single source of truth in that past performances can be compared to the current performance. For example, if a company implememts a new formot for keeping logs, it can reference the store of historical logs to prove the effeciteness of the new approach.
+
+    - A data warehouse allows data filtering and cleaning in a data lake and facilitates analysis to get essectial and actionable information.
+
+    - Data warehouses store information in a structured way. This makes it very easy to apply learning models to the data without first having to change how the data is presented.
+
+    - A data warehouse leads to greater awarness of the data and enables a better vetting process for appropriate access.
+
+  - However, be mindful that data warehouse don't come withou cerain disadvantage, such as the following:
+
+    - Creating a data warehouse from a data lake takes a significant effort. It can be challenging to know how the data is structured without a deep investigation. For example, images or words may need to be converted to numbers for analysis, but formatting data for one purpose may be unsuitable for another.
+
+    - Domain expertise is required to orchestrate the data. ecause of the potential size of data lakes, transferring and processing the data can be expensive. Therefore, before applying any processes, a domain expert must identify what adn how data must be transferred.
+
+    - Cleaning the data into a desirable format can be challenging whe there are many data items.
+
+  - Three usesful Azure technologies that can be utilized for data warehousing are:
+
+    - Azure SQL database: a fully managed relational cloud database that provides automatic patching, inbuilt security, and data protection on demand.
+
+    - Azure Synapse Analytics: a service that optimizes analytics analytics tasks to deliver faster insights. It provides integration between Microsoft's data warehousing and big data analytics capabilities in one serivce.
+
+    - Apache Hive: data warehousing software built on top of Hadoop (a framework for online distributed databases), for providing data summarizaiton, query, and analysis.
