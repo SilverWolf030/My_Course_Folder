@@ -75,3 +75,5 @@
     - Azure Synapse Analytics: a service that optimizes analytics analytics tasks to deliver faster insights. It provides integration between Microsoft's data warehousing and big data analytics capabilities in one serivce.
 
     - Apache Hive: data warehousing software built on top of Hadoop (a framework for online distributed databases), for providing data summarizaiton, query, and analysis.
+
+-

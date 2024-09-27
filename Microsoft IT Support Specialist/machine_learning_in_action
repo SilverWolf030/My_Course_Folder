@@ -1,0 +1,23 @@
+- Machine learing in action:
+
+  - A field focused on training machines throught speialized data processing techniques. Machines learning plays an important role in the evolution of medicine, agriculture, and other fields.
+
+  - what "behavios" are made possible through machines learing? Some of the more common broad capabilities include the following:
+
+    - Anomaly Detection: The capability to automatically detect errors or unusualy acttivity in a system.
+
+    - Computer Vision: The capabiity of software to interpret the world visually through cameras, video, and images.
+
+    - Natural language processing: The capability of a computer to interpret written or spoken language and respond in kind.
+
+    - Knowledge mining: The capability to extract information from large volumes of often unstructured data to create a searchable knowledge store.
+
+  - How does Machine Learing work?
+
+    - Remember that data can come in many forms. It can be numbers, text, images, sounds, videos, or sensor outputs. All of these items can be converted into numbers. The conversion process for an image is different than that of a written text. Each has been developed by experts in their field, however, once the process has been applied, then one can use the same algorithm to detect a topic in a conversation, an object from an image, or fraudulent behavior in an online transaction. Before this can happen, the model first has to be trained using data.
+
+    - For example, let's say you would like to train a model to distinguish betwen images of taxis, and vehicles that are not taxis. You might approach this by giving the model labeled instances of each. Given enough instance, the model can then classify the image when shown a new instance.
+
+    - Another application of computer vision in object detection. Every photograph is a representation of an image using pixels. Machine learing algorithms can learn to identify a concentration of these pixels and determine where the boundary line is. When applied to an image of a busy street, a well-trained model can discern individual vehicles, people, and more.
+
+    - Another useful
