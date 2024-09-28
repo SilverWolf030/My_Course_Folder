@@ -20,4 +20,15 @@
 
     - Another application of computer vision in object detection. Every photograph is a representation of an image using pixels. Machine learing algorithms can learn to identify a concentration of these pixels and determine where the boundary line is. When applied to an image of a busy street, a well-trained model can discern individual vehicles, people, and more.
 
-    - Another useful
+    - Another useful capability is anomaly detection, which invovles training a machine to recognize elements that are outside the norm. These often indicate that something is wrong and can trigger an action or alert as a response. This is not limited to visual elements, as machines ca also detect notable differences in numbers, timing, and more. For example, consider how this approach is used in F1 auto racing; detailed machine learing modesl are applied that analyze sensor readings from different parts of the vehicle, such as the engine, brakes, suspension, aerodynamics, and more.
+
+    - These sensors outputs are gathered, processed, and fed into a machine-learning model. The model also is given labels such as whether the car breaks down, is dipping below average speeds, os is achieving peak performance. These indicators that deviate from the standard readings are referred to as anomalies.
+
+  - Machine Learing in Cypbersecurity:
+    - A representation of your daily activities is contructed. Wehn processing images, these data points could be represented by pixels. In this instance, the same algorithm can instead take in differet data point, such as:
+      - the frequenty of activity
+      - The location from where a transaction was executed
+      - The amounts spent
+      - The types of purchases made
+    - A flag is raised when the activity deviated from normal activiy. You can think about this in terms of a conversation. Imagine you are discussing a topic with someone, and suddenly they indtroduce words and ideas that don't follow the natural flow of the conversation and go against your expectaations. In much the same way as preteding the performance of the race car, machine learning models can detect these anomalies.
+    - When a flag is raised, it can trigger another action such as sending an alert notification or activating an authentication app that needs to be cleared before the ction is sanctioned. The training data for thee models are buile on previous transactions and labeled "standard" and fraudulent instances. First, the algorithm will identify anomalous activity or activity that deviates from the standard pattern. This then can be used to apply further checks to determine if fraudulent behavior is occurring. Additionally, this methodology can be applied to detect patterns of attack. Company logs following a hack can be reviewed for any identifying patterns of activity that will indicate that an attack is in progress, or about to happen. These are called signature patterns.
