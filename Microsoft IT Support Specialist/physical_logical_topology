@@ -1,0 +1,12 @@
+- Physical Topology:
+
+  - A physical topology refers to how network devices are arranged and connected in a visible layout that can be observed from above.
+  - The physical topology gives you a bird's eye view of where network elements are in relation to one another. You can easily identify where the switch and router are and how other devices like the modem, desktop computer, and gaming console are connected to it with cables. Therefore, you can use this physical topology to locate and troubleshoot a device if there is a problem.
+
+- Logical Topology:
+
+  - A logical topology refers to how data is transmitted across a network and the possible routes it can take to reach its destination. These routes are called communication paths.
+
+- Swith Topologies:
+
+  - A switch can allow many devices to communicate at the same time. Logically, each cable is a communicaton path that gives every computer dedicated resources that are not shared. This configuration is unlike the hub, where each cable only allows one device physical access to one resouce at a time. Again, the physical topology does not let you observe what is happening inside the devices. That's why you need the logical topology to know the true path the data takes in a network.
