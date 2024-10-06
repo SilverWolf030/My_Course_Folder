@@ -12,4 +12,10 @@
         - Breaking the data into packets has a couple of advantages. First, it allows the data to be transmitted more efficiently, as it can be sent in smalled units. Second, it will transmit the data more reliable, as packets can be retransmitted if they are lost or corrupted in transit.
 
     - Addressing the packets:
+        - Before the packets can be transmitted, they must be addressed. Each packet is assigned a unique address that indicates its destination on the network.
+
+    - Transmitting the packets:
+        - Once the packets have been addressed, they are transmited over the network as frames. A frame is a simple container for all the data and IP information to be placed in, ready for transmission on the network. The frames can be transmitted over wired or wireless connections, depending on the network type. Protocols such as TCP (Transmission Control Protocol) ensure reliable transmission by retransmitting lost or damaged packets.
+
+    - Receiving the packets:
         -
