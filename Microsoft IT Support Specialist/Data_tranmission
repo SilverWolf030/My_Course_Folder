@@ -1,0 +1,15 @@
+- Data Transmission Process:
+    - Data transmision is the process of sending and receiving data over a network. And it's essential to how we use the internet and commuicate with others online. this process can be divided into multple steps
+
+    - Preparing the data:
+        - First step in data transmission is creating the data that needs to be transmitted. This step can include text, images, video, and audio files. The data is usually created on a computer or mobile device but can come from various sources.
+
+    - The Sender:
+        - The next step is for the sender to initiate the transmission process. The sender is the device or computer resonsible for creating and sending the data over the network. To do this, the sender must be connected to a network that can transmit the data.
+
+    - Breaking Data into packets:
+        - Once the sender initiates the transmission process, the data is broken down into small units called packets. Each packet contains part of the original data and additional information necessary for transmission.
+        - Breaking the data into packets has a couple of advantages. First, it allows the data to be transmitted more efficiently, as it can be sent in smalled units. Second, it will transmit the data more reliable, as packets can be retransmitted if they are lost or corrupted in transit.
+
+    - Addressing the packets:
+        -
