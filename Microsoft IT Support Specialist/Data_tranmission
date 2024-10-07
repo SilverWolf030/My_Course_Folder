@@ -37,4 +37,5 @@
 - Security Concerns:
 
   - Cybercriminals and hackers are always trying to find ways to intercept or steal data. Therefore, it is essential to understand the security concerns associated with data transmission in a network and to know how to protect your data from potential threats.
-  -
+  - Attackers use several techniques to steal user data, including eavesdropping, data tampering, phishing, and malware. Eavesdropping is a method where third parties intercept and listen to private conversations or data exchanges. Data tampering is when someone alters the data during the transmission process. Phishing is a type of social engineering attack that aims to deceive users into sharing confidential information, such as login credentials. And malware is malicious software that infects and compromises a network or device.
+  - Multiple measures can be taken to protect sensitive or general user data from getting hacked or leaked. These include encrypting data, using a virtual private network (VPN), implementing a firewall, and using strong passwords.
