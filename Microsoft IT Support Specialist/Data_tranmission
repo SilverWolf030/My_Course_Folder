@@ -1,21 +1,40 @@
 - Data Transmission Process:
-    - Data transmision is the process of sending and receiving data over a network. And it's essential to how we use the internet and commuicate with others online. this process can be divided into multple steps
 
-    - Preparing the data:
-        - First step in data transmission is creating the data that needs to be transmitted. This step can include text, images, video, and audio files. The data is usually created on a computer or mobile device but can come from various sources.
+  - Data transmision is the process of sending and receiving data over a network. And it's essential to how we use the internet and commuicate with others online. this process can be divided into multple steps
 
-    - The Sender:
-        - The next step is for the sender to initiate the transmission process. The sender is the device or computer resonsible for creating and sending the data over the network. To do this, the sender must be connected to a network that can transmit the data.
+  - Preparing the data:
 
-    - Breaking Data into packets:
-        - Once the sender initiates the transmission process, the data is broken down into small units called packets. Each packet contains part of the original data and additional information necessary for transmission.
-        - Breaking the data into packets has a couple of advantages. First, it allows the data to be transmitted more efficiently, as it can be sent in smalled units. Second, it will transmit the data more reliable, as packets can be retransmitted if they are lost or corrupted in transit.
+    - First step in data transmission is creating the data that needs to be transmitted. This step can include text, images, video, and audio files. The data is usually created on a computer or mobile device but can come from various sources.
 
-    - Addressing the packets:
-        - Before the packets can be transmitted, they must be addressed. Each packet is assigned a unique address that indicates its destination on the network.
+  - The Sender:
 
-    - Transmitting the packets:
-        - Once the packets have been addressed, they are transmited over the network as frames. A frame is a simple container for all the data and IP information to be placed in, ready for transmission on the network. The frames can be transmitted over wired or wireless connections, depending on the network type. Protocols such as TCP (Transmission Control Protocol) ensure reliable transmission by retransmitting lost or damaged packets.
+    - The next step is for the sender to initiate the transmission process. The sender is the device or computer resonsible for creating and sending the data over the network. To do this, the sender must be connected to a network that can transmit the data.
 
-    - Receiving the packets:
-        -
+  - Breaking Data into packets:
+
+    - Once the sender initiates the transmission process, the data is broken down into small units called packets. Each packet contains part of the original data and additional information necessary for transmission.
+    - Breaking the data into packets has a couple of advantages. First, it allows the data to be transmitted more efficiently, as it can be sent in smalled units. Second, it will transmit the data more reliable, as packets can be retransmitted if they are lost or corrupted in transit.
+
+  - Addressing the packets:
+
+    - Before the packets can be transmitted, they must be addressed. Each packet is assigned a unique address that indicates its destination on the network.
+
+  - Transmitting the packets:
+
+    - Once the packets have been addressed, they are transmited over the network as frames. A frame is a simple container for all the data and IP information to be placed in, ready for transmission on the network. The frames can be transmitted over wired or wireless connections, depending on the network type. Protocols such as TCP (Transmission Control Protocol) ensure reliable transmission by retransmitting lost or damaged packets.
+
+  - Receiving the packets:
+
+    - As the frames are transmitted over the network, they are received by other devices on the network. These devices act as routers, switches, and other network devices, which direct the frames to their destination. Routers are used to direct data traffic through the network, and transmission technologies include wired and wireless connections.
+
+  - Reassembling the data;
+
+    - Once all the frames have been reveived, the receiving device must reassemble them into the original data packets. The additional information in thepackets determines the order in which they should be reassembled and delivered to the user.
+
+  - Delivering the Data:
+    - Finally, the data is delivered to the intended recipient. This delivery can happen in various ways, depending on the application used. For example, the data could be displayed on a web page, played as and audio or video file, or saved as a document.
+
+- Security Concerns:
+
+  - Cybercriminals and hackers are always trying to find ways to intercept or steal data. Therefore, it is essential to understand the security concerns associated with data transmission in a network and to know how to protect your data from potential threats.
+  -
