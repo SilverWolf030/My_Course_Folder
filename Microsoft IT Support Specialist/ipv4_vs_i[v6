@@ -1,0 +1,11 @@
+- A new IP version:
+
+  - Several solutions were introduced to mitigate the threat of running out of IPv4 addresses. These solutions have kept IPv4 functional over the years, but ultimately the world has run out of new IPv4 addresses to hand out.
+
+  - A new IP version was needed to address this exhaustion, and Internet Protocol version 6 (IPv6) was introduced as a the new IP standard. The Interent Engineering Task Force(IETF) designed and developed IPv6 in 1998, and it was finally adopted as a recognized internet standard in July 2017.
+
+  - IPv6 uses a 128-bit address in comparison to the 32-bit address of IPv4. That is a significant increase in available addresses because for every additional bit, the possibilities double. For instance, IPv4 has over 4 billion addresses. If you were to add just 1 bit more to make it a 33-bit address, the possibilities double to 8 billion. That's a lot of addresses! in fact, IPv6 has approzimately 7.9x10^28 times more addresses thank IPv4.
+
+  - Although IPv6 has been around for some time, the transition to this new standard has been slow and will take time. This is because IPv4 and IPv6 aren't interoperable. In other words, they can't exchange and use information.
+
+  -
