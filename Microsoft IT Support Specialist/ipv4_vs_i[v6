@@ -8,4 +8,35 @@
 
   - Although IPv6 has been around for some time, the transition to this new standard has been slow and will take time. This is because IPv4 and IPv6 aren't interoperable. In other words, they can't exchange and use information.
 
-  -
+  - The structure of IPv6 is different from IPv4. Instead of four decimal mumbers, for example, 192.168.1.1, it uses eight groups of four hexadecimal numbers called a hexadectet. And a colon separates each hexadectet.
+
+    - A full IPv6 address looks like:
+      - 2001:0db8:0000:0000:0000:8a2e:0370:7334
+
+  - IPv6 addresses use hexadecimals to represent this very large address space. Using hexadecimal takes the 128 bits in and address down to 32 digital numbers and letters.
+
+  - IPv6 allows simplification with:
+
+    - You can remove on or more leading zeros from any group. So 0042 can become 42.
+
+    - You can replace consecutive sections of zeros with a double colon (::), but this can only be used once in an address.
+
+      - Shortended version of the IPv6 example:
+
+        - 2001:db8::8a2e:370:7334
+
+    - Notice that all the instances of 0000 are removed. However, in many cases, the addresses can still be very long and more complicated than IPv4, which adds to the slow transition to IPv6
+
+- IPv6 key functions:
+
+  - IPv6 has numerous functions and addresses many of IPv4's problems, not just the limited address space. For instance, IPv4 can get realy congested and slow itself down. IPv6 has a few features that address this issue. Own of which is to prevent broadcast traffic from running around a network.
+
+  - IPv4 uses broadcast traffic to find devices on a network that no one has communicated with yet. This is similat to shouting out someone's ame in a packed hall. The trouble is that all other devices have to listen to the broadcast traffic, which slows them down. IPv6 doesn't have this type of traffic function, so there is no annoying shouting across the hall.
+
+  - Instead, IPv6 uses multicast traffic. Multicast traffic is not a new concept, and IPv4 uses it too but to a limited extent because of the small address space. It works like this: A device only listens to a mutlicast traffic if it has subscribed to that service, and the rest of the devices can ignore it. It's very much like tuning into a radio signal you want to listen to, but you can switch it off again when you are no longer interested. The larger address space in IPv6 allows applications to communicate with different multicast addresses without disturbing others, thus making the network more efficient.
+
+  - On the other hand, both IPv4 and IPv6 use unicast when they know the destination addresses: therefore, there is no need to shout out or tune in.
+
+  - The last type of trafficking in anycast, and only IPv6 supports it. Anycast is an addres that can be assigned to multiple devices worldwide. In this way, several servers with the same address can provide the same service to a network. The clever part here is that IPv6 will deliver a request to the nearest server that provides that service, in turn providing load-balancing functionality. Load balancing is just like various cashiers in a shop who balance a load of customers by letting them join the shortest availiable queue. Anycast does exactly the same across a network service.
+
+  - In summary, IPv6 is a more efficient protocol because it does not use broadcast traffic on networks, which takes away a lot of the congestion in a IPv4 network.
