@@ -1,0 +1,29 @@
+- Static IP address assignment:
+
+  - One way of doing it is to manually configure static IPv4 configurations for each network's devices. When you perform IPv4 configuration, you must configure the following:
+
+    - IPv4 address
+    - Subnet mask
+    - Default gateway
+
+  - Static configuration requires that you physically visit each device and input the IPv4 configuration. For the current size of Sam's network, a static configuration is a reasonable solutions. But if a network has ten or more devices, this address configuration method is time-consuming and inreases the risk of mistakes. This method is better for devices that are physically connected by a cable on yout network and are unlikely to move. Once configured, devices like a printer or a server won't need reconfiguration. Fortunately, there is an alternative method, dynamic IP address assignment.
+
+- Dynamic IP address assignment:
+
+  - The great thing about dynamic IP address assignment is that it automatically configures IP address information for network devices. This is a much better solution for devices that move around the network, especially those connected to Wi-Fi, as these are typically devices that desconnect and reconnect to a network at different times. User devices like laptops and mobile phones are much better suited to dynamic assignment, and you save time by not having to configure them.
+
+- Public and Private IP address:
+
+  - You might have noticed that the same IP addresses are often used on local networks. For instance, when you purchase a router, all the routers in the shop might have the same IP address printed on the back. Well, remember how quickly the number of available IPv4 addresses was exhaused? A clever solution to reduce the number of IPv4 addresses in use was the introduction of public and private IP address.
+
+  - The idea is to keep internet (public) addresses separate form a group of addresses that can be used repeatedly on a company's private network. This made millions of IPv4 addresses available again. These private addresses can be assigned dynamically or statically, but they do not appear on the internet. And that's also where the network types you've learned about earlier come in.
+
+  - Three IP address ranges have been determined for the three classes of IPv4 addresses.
+
+    - A - Large - 10.0.0.0-10.255.255.255
+    - B - Medium - 172.16.0.0-172.32.255.255
+    - C - Small - 192.168.0.0- 192.168.255.255
+
+  - Public IP address are only needed when you connect to the internet and are globally unique. These are typically assigned dynamically by an internet service provider (ISP) to give you an internet connection. It cannot use any of the private addresses in the ranges described above, as these are not unique.
+
+  - Translating theses private addresses to public only occurs when an internet conncection is introduced to a network. A router takes care of address translation using network address translation (NAT).
