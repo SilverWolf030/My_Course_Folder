@@ -1,0 +1,23 @@
+- https://learn.microsoft.com/en-us/training/modules/network-fundamentals/5-ip-tcp-basics
+- https://learn.microsoft.com/en-us/training/modules/configure-ip-network-connectivity/5-explain-public-private-ip-addressing
+- https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/ipv6-overview
+- https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd379516(v=ws.10)
+- https://learn.microsoft.com/en-us/training/modules/configure-ip-network-connectivity/6-implement-automatic-ipv4-addressing
+
+- IP address standards and services:
+
+  - What is the Address Resolution Protocol?
+
+    - The address resolution protocol (ARP) is a communications protocol within the internet protocol suite. It's a request-response protocol used to resolve the media access control (MAC) address for a given IP address. ARP supports many data link layer technologies, such as internet protocol version 4 (IPv4), DECnet, and PUP. When and internet protocol version 6 (IPv6) address is resolved, the neighbor descovery protocol (NDP) is used instead of ARP. Without ARP, there would be no means to resolve an IP address to a physical device address.
+    - There's also the Reverse Address Resolution Protocol (RARP), which retrieves an IP address based on the given MAC address.
+
+  - What is TCP/IP?
+
+    - The Transmission Contorl Protocol/Internet Protocol is a collection of differnet communication protocols that support and define how network-enabled devices interconnect with each other oven an IP-based network. At its heart are two key protocols: TCP and IP. TCP/IP makes the internet possible, including private and public networks, such as intranets and extranets.
+    - TCP/IP defines the way data is shared between network-enabled devices by defining the end-to-end communication process. It manages how the message is broken down intp packets of data, which are sometimes known as datagrams. TCP/IP also determines how the packets is addressed and trasnmitted, routed, and received. TCP/IP can determine the most efficient route across a network.
+    - The TCP/IP model is designed to be stateless. This design means the network stack treats each request as new because it isn't related to the previous request. However, one part of the TCP/Ip model isn't stateless. The transport layer operates in a stateful mode because it maintains a connection until all the packets in the message are received.
+    - TCP/IP is an open standard. TCP/IP is governed, but no single organization owns it, so it works with all operating sytems, networks, and hardware.
+
+  - TCP/IP model layers:
+
+    -
