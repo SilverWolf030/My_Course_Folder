@@ -1,0 +1,17 @@
+- Virtual Private Networks (VPN): The key security feature, especially when you use a combination of on-premise and public cloud because it can provide point-to-point connections between components of a private network using a public network such as the internet. VPN is a popular secure connection technolgy; it encrypts data as it travels aross differnet networks, keeping it secure. Typcaly components that support VPN connections on a network inlclude firewalls, routers, gateways, and remote user support can use VPN clients. VPN clients are applications loaded onto computers, tablets, and even phones, to support secure connectivity across the internet.
+
+- Types of VPNs:
+
+  - A VPN encrypts your data on both sides of the connection which means that even if packets are intercepted on the public network, they wil be unreadable without the correct enryption keys. THis is very similar to be house's front door: without the right key you don't have any access.
+
+  - Two types of VPN connections:
+
+    - Remote Access: Remote access VPN connections enable users who are working at home, at customers sites, or from public wireless access points to access a server that exists in the organization's private network. They do so by using the infrastructure that a public network, such as the internet, provides. From the user's perspective, the VPN is a point-to-point connection between the computers, the VPN client, and the organizaiton's server. The exact infrastructure of the shared or public network is irrelevant because is logically appears as if the data is sent over a dedicated private link.
+
+    - Site-to-Site: Site-to-site VPN connections, known as router-to-router VPN connections, enables your oragnization to have routed connections between separate offices or with other organizaitons over a public network while maintaining secure communications.
+
+  - VPNs are great, but they are not always the best option; they can be slow and cause problems with some types of traffic. Also, connections over the internet can cause problems because it delivers traffic only on a best-effort basis which means there is no guarentee of a reliabe, speedy connection.
+
+  - An alternative to connection over the internet would be to use a dedicated connection that does not pass across the public internet. Most public cloud providers offer this as an option, with every provider giving their connection a specific name. For Microsoft Azure, this connection is called ExpressRoute, a dedicated connection that offers a reliable and highly available connection. It's like providing a second broadband connection to your home but just connecting it to one particular provider.
+
+  - As well as providing a direct connection to Microsoft Azure to use its service, ExpressRoute can also link differnet on-premise location.
