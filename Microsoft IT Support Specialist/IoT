@@ -2,4 +2,22 @@
 
   - The internet of things refers to connected devices that don't always need direct human input and can communicate amongst themselves and the cloud. This is possible because of technological advances in computer chips that have made them smaller, less expensive, and better able to deal with power demands. Computer chips like this can act as amll sensors collecting data, forming part of a much bigger product. For example, you may have a sensor in your fridge, and with network connectivity, it can communicate with an app that reports the fridge's capacity. The sensor could report on the contents of your fridge, and the data could help you decide which items to buy or not to buy to reduce food waste.
 
-  -
+  - Iot devices have expanded rapidly over the last few years, and many of these devices can be found in homes and all around you. the idea behind the concept is to integrate everydat things that you use to collect data. That data can be used to report on what is happening, to leanr, and also to maybe trigger an action.
+
+  - The idea is not new, but the technology has been limited untill now. Previously radio frequency identification tags (RFIDs) were used, and the best they could do was simply track a device's location in a building. This had problems as the tags could only sed signals at intervals or when passing a magnetic field to trigger a message or an alarm. It's this technology that is widely used in shops to prevent the theft of items. Passing through the magnetic field at the door with a tagged item sets off an alarm unless it is deactivated. Fortunatley, tehcnology has matured to allow us to do more and more things, bringing a new down for connected devices.
+
+  - The Components of the IoT:
+
+    - The IoT comprises three components: the device or sensor, communication, and back-end services.
+
+    - An IoT device is typically make up of a circuit board with sensors connected to a Wi-Fi network that connects to the internet.
+
+    - Let's use a car as an example and imagine all the things you could track. Connected sensors could include checking: oil level, tire pressure, engine temperature, impact, inside air quality, and the list goes on. You might even be using a similar device in your home right now, maye your home thermostat checing theambient temerature. Or a doorbell that can detect the presence of a person at the door.
+
+    - Communication: Typically, IoT devices record and send data from the sensors to back-end services in the cloud. They may also share data with other devices. This communication can be over many different technologies, many based around IP like WIFI, Bluetooth, cellular networks, and many more.
+
+    - Lastly: There are back-end services. These receive all the data from the sensors and can use it to report to a human or generate an action . The action could be something straightforward, like turning off the power if a device gets to hot. The back-end service can have an application attached to it that runs on, for example, your mobile phone and alerts you to particular events.
+
+    - Today the internet of things is used to try and omporve business and everyday life by attempting to increase effciency. You have probably heard about smart homes. Below is a diagram demonstrating how many devices can be connected to an app on a user's phone . These include cameras, a television, lights, power, security, a gaming console, a music player, a car, a fridge, and a smartwatch. And they're all connected to one monitoring and control system application. Now that's impressive! The IoT is even being used to create smart cities by monitoring, among other things, traffic, car park capacity, temp, and even trash cans to detect when they need emptying.
+
+    
