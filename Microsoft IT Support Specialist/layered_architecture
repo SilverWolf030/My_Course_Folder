@@ -1,0 +1,7 @@
+- Layered Architecture:
+
+  - Layered Architecturehas been the standard approach to networking for many years because it enables you to break a very complex process into smaller processes. This allows IT professional to focus on specific steps in isolation from others steps, and when changes are necesary, it does not affect other steps.
+
+  - There are many different models based on layered architecture. In fact, layered architecture is not just used in networking, it's also used in application development. However, the number of layers differs from model to model. Models are hlepful for interpreting processes that users interact with all the time without even being aware of the inderlying steps or layers involved.
+
+  - 
