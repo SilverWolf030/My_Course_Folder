@@ -1,0 +1,17 @@
+- OSI model:
+
+  - The OSI model provides a blueprint for how information can be broken down into its implest components, transported over a physical connection, and reassemled on the other side. OSI achieves interoperability, making it possible for devices of defferent types to communicate with each other.
+
+  - Concretely, the OSI model is a blueprint for where various activities should happen when transporting information between two connected devices on a network. This blueprint allows for easy debuggin and implementation of the various application. Each required step - taking user input in device A, encoding, transmitting, reveiving decoding, and presenting it in device B - is assigned to a different layer.
+
+  - This compartmentalization of tasks is the real strength of the OSI model and ensures that errors are easy to track down. The drawback of this approach is that there are a lot of redundant steps; data has to pass through many unnecessary layers before reaching its destincation. The TCP/IP model shares the same foundational principles as the OSI model but is more dondensed. Notably, the TCP/IP approach only implements four layers.
+
+- Model Comparison:
+
+  - The TCP/IP model is reasonably similar to the OSI model, but some differences exist. Instead of the OSI model's seven layers, there are only four. The processes associated with the OSI model's application, presentation, and session layer are compressed into one application layer in the TCP/IP model. Additionally, the network layer performs the data link and physical layer activities in the TCP/IP model.
+
+  - With the reduced layers, the separation of concerns is reduced, and consequently, the code is more tightly coupled. The OSI model has a more precise division of tasks between layers, while the TCP/IP model has lass distiction between intergaces, services, and protocols.
+
+https://www.juniper.net/documentation/us/en/software/junos/multicast-l2/topics/topic-map/layer-2-understanding.html
+https://www.cisco.com/E-Learning/bulk/public/tac/cim/cib/using_cisco_ios_software/linked/tcpip.htm
+https://learningnetwork.cisco.com/s/article/osi-model-reference-chart
