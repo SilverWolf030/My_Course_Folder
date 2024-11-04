@@ -4,4 +4,12 @@
 
   - There are many different models based on layered architecture. In fact, layered architecture is not just used in networking, it's also used in application development. However, the number of layers differs from model to model. Models are hlepful for interpreting processes that users interact with all the time without even being aware of the inderlying steps or layers involved.
 
-  - 
+  - So, the underpinning principle of layered architecture is the separation of concerns. This means that as much as possible, layered models structure similar tasks together and separate them from unrelated parts of a process or application.
+
+  - The OSI model:
+
+    - In the OSI model a range of complex processes is also split into separate layers to allow changes to one layer without affecting the next one. For instance, layer of the OSI models, which is the application layer, is not concerned with what happens in layer 1, the physical layer. All that is required is that layer 7 reveives the data in a format it can understand from layer 6, the presentation layer. Many things can change at each layer but as long as the input and output to eachlayer is correct the layers will continue to function.
+
+    - A perfect example of this is the network layer. This layer could be using IPv4 or IPv6 for addressing. Whethere it is IPv4 or IPv6 does not affect the functioning of anyother layer since it sill fulfills its function which is to route pachages and address devices.
+
+    - This characteristic has made the evolution of networking easier because all the different manufacturers of networking equipment follow the same layers and processes. For example, a manufacturer of routers can focus only on the layers that relates to routers which is the physical, data link, and network layers. This gives the manufacturer the ability to optimize what happens within these layers without worrying about the other layers where a router does not operate.
