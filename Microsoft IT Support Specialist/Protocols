@@ -1,3 +1,45 @@
 - Network Protocols:
 
+  - Communication protocols focus on establishing and maintaining a connection between devices. As you work with different devices and network services, you'll need to use various communication protocols.
+
+    - Hypertext Transfer Protocol (HTTP): The HTTP protocol uses TCP/IP to deliver web page content from a server to your browser. HTTP can also handle the download and upload of files from remote servers.
+
+    - File Transfer Protocol (FTP): FTP is used to transfer files between different computers on a network. Typically, FTP is used to upload files to a server from a remote location. While you can use FRP to download files, web-based downloads are typically handles through HTTP.
+
+    - Post Office Protocol 3 (POP3): POP3 is one of three email protocols. It's most commonly used by an email client to receive emails and it uses TCP to manage and deliver emails.
+
+    - Simple Mail Transfer Protocol (SMTP): SMTP, another email protocol, is used to send emails from an email client via an email server and it uses the TCP for managing and transmitting emails.
+
+    - Interactive Mail Access Protocol (IMAP): IMAP is the more powerful of the three protocols. It lets you manage a single mailbox on an email server in your organization using an email client.
+
+- Network Security Protocols:
+
+  - Network security protocols are designed to maintain the security and network of data across a network. Encryption is a key feature of network security protocols, which involves converting plain text into encoded, unreadable text to protect messages as they travel across the network. These protocols use encryption to secure messages and prevent unauthorized access or tampering.
+
+    - Secure Socket Layer (SSL): SSL is a standard encryption and security protocol. It provides a secure and encrypted connection between your computer and the target server or device that you accessed over the internet.
+
+    - Transport Layer Security (TLS): TLS is the successor to SSL and provides a stronger and more robust security encryption protocol. Based on the Internet Engineering Task Force (IETF) standard, it's designed to stop message forgery and tampering and eavesdropping. It's typically used to protect web browser communications, email, VoIP, and instant messaging. While TLS is now used, the replacement security protocol is often still called SSL.
+
+    - Hypertext Transfer Protocol Secure (HTTPS): HTTPS provides a more secure version of the standard HTTP protocol by using the TLS or SSL encryption standard. This combination of protocols ensures that all data transmitted between the server and the web browser is encrypted and secure from eavesdropping or data packet sniffing. The same principle is applied to the POP, SMTP, and IMAP protocols listed previously to create secure versions known as POPS, SMTPS, and IMAPS.
+
+    - Secure Shell (SSH) SSH is a cryptographic network security protocol that provides a secure data connection across a network. SSH is designed to support command-line execution of instructions, which including remote authentication to servers. FTP uses many of the SSH function to provide a secure file transfer mechanism.
+
+- Network Management Protocols:
+
+  - Network management protocols play a critical role in ensuring the smooth operation and sustainability of a network. Alongside communication and security protocols, they enable network administrators to monitor and manage devices and detect faults or performance issues.
+
+  - The achieve effective network management, administrators must continually monitor all devices on the network. These devices provide indicators about their state and health, which can be accessed using specialized network administrator tools.
+
+    - Simple Network Management Protocol (SNMP): SNMP is an internet protocol that allows for the collection of data from devices on your network and the management of those devices. The device has to support SNMP to gather information. Devices that typically support SNMP include switches, routers, servers, laptops, desktops, and printers.
+
+    - Internet Control Message Protocol (ICMP): ICMP is one of the protocols included within the Internet Protocol (IP) suite. It allows network-connected devices to send warning and error messages, along with operation information about the success of failure of a connection request, or if a service is unavailable. Unlike other network transport protocols like UDP and TCP, ICMP isn't used to send or receive data from devices on the network.
+
+- Vulnerabilities:
+
+  - Network communication protocols are necessary to connect devices, but they also present risks. The main problem is that data transfers can be intercepted, and this vulnerability applies to all network communication protocols.
+
+  - With traffic crossing the internet, there are even more opportunities for attackers to intercept data, and this is known as a man-in the -middle attack. It's like someone listening to your phone conversation while you're in a public place and writing down what you say. Therefore, it's important to be aware of these risks and take steps to secure your network.
+
+  - When it comes to securing your data, it's always a good idea to choose protocols that offer some level of protection. For example, let's consider HTTP, the protocol used for delivering data between your device and a web page. Unfortunately, it sends all of the data across the network in clear text, making it visible to anyone who may be listening. To better protect your data, you could use HTTPS instead. Like HTTP, it delivers data from a web page to you, but it encrypts the data to keep it secure and disguise it from potential eavesdroppers.
+
   -
