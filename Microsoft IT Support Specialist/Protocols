@@ -41,5 +41,3 @@
   - With traffic crossing the internet, there are even more opportunities for attackers to intercept data, and this is known as a man-in the -middle attack. It's like someone listening to your phone conversation while you're in a public place and writing down what you say. Therefore, it's important to be aware of these risks and take steps to secure your network.
 
   - When it comes to securing your data, it's always a good idea to choose protocols that offer some level of protection. For example, let's consider HTTP, the protocol used for delivering data between your device and a web page. Unfortunately, it sends all of the data across the network in clear text, making it visible to anyone who may be listening. To better protect your data, you could use HTTPS instead. Like HTTP, it delivers data from a web page to you, but it encrypts the data to keep it secure and disguise it from potential eavesdroppers.
-
-  -

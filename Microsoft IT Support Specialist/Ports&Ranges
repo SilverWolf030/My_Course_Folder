@@ -1,0 +1,90 @@
+- Reserved and Commonly Allocated Ports:
+
+  - Port Number Ranges:
+
+    - Well-known Ports: (0-1,023) are reserved for specific protocols and services used by system processes and applications.
+
+    - Registered Ports: (1,024-49,151) are assigned by IANA for specific services or protocols and can also be used by user applications.
+
+    - Dynamic or Private Ports: (49,152-65,535) are used by client applications to connect to servers and are assigned temporarily for the duration of a session.
+
+  - Well-known Ports#:
+
+    - Well-known port numbers are reserved for some of the most commonly used and popular protocols in computer network. These ports can either transfer verified dat via TCP or unverified data via UDP. They are assigned at the transport layer of the OSI model or TCP/IP suite and identified at the application layer.
+
+      - Common Well-known Port#:
+        - 20,21 / TCP / File Transfer Protocol (FTP) / Data Transfer
+        - 22 / TCP\UDP / Secure Shell (SSH) / Secure remote device access
+        - 23 / TCP / Telnet / Remote Device Access
+        - 25 / TCP / Simple Mail Transfer Protocol (SMTP) / Email
+        - 53 / TCP\UDP / Domain Name Server (DNS) / Name to IP address resolution
+        - 67,68 / UDP / Dynamic Host Configuration Protocol (DHCP) / Dynamic IP address assignment
+        - 69 / UDP / Trivial File Transfer Protocol (TFTP) / Booting device via the network
+        - 80 / TCP / HyperText Transfer Protocol (HTTP) / Web page data transfer
+        - 110 / TCP / Post Office Protocol (POP3) / One way main delivery
+        - 123 / UDP / Network Time Protocol (NTP) / Keeps time for the network
+        - 143 / TCP/UDP Internet Message Access Protocol (IMAP4) / Managing mailboxes
+        - 161,162 / TCP\UDP / Simple Network Management Protocol (SNMP) / Network Device Management
+        - 389 / TCP&UDP / Lightweight Directory Access Protocol (LDAP) / Authentication Service
+        - 443 / TCP\UDP / HTTP with Secure Sockets layer (SSL) (HTTPS) / Secure web page retrieval
+        - 500 / UDP / Internet Security Association and Key Manage,ent Protocol (ISAKMP) \ Internet Key Exchange (IKE) / Authentication
+        - 636 / TCP\UDP / Lightweight Directory Access Protocol over TLS/SSL (LDAPS) / Secure authentication services
+        - 989-990 / TCP / FTP over TLS\SSL / Secure Data Transfer
+
+    - (Complete List) https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
+
+    - When using protocol port numbers, the destination port is usually specified as the initial step in requesting the correct service from the device that provides the service. If a server can support multiple protocols, the destination prot must specify which protocol it wants to use.
+
+    - To improve the security of data being transmitted over networks, many protocols now have alternative versions. These alternative version often involve encryption using a security protocol to enhance security. One such example is HTTPS, which uses the Transport Layer Security (TLS) protocol to encrypt data as it moves across the network. TLS is also in other protocols to improve their security, with the letter 'S' added to the end of the original protocol name to signify the use of TLS.
+
+  - Registered Port#:
+
+    - Registered ports are assigned by IANA to companies for specific service that they want to use. These ports are often used in the gaming sector to identify the ports that need to be opened in home networks to allow games to function.
+
+    - Examples include prot 3074 for the XBOX live network or port 3,479 for the Playstation network. These ports have changed as games become less relevant and new ones emerge on the market. As technology changes, new ports are assigned and old ones are retired. Some registered ports have been around for a while, such as SIP and H323 which are video conferencing protocols that use port numbers 1,719, 1,720, 5,060, and 5,061. For SIP, prot 5,060 is used for unencrypted data, while prot 5,061 is used for encrypted data.
+
+  - Dynamic or Private Port#:
+
+    - Dynamic or Private ports are essential for communication between protocols using TCP or UDP. When a computer has multiple web pages open simultaneously, dynamic ports are used to identify different sessions. Each open web page will be associated with a different port number, which serves as the source port number for communication between devices. This is crucial because it allows your computer to determine which data belongs to which web page, and it is also the number used for devices to communicate responses.
+
+- Ports in Use Case Study:
+
+  - Identifying protocols and sessions on a Windows device
+
+  - To find the current sessions and protocols in use on a Windows machine, you can use the command prompt. As you may recall, you used the command prompt earlier to find your IP address. This application is available in most Windows operating systems and is commonly used to troubleshoot or solve certain kinds of Windows issues.
+
+    - Here's how to open the command prompt and get your current sessions and protocols:
+
+      - Click on the Windows Start button in the taskbar, typically located at the bottom of your screen.
+
+      - Type cmd in the search bar and click on the thumbnail for the command prompt app.
+
+      - An app with a black background will load. Type netstat -a in the black space and press enter.
+
+      - Wait for 30 seconds to view the sessions that are currently in use.
+
+      - Identify one of the sessions by noting the ports and protocols in use.
+
+    - The netstat command commonly displays http or https as protocols when executed. Other protocols will display, depending on the applications currently running on the system.
+
+    - HTTPS displayed as protocol after entering netstat-a command
+
+  - Identifying protocols and sessions on a Mac
+
+  - To find the current sessions and protocols on a Mac machine, you need to launch the Terminal app. You might recall from an earlier example that the Terminal app is a command line interface (CLI) for the operating system (OS) used by Macs. Network administrators typically use the Terminal app to initiate an action that is not supported by the operating system's graphical user interface (GUI).
+
+    - Here's how to open the Terminal app and get your current sessions and protocols:
+
+      - Open the Terminal app using Spotlight search or find it via Go > Utilities.
+
+      - A window with a white background will load. Type netstat -a in the white space.
+
+      - A Mac device can produce a lot of output, so scroll back to where you typed the netstat command, and directly beneath this you will have your sessions.
+
+      - Identify one of the sessions by noting the ports and protocols in use.
+
+- (Additional Resources)
+  https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?&page=1
+  https://blog.hubspot.com/website/http-vs-https
+  https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/setup-nat-network
+  https://brightwhiz.com/demystifying-nat-network-address-translation-and-port-forwarding/
