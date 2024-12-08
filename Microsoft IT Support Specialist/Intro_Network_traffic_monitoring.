@@ -1,0 +1,3 @@
+- Network Traffic Monitoring:
+
+  - Monitoring can be split into two main tasks: network monitoring and network traffic monitoring. On the one hand, network monitoring involves keeping track of network devices for availability and faults. In contrast, network traffic monitoring is monitoring what protocols and data are moving around a network and monitoring for performance and security threats.

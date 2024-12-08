@@ -1,0 +1,47 @@
+- DNS Attacks:
+
+  - DNS Server Types:
+
+    - There are four types of DNS servers, that provide a structure, each type playing a different role in that structure. There are the recursive DNS servers, the root domain servers, top-level DNS servers, and the authoritative DNS servers. The model is hierarchical, so you must start to the top and work your way down.
+
+  - Recursive DNS server:
+
+    - First is the recursive server - or resolvers -which is usually the DNS server on your device with its IP address configured either manually or via DHCP. If it receives a DNS request and it's familiar with it, the recursive resolver can respond with the IP address straightaway from its memory. If the recursive resolver is unfamiliar with the IP address, the request must go to the root domain servers.
+
+  - Root Domain Servers:
+
+    - There are 13 root domain servers spread across the world; all looked after by a governing body called the Internet Assigned Numbers Authority (IANA). The root domain server'job is to direct queries to the correct location. Again, the root server could potentially have the answer if it has dealt with the IP recently, but if not, it wil pass the query to the top-level domain servers that are responsible for that area.
+
+  - Top-Level DNS Server:
+
+    - Top-Level servers (LTD) look after areas and even countries. Domain name extensions like .com, .co.uk, .net, and .org are all different TLD servers. Again, they can give the correct location if they have recently received this request. If not, they will forward the query to the authoritative name servers.
+
+  - Authoritative DNS Server:
+
+    - These servers hold the specific information the client has been trying to obtain. Thus it wil provide the necessary website name-to-ip-address translation for the recursive DNS server. These servers are where companies register their names - known as domains - like Microsoft.com. These servers are spread over hundred of locations, providing the many DNS servers needed to support the internet.
+
+    - Requesting a name-to-ip-address translation repeats with each server level until the query has been answered. No further steps are required if the answer lies in the recursive DNS server. But if it doesn't, it has to be passed along though each type of server until the answer is returned.
+
+- DNS Attacks:
+
+  - The structure of DNS is both its strongest and weakest attribute. In other words, with so many servers, it's very fast and reliable, and servers can take over from others if there's a problem. But having so many servers means there are more opportunities for attacks because protecting all of them at the same time is a near-impossible task. This is because they are also managed by different groups and companies. DNS is susceptible to many diverse attack types across its structure, and here are five of the main types of attacks.
+
+  - DNS Spoofing:
+
+    - This type of attack involves altering DNS records that store the translations between website names and IP addresses at the DNS resolvers, altering their cache or memory. This means that someone could be diverted to a site that delivers a virus or is even spoofing or imitating another site. These are dangerous as you could input sensitive information like passwords on these spoof sites, handing to the attackers.
+
+  - DNS Hijacking:
+
+    - Hijacking is similar to spoofing but redirects DNS queries to a DNS server under the attacker's control. This means they can send users anywhere they want them to be. For example, a fake banking site that looks exactly like the original where someone types in their details, which the attacker can use to gain access to their bank account.
+
+  - DNS Tunneling:
+
+    - This attack hides other protocols inside DNS queries and responses' payload data. Attackers use this to pass malware or other protocols to take over a server remotely. Tunneling attacks generally involves hiding something from a firewall by having one protocol that it sees on the outside but is actually very different inside. This is like taking an item in tis original packaging, replacing it with something else in the same packaging, and the passing it off as the original.
+
+  - DNS Amplification:
+
+    - This type of attack is aimed at creating a denial service. It other words, its aim is to overwhelm a server so it cannot perform its intended job. For DNS, this involves sending DNS request with a fake source IP address, meaning the DNS replies go to a target the attackers has chosen. An attacker could create hundreds of request, overwhelming the target. This attack uses publicly available DNS servers.
+
+  - DNS Flood Attack:
+
+    - DNS flooding is similar to amplification, but instead of targeting another source server, the attack overwhelms the DNS server itself by sending thousands of spoofed DNS requests. This stops any genuine requests from working.
