@@ -1,3 +1,25 @@
 - Network Traffic Monitoring:
 
   - Monitoring can be split into two main tasks: network monitoring and network traffic monitoring. On the one hand, network monitoring involves keeping track of network devices for availability and faults. In contrast, network traffic monitoring is monitoring what protocols and data are moving around a network and monitoring for performance and security threats.
+
+  - Monitoring Bandwidth:
+
+    - Bandwidth is an important concept when it comes to network traffic monitoring and performance. It's a term you might be familiar with because when you look for an internet provider, you generally want the fastest connection you can afford, meaning bandwidth is your first priority. That's because it determine the rate at which data moves across a network. This is not usually a problem if only a few people and applications use a network. But things can get pretty busy, and some applications are more demanding than others. Just take video conferencing as an example; it takes up a lot more bandwidth than just visiting a web page. Bandwidth is much like the road in the illustration below: you can only a accommodate a certain number of cars before the road becomes blocked. That's why monitoring what is using a lot of bandwidth is critical.
+
+  - Monitoring Users:
+
+    - When monitoring your network, you also want to track users to check what applications they use and what their regular day-to-day activity is. Doing this can create an audit trail, but more importantly, it reveals patterns so you can better understand the network traffic behavior on a day-to-day basis. Knowing how your network behaves makes it easier to spot when something isn't quite right. This is very similar to a security guard keeping an eye on a shop and identifying suspicious customers based on what they've learned from the out-of-the-ordinary behavior of customers who previously stole from the shop. On a network, you can also look for out-fo-place activity. For example, you notice a new application for the first time or that something specific uses a lot more bandwidth that ususal. This could be a security problem, maybe there's an attack generating traffic, or perhaps it's simply something new that needs more bandwidth, and the network has to adjust to accommodate it.
+
+  - Network Traffic Monitoring Steps:
+
+    - Choose your data source and protocols:
+
+      - To monitor network traffic, you need to determine the best source. This monitoring can be split into two categories: packet capture and flow analysis.
+
+      - Packet Capturing:
+
+        - This is a way of collecting copies of packets that are moving around a network. You can decide to do this at different points across the network using a computers to run the packet capture software and a mirrored port. A mirrored port is created to copy and data that runs through it to your computer port and the connected packet capturing software. An application called Wireshark has traditionally been the go-to choice for performing this activity.
+
+      - Flow Analysis:
+
+        - Flow analysis is supported on many network devices and is typically a built-in feature.
