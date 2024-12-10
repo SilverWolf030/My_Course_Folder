@@ -41,5 +41,24 @@
 
       - Flow Analysis:
 
-        - Flow analysis is supported on many network devices and is typically a built-in feature.
-        
+        - Flow analysis is supported on many network devices and is typically a built-in feature. Two protocols that an do this are called
+        Netflow and Sflow. Netflow is a Cisco proprietary protocol that runs on Cisco routers and switches. SFlow was developed to work on many
+        platforms. Netflow collects IP traffic only, but SFlow can collect and analyze data from layers 2 to 7 of the OSI model. They type of 
+        analysis does not copy data from one port to another, so it's very flexible as the data can be collected centrally.
+
+    - Selecting the correct component:
+
+      - Devices on the network that can support traffic monitoring include servers, switches, routes, and firewalls.
+      You can even monitor specific interfaces and their applications as well as devices. However, you don't want to capture everything happening
+      everywhere on your network, as this will generate a lot of data to analyze. You need to pick key areas of the network that oversee communication.
+
+      - Packet capturing will only be used when troubleshooting particular problems in a specific area because it's restricted to the area you are plugged into.
+      Flow analysis does not capture whole data packets like packet capturing. Instead it captures packet details like ports and IP address. In other words, 
+      just the information needed to understand data from many different devices at the same time.
+
+    - Using Monitoring tools:
+
+      - When a network grows, so does the amount of data flow that you will need to analyze, and this is when you need third-party software that can collect all the
+      flow traffic. There are many different traffic monitoring tools out there that are very capable of analyzing flows and putting the data into an easy-to-read format.
+      They usually also include tools for alerting a network manager of problems or anomalies on the network.
+      
