@@ -1,0 +1,56 @@
+- What is a log file?:
+
+  - Log files are records of event committed to a file in a list format. They can include all sorts of information about events that happened at a particular time. Every device on the network creates log files, thus giving you a history of what's been happening.
+
+  - Logs typically contain five headed-up areas. They are:
+
+    - Timestamp - the time of the event
+    - Log Level - how severe or important the event is.
+    - Username - who caused the event.
+    - Service or Application - what caused the event.
+    - Event Description - what has happened.
+
+  - This information is useful, especially because it's timestamped. If you were troubleshooting a problem, you could check the logs of a particular device to see what was going on at the time of the issue. Log files can be huge and store a lot of information, so you need to know what you are looking for. Thus the importance of the timestamp is a critical part of any log.
+
+- Log File Types:
+
+  - Event log - records information about the usage of network traffic and tracks login attempts, application events, and failed password attempts.
+
+  - System Log (or syslog) - records operating system events, including startup messages, system changes, shutdowns, and errors, and warnings.
+
+  - Server Log - contains a record of activities in a text document related to a specific server over a specific period of time.
+
+  - Change Log - lists changes made to an application or file.
+
+  - Availability Log - tracks uptime, availability, and system performance.
+
+  - Authorization and Access Log - lists who is accessing application or files.
+
+  - Resource Log - provides information on connectivity issues and any capacity problems.
+
+  - Logs can be stored in many different formats. Applications like the Windows Event Viewer allows for easier troubleshooting and viewing of different events. But not all devices on a network have a graphical application like the event viewer on a Windows PC.
+
+- Log File Filtering:
+
+  - Filtering and searching through log files can be tedious and time-consuming, so it's good to know that the process can be sped up.
+
+  - The easiest is to have a tool that can capture, display, and even analyze logs for you. Like, for example, Windows Azure Monitor, which you can use in the cloud to track what is happening.
+
+  - The next option would be to use a search function within an application like Notepad in Windows.
+
+  - Lastly, you can use search and filter commands. Different operating systems will allow you to search log files using certain commands. For example, the command grep is a great command as it is supported across many Linux systems and will allow you to search for patterns withing log files. If you're searching for a particular error or IP address, this can be very powerful command. Using such a command requires practice for you to really benefit from the advanced search capabilities and filtering they can provide.
+    https://opensource.com/article/21/3/grep-cheat-sheet
+
+  - For Windows, findstr is the command to use in the command prompt application. https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/findstr
+
+  - Windows Powershell is another powerful tool used to filter and search using the Select-String command. https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4&viewFallbackFrom=powershell-7.3
+
+  - https://learn.microsoft.com/en-us/windows-server/networking/dns/quickstart-install-configure-dns-server?tabs=powershell
+
+  - https://public-dns.info/
+
+  - https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/top-5-most-famous-ddos-attacks
+
+  - https://learn.microsoft.com/en-us/azure/azure-monitor/overview
+
+  - https://www.fortinet.com/resources/cyberglossary/qos-quality-of-service
