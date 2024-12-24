@@ -1,7 +1,37 @@
 - How servers can help business and organizations.
 
-- Servers are a vital component of modern businesses. They provide a centralized location for managing and accessing resources and services, which can help businesses to simplify their operations and improve their efficiency.
+  - Servers are a vital component of modern businesses. They provide a centralized location for managing and accessing resources and services, which can help businesses to simplify their operations and improve their efficiency.
 
-- Improved Collaboration: Servers can facilitate collaboration because they provide a centralized location for storing and sharing files. This can help teams to work together more efficiently and improve their productivity.
+  - Improved Collaboration: Servers can facilitate collaboration because they provide a centralized location for storing and sharing files. This can help teams to work together more efficiently and improve their productivity.
 
-- Scalability: Servers can scale up or down to meet the changing needs of a business. This means that businesses can easily add or remove resources as their needs change, which can help them to save money and avoid wastage.
+  - Scalability: Servers can scale up or down to meet the changing needs of a business. This means that businesses can easily add or remove resources as their needs change, which can help them to save money and avoid wastage.
+
+  - Security: Servers provide a secure platform for storing and managing sensitive data, such as customers information, financial data, and intellectual property. This can help business to protect their assets and avoid data breaches.
+
+  - Accessibility: Server provide remote access to resources ans services, which can help businesses to operate from anywhere in the world. This can help businesses to expand their reach and improve their customer service.
+
+  - Cost Savings: Servers save businesses money by reducing the need for expensive hardware and software. They also downscale IT staff by providing centralized management and maintenance.
+
+- Client-Server Working Models:
+
+- There are a few client-server models that differ in terms of how the client and server software communicates and how the server shares data and resources with clients. Let's explore different client-server models.
+
+  - Request-Response Model: This is the most common type of client-server model. In this model, the client sends a request to the server, and the server responds with the requested data or resource. the request can be simple HTTP request or a more complex one, such as a database query. The client can be a web browser, a mobile app, or any other software that can send a request to a server. This model is widely used in web applications you use every day, such as Bind search, Office 365 online application and Microsoft Outlook, where the client requests web pages from a web server.
+
+  - Peer-to-peer models (P2P): A peer-to-peer model has no central sever. Instead, all devices on the network can act as both a client ans a server, sharing data and resources with each other. This P2P needing a central server. Peer-to-peer networks can be more scalable and fault-tolerant than client-server networks, as there is no single point of failure.
+
+  - Publish-subscribe model: In a publish-subscribe model, the server sends data to client who have subscribed to receive updates on specific topics or event. The clients do not send requests to the server, instead, they receive data whenever the server publishes updates. This model is commonly used in real-time applications, such as stock market tickers or social media feeds, where clients need to receive real-time updates.
+
+- Risks involved in client-server networking:
+
+- While client-server networking can benefit a business, some risks must be considered. The most common risks are;
+
+  - Security Risks: Client-server networks are susceptible to various security threats such as viruses, malware, hacking, and data breaches. If attackers succeed in compromising a server on a network, it will be easy to manipulate client machines on that network too. These threats can result in the loss or theft of sensitive data, damage the business's reputation, and incur financial losses.
+
+  - Dependency: Client-server networks depend on the server to provide services and resources. If the server goes down or experiences a technical issues, it can disrupt the entire network and affect business operations.
+
+  - Complexity: Client-server networks can be complex to set up and maintain, requiring specialized technical expertise. This can increase the maintenance costs of a network and make it difficult for businesses without technical expertise to manage the network effectively.
+
+  - Cost: Client-server networks can require significant upfront costs, including purchasing and maintaining servers, software licenses, and other hardware. This can be a barrier for small businesses or startup with limited resources.
+
+  - Downtime: Client-server networks can experience downtime due to technical issues, maintenance, or upgrades. This can result in a loss in productivity and revenue.
