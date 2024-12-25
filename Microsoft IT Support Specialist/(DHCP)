@@ -1,0 +1,15 @@
+- How does DHCP work?
+
+  - When a device connects to a network, it sends a request for an IP address to the DHCP server. The DHCP server then assigns an available IP address to the device, along with other network configuration settings such as:
+
+  - Subnet Mask
+  - Default Gateway
+  - DNS server addresses
+
+  - DHCP uses a process called leasing to assign IP addresses. When a device needs IP addresses and sends the request to the DHC server, the server assigns an address to it from the available pool of IP addresses. Additionally, the server then assign a lease time to the IP address which is the amount of time the device can use the IP address before it needs to be renewed.
+
+  - When the lease time expires, the device must renew the IP address by requesting a new lease from the DHCP server. If the IP address is still available, the server will renew the lease and extend the lease time. If the IP address is no longer available, the server will assign a new IP address to the device.
+
+- DHCP IP Assignment Steps:
+
+  - DHCP Discover:
