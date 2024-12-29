@@ -25,15 +25,15 @@
       - Limited range and signal strength compared to wired networks, requiring additional access points for larger areas
       - Security risks due to the wireless signal being accessible to anyone within range, requiring strong encryption and authentication measures
       - Slower speeds compared to wired networks, especially over longer distances or when multipl users are connected.
-      - May require additional equipment and mainteneance, such as repeater and signal boosters, to maintain connectivity and performance
+      - May require additional equipment and maintenance, such as repeater and signal boosters, to maintain connectivity and performance
 
 - Wide Area Networks (WAN):
 
-  - A Wide Area Network convers a vast area, connecting hundreds and thousands of LANs in separate places. The internet is an excellent example of a WAN. As you may recap WANs utilize various methods like leased lines, satellites, and wireless networks to connect the LANs to the main network.
+  - A Wide Area Network covers a vast area, connecting hundreds and thousands of LANs in separate places. The internet is an excellent example of a WAN. As you may recap WANs utilize various methods like leased lines, satellites, and wireless networks to connect the LANs to the main network.
     - Advantages of WAN:
       - Enables communication and sharing of resources across large distances.
       - Allows for remote access and collaboration
-      - Can improve effciency and productivity in a distributed organizaiton
+      - Can improve efficiency and productivity in a distributed organizaiton
       - Keeps working if there is a failure in one part of the network without affecting the overall performace of the system.
     - Disadvantages of WAN:
       - Needs expensive, high bandwidth, and dependable connections

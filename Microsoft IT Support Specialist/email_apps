@@ -6,24 +6,24 @@
 
     - Phishing Emails: Messages that try to hook people and trick them into revealing sensitive information about themselves. These often ask you to click a link and enter your data there.
 
-    - Email Spoofing: When a fraudulent email from a well-kown source, such as Amazon or the post office, tries to trick a user into doing an action like completing a payment.
+    - Email Spoofing: When a fraudulent email from a well-known source, such as Amazon or the post office, tries to trick a user into doing an action like completing a payment.
 
-    - Speat Phishing: Refers to emails designed to be from someone you know, with some encouragement to click or otherwise trigger malware to be installed on the computer.
+    - Spear Phishing: Refers to emails designed to be from someone you know, with some encouragement to click or otherwise trigger malware to be installed on the computer.
 
-    - Whaling: is a tyoe of spear phishing attack that is aimed at CEOs or high executive officers with threats of legal ramifications if left unaddressed.
+    - Whaling: is a type of spear phishing attack that is aimed at CEOs or high executive officers with threats of legal ramifications if left unaddressed.
 
     - Advertisements: Emails offering products or services. The offers may even be legitimate, but they are often unsolicited and it can take a lot of effort to stop them.
 
-    - Chain Letter: Emails stating that you will reveive bad luck if you don't forward to 5 of your friends. This is a prctive that has evolved and is prcticed with social media post.
+    - Chain Letter: Emails stating that you will receive bad luck if you don't forward to 5 of your friends. This is a practice that has evolved and is practiced with social media post.
 
-- Protction against spam:
+- Protection against spam:
 
-  - Automatic and Coninuous Virus Scanning: which continually scans content for spam.
+  - Automatic and Continuous Virus Scanning: which continually scans content for spam.
   - Connection Filtering: Monitors the sender's profile and only allows reputable sources in.
   - Filtering: Functionality that relies on lists of domains and sites that are either allowed or not allowed through.
-  - Quarantining: Is when suspect messages are labeled as dangerous and kepg separate for futher investigation.
+  - Quarantining: Is when suspect messages are labeled as dangerous and kept separate for further investigation.
 
-  - All of these filters can be configured using transport rules. These rules determine which filters are applied and how stringently the email is vetted. Emails labeled as spam can then be used to train a filter to exclude emails exhibition specific unwanted characeristics automatically.
+  - All of these filters can be configured using transport rules. These rules determine which filters are applied and how stringently the email is vetted. Emails labeled as spam can then be used to train a filter to exclude emails exhibition specific unwanted characteristics automatically.
   - In more advanced settings, it is possible to report an email and have a company policy where all reported emails are investigated and pronounced spam or otherwise.
 
   https://www.coursera.org/learn/introduction-to-computers/supplement/DRA8v/additional-resources-email-apps
