@@ -12,4 +12,42 @@
 
 - DHCP IP Assignment Steps:
 
-  - DHCP Discover:
+  - DHCP Discover: This step is like a device shouting, "Hello, is there anyone out there who can give me an IP address?" The device sends out a broadcast message called DHCP Discover, which is intended to find any available DHCP servers on the network. This message includes some details about the device, such as its MAC address and hostname. It's like the device is introducing itself to the network, saying "Hey, I'm new here, and i need an IP address to start working properly." A MAC address is a unique identifier for every device that connects to a network. It's shown as a series of 12 characters that include numbers (0-9) and letters (A-F or a-f). These characters are often grouped into pairs and separated by colons (:) or dashes (-). For example, the MAC address 02A4C67890BD can be written as 02:a4:c6:78:90:bd or 02-A4-C6-78-90-BD.
+
+  - DHCP Offer: When a DHCP server receives the DHCP Discover message it sounds out a reply, This is called DHCP Offer, and it includes an available IP address that the server can be assigned to the device.
+
+  - DHCP Request: After receiving the DHCP Offer, The device then sounds out a request message to the DHCP server, requesting the IP address that was offered.
+
+  - DHCP Acknowledgment: Finally, the DHCP server replies to the device's request with a DHCP Acknowledgment message. The message confirms the assignment of the IP address to the device and provides the additional configuration information.
+
+- DHCP IP Renewal Process:
+
+  - DHCP Lease Time: When a device gets an IP address from a DHCP server, the server also assigns a least time to the address. The lease time is like a permission slip that says the device can use the IP address for a certain period.
+
+  - DHCP Renewal: As the lease timers nears its end, the device starts to get nervous and wonders, "What will happen when my lease is up?" To avoid losing the IP address, the device sends a DHCP Renewal request to the DHCP server.
+
+  - DHCP Server Response: The DHCP server receives the DHCP Renewal request and checks if the IP address is still available. If the IP address is still free, the server sends a DHCP Acknowledgment message that renews the lease time for the device.
+
+  - DHCP Address Release: If the device doesn't renew the lease, or the DHCP server doesn't respond to the renewal request, the lease time expires. The IP addresses then released back to the pool of available addresses.
+
+- Advantages and Disadvantages of the DHCP System:
+
+  - There are several advantages of DHCP, its automates process simplifies network configuration, reduces administrative overhead and configuration errors, especially for large networks. But there are also some disadvantages of DHCP because it relies on a single DHCP server to manage the assignment of IP addresses and other configuration information. It the DHCP server goes down, devices on the network may not be able to obtain IP addresses or connect to the network. DHCP can also introduce security risks if no configured properly. For example, rogue DHCP servers can be used to assign IP addresses and other configuration information to devices on the network, potentially exposing sensitive data to attackers.
+
+  - DHCP Relay: Imagine you're a device that needs an IP address, but you're not directly connected the a DHCP server. Instead, you're connected to a switch that's connected to another switch, and that switch is finally connected to the DHCP server. What do you do?
+
+    - Well, that's where a DHCP relay agent comes in. IT is like having a messenger bird that flies between you and the DHCP server to deliver your message. A DHCP Relay Agent is special program that's installed on the switches. It intercepts and forwards DHCP messages between devices on other subnets and the DHCP server.
+
+- https://learn.microsoft.com/en-us/training/modules/network-fundamentals-2/2-basic-client-server
+
+- https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/set-up-your-small-business-network
+
+- https://learn.microsoft.com/en-us/training/paths/configure-networking-windows-clients/
+
+- https://learn.microsoft.com/en-us/troubleshoot/windows-server/printing/install-configure-file-print-server
+
+- https://learn.microsoft.com/en-us/training/modules/deploy-manage-dynamic-host-configuration-protocol/
+
+- https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-deploy-wps
+
+- https://learn.microsoft.com/en-us/training/modules/explore-remote-access/
