@@ -1,0 +1,35 @@
+- Authentication Versus Authorization:
+
+  - The main difference between authentication and authorization is that authentication verifies the identity of a user, while authorization determines what resources and services they are allowed to access. In other words, authentication is the process of proving who you are, while authorization is the process of determining what you are allowed to do.
+
+  - Authentication is typically the first step in the access control process, as it ensures that only authorized users are granted access to the system. Once a user is authenticated, authorization mechanisms are used to determine what resources and service those users will be allowed to access.
+
+    - Authentication:
+
+      - Verifies the identity of a user, device, or system
+      - Prevents access if not verified
+      - First line of defense
+      - Typically, a one-time event
+      - Relies on user-provided credentials
+
+    - Authorization:
+
+      - Determines what actions a user can perform
+      - Controls access to resources
+      - Second line of defense
+      - Ongoing process
+      - Relies on predefined policies and rules
+
+- Authorization is an ongoing process:
+
+  - This all means that authorization is not a one-time process. It requires continuous monitoring and updating. As the needs of the organization and its users change over time, access control policies should be reviewed and updated to ensure they remain effective and relevant.
+
+  - Changes in regulations or industry standards may also require updates to access control policies to ensure compliance.
+
+  - This ongoing authorization process can also involve monitoring user activity to detect any unauthorized access or suspicious behavior. Monitoring also positions organizations to detect and respond to potential security best practices. If users understand their responsibilities in maintaining a secure environment, it can help prevent security incident.
+
+  - In short, authorization is not a one-time event but rather a continuous process that requires ongoing attention and effort to ensure the security of the organization's resources and services.
+
+- Authorization Models:
+
+  -
