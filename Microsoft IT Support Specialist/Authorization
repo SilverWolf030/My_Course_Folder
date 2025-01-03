@@ -32,4 +32,18 @@
 
 - Authorization Models:
 
-  -
+  - There are several different authorization models used in modern organizations, businesses, and computing. These models vary in their approach to controlling access to resource and services and are designed to meet the specific needs of different environments.
+
+  - Role-Based Access Control (RBAC): is a model that assigns permission and privileges to users based on their predefined roles within an organization. this model is designed to simplify the management of large-scale systems by reducing the need for individual user-level permissions. This is the most common access control model that is widely adopted. Using RBAC, you can easily form a group of individuals, assign them to a role and then grant or deny permissions based on this role. The RBAC authorization model is so popular because it is time and cost-effective.
+
+  - Attribute-Based Access Control (ABAC):is like RBAC but considers attributes such as user roles, geographical locations, environment conditions and other contextual information when making access control decisions. This model provides fine-gained access control and enables organizations to implement complex access policies based on multiple criteria.
+
+  - Mandatory Access Control (MAC): is a model that enforces access control based on predefined security policies. In the model, access to resources is controlled by a central authority rather than by individual users or resources owners. The central authority decides who can access a resource based on their security clearance level. This model is commonly used in government agencies, military organizations, and other high-security environments.
+
+  - Discretionary Access Control (DAC): is a model in which users have the discretion to control access to resource they own. In this model, the owner of the resource decides who can access the resources and what extent. For example, in a shared folder, the owner can restrict access to specific files or folders, DAC is easy to implement, but it can lead to security issues if the owner does not manage access properly.
+
+  - Rule-Based Access Control (RuBAC): is a fairly new access control model that incorporates the best of RBAC and ABAC and allows for greater flexibility in access control. In this model, access to resources and services is determined by a set of rules. These rules can be based on a combination of factors, such as "users with role A can access this resource between 9am and 5pm, while users with role b can access it between 5pm and 9am" and so on.
+
+  - Federation: is a model for controlling acces to resources and services across multiple organizations or domains. It enables secure collaboration between oragnizations while maintaining contorl over access to resources. The great advantage of Federation is that it allows user to access resources and services of other organizations without requiring separate authentication for each organization.
+
+  - In a Federation model, each organization maintains its own identity and across management system. These systems are then interconnected using a federation protocol, such as Security Assertion Markup Language (SAML) or OpenID Connect. When a user from one organization attempts to access a resource of another organization, the federation protocol is used to authenticate the user and determine their level of access.
