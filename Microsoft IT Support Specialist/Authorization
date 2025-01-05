@@ -47,3 +47,17 @@
   - Federation: is a model for controlling acces to resources and services across multiple organizations or domains. It enables secure collaboration between oragnizations while maintaining contorl over access to resources. The great advantage of Federation is that it allows user to access resources and services of other organizations without requiring separate authentication for each organization.
 
   - In a Federation model, each organization maintains its own identity and across management system. These systems are then interconnected using a federation protocol, such as Security Assertion Markup Language (SAML) or OpenID Connect. When a user from one organization attempts to access a resource of another organization, the federation protocol is used to authenticate the user and determine their level of access.
+
+- https://learn.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-phone
+
+- https://www.microsoft.com/en-us/security/mobile-authenticator-app
+
+- https://www.microsoft.com/en-us/security/business/solutions/passwordless-authentication
+
+- https://www.youtube.com/watch?v=tkQJSHFsduY
+
+- https://learn.microsoft.com/en-us/entra/identity-platform/authentication-vs-authorization
+
+- https://learn.microsoft.com/en-us/sharepoint/trad-vs-modern-intranet
+
+- https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/vpn/vpn-connection-type
