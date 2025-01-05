@@ -1,0 +1,44 @@
+- Internet: Earlier you learned that the internet is a global network that connects computers and other devices across the world. It's a public network that allows you to access information and services from anywhere in the world. Remember, the internet is an open network, meaning that anyone can access it , and it's not owned by any single organization or entity.
+
+- Intranet: It's a private network that's used withing an organization to share information and resources. It's similar to the internet but is restricted to authorized users. You access it from withing the organization's network, but it can also be accessed remotely through a VPN connection.
+
+- Intranet use purposes varve including:
+
+  - Internet Communication: Including email, messaging, and video conferencing.
+  - Resource Sharing: Including sharing document and other resources withing the business.
+  - Knowledge management: It can also be sued for sharing knowledge and expertise, such as best practices, training resources, and polices.
+  - Project management: It can be used for managing projects within an organization, including task management, scheduling, and collaboration.
+
+- Extranet: An extranet takes intranet a step further. It's also a private network. It's used for sharing information and resources securely between and organization and its external partners, vendors, and customers. Internal users access it just like and intranet, but it is also accessible to authorized external users.
+
+- Uses of Extranet:
+
+  - Improved Collaboration: The extranet enables organizations to collaborate with external parties in secure and controlled manner. It allows for the sharing of information, documents, and other resources, which can help to improve communication and collaboration between different stakeholders.
+  - Enhanced communication: Extranets provide a secure and controlled environment for communication between an organization and external parties. This can help to improve communication and reduce errors and misunderstanding.
+  - Streamlined Business Processes: An extranet can help streamline business processes by allowing external parties to access relevant information and resources. This helps to reduce administration and prove the efficiency of business processes.
+  - Better Customer Service: An extranet can be used to provide better customer service by allowing customers to access relevant information and resources. This can include information about products and services, order status, and support resources.
+  - Increased Productivity: By providing external parties with access to relevant information and resources, and extranet can help to increase productivity. This can include access to training materials, product information, and other resources that can help external parties to work more effectively.
+
+- Wi-fi routers' security protocols:
+
+- WEP (Wired Equivalent Privacy): is an older wireless security protocol that is no longer considered secure. WEP uses a shared key to authenticate users and encrypt data. However, WEP is vulnerable to security breaches, and its encryption can be easily cracked.
+
+- WPA (Wi-Fi Protected Access): is a wireless security protocol that provides stronger encryption and authentication than the older WEP standard . WPA uses a passphrase or key to authenticate users and encrypt data. WPA2 is the latest version of WPA and is considered the most secure wireless security protocol.
+
+- WPA2 : is the most widely supported wireless security protocol these days. It uses a stronger encryption algorithm than WPA and provides better protection against hacking and security breaches.
+
+- WPA2-PSk ( Wi-Fi Protected Access W Pre-Shared Key): is a version of WPA2 that used a pre-shared key (PSk) for authentication. This means that all devices that connected to the wireless network must know the same PSK to access the network.
+
+- EAP-TLS (Extensible Authentication Protocol-Transport Layer Security): EAP-TLS is a wireless security protocol that is widely used in enterprise-level networks. It provides strong security by using digital certs to authenticate users and encrypt data. EAP-TLS is considered one of the most secure wireless secure wireless security protocols available.
+
+- MAC-Based Security: is a wireless security protocol that uses the MAC address of a device to authenticate users and grant access to the wireless network. MAC-based security is more secure than WEP but less secure than WPA or WPA2
+
+- Authent Mech | WEP | WPA | WPA2
+- Security level | Low | Medium | High
+  Encryptype |64-bit or 128-bit | TKIP\* | AES
+  Key management| Static key | 802.1x or PSK\*\* |802.1x or PSK
+  Vulnerabilities | Easily hacked | Vulnerable to brute-force attacks | More secure than WPA and WEP
+  Recommended for use No | No | Yes
+
+- TKIP (Temporal Key Integrity Protocol) is a security protocol used in Wi-Fi networks to encrypt data.
+- \*\*802.1x is anIEEE (Institute of Electrical and Electronics Engineers) standard for port-based network access control that provides authentication and authorization mechanisms to enforce network security policies.PSK (Pre-Shared Key) is a form of authentication used in Wi-Fi networks to verify the identity of clients.
