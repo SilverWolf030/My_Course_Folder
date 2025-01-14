@@ -1,0 +1,19 @@
+- Firewall Types:
+
+- Initially, the first kind of firewall was just a packet-filtering firewall. In other words,a device that simply checks where a packet has come from, where it's going, and what type of protocol it has. And based on that information, the packet-filtering firewall determines if the packet should be allowed entry or denied. But attacks can be hidden in the data in packets, inside that payload itself so firewalls have had to evolve to check inside packets too. This evolution has led to the development of different firewall types that can perform specific functions.
+
+  - Packet Filtering Firewalls: inspects each data packet as it travels through a network. They decide whether to block a specific packet based on the configured rules.
+
+  - Application-layer firewalls: can be a physical appliance using its own hardware or software-based installed on another machine, like plug-in or a filter. These types of firewalls target applications and monitor their behavior. for example, if placed in front of a web server, they can inspects requests for HTTP connections and block abnormal floods of traffic indicating a DoS Attack.
+
+  - Circuit-Level Firewalls: checks whether TCP and UDP connections across a network are valid before data is exchanged. For example, this type of firewall might first check whether the source and destination addresses, the user , the time, and the data meet certain defined rules. Data is exchanged between parties without further investigation when these checks pass, and a session starts.
+
+  - Proxy server firewall: controls the information that goes in and out of a network. This ability mains the server can monitor, filter, and cache data requests to and from a network. Firewall proxy servers provide sage and secure internet access to all devices on a network.
+
+  - Stateful firewall: Inspects connections on a network. As traffic hits the firewall, it monitors all packets that go through it and stores a combination of information about the packets in a state table. The state table tracks sessions by recording port numbers as sessions start from inside the network and are transmitted outside of the network. Gathering this information helps the firewall recognize what legitimate traffic with the correct prot numbers should look like upon its return, thus allowing legitimate replies back into the network.
+
+  - Next-generation firewall: performs may of the same functions as a stateful firewalls but with more functions from other types of firewalls, such as packet filtering and VPN support. This type of firewall also investigates packets more thoroughly compared to stateful firewalls. For example, a next-generation firewall can examine the payload for each packet and inspect it for suspicious characteristics and malware.
+
+- Firewall Rules:
+
+-
