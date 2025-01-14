@@ -1,6 +1,6 @@
 - Threat States:
 
-  - Breaking Down Modern Cybercrime:
+  - Breaking Down Modern Cyber-crime:
 
     - Trojan Attacks:
 
@@ -21,104 +21,159 @@
 
     - Ransomware attacks:
 
-      - The secoond most common type of attack from the previous data is ransomware. Recall that ransomware is an
-        approach to cybercrime that is designed to cause disruption to sercives. This approach is featrued frequently in the news due to the scope of impact. It is not uncommon for these attacks to occur on a national scale, with infrastructure and vital services being the target. Recent Examples:
+      - The second most common type of attack from the previous data is ransomware. Recall that ransomware is an approach to cyber-crime that is designed to cause disruption to services. This approach is featured frequently in the news due to the scope of impact. It is not uncommon for these attacks to occur on a national scale, with infrastructure and vital services being the target. Recent Examples:
 
         - Ireland's Health Service's Executive (HSE) in 2021
         - Critical Ukraine Infrastructure in 2022
-        - Costa Rica, which declared a state of emergency when 30 institutions of government were held to ransom
+        - Costa Rica, which declared a state of emergency when 30 institutions of government were held for ransom.
 
       - The methodology behind these types of attacks is to gain access to a system and lock out the legitimate owners
-        untill a demand has been met. One approach to best mitigate against this type of attack is to ensure that no external actors gain accesss to your system. Best practices for achieving this unclude:
-        - Use strong passwords, A strong password is one that is difficult to guess and typically woudl include a mix
-          of characters, numbers, and symbols.
-        - Keep your system up-to-date with the latest security pathces.
-        - Ensure that only people with authorixation for a system can use its systems.
+        until a demand has been met. One approach to best mitigate against this type of attack is to ensure that no external actors gain access to your system. Best practices for achieving this include:
 
-    - Botnet Attakcs:
-      - A bot can be defined as an online software program that performs automated and repetitive tasks. They are a
-        means of creating a Denial of Service to an organization. If a trojan attack is a subtle attempt to circumnavigate an application's defenses, a bot attack could be described as a full scalling of the walls.
-      - These attacks are orchestrated so that a system is plagued with innumerable requests for information and
-        services. These requests can come from any capable devices on the Internet of Things (IoT) that have an IP address.
-      - This type of attack can be coupled with the trojan attack, when some of the code maliciously embedded in a
-        system in used to make the request of another system. In this way, an attacker makes use of someone else's digital resources to negate the resources of a targeted victim. One defensive approach to mitigate against these types of attacks is to monitor network traggic for suspicious activity. If a particular source is identified as making repeated calls that impact the operations of a system, then this address can be blocked. However, more sophisticated approaches must be emplyed when a variety of compromised systems are used.
+        - Use strong passwords, A strong password is one that is difficult to guess and typically would include a mix of characters, numbers, and symbols.
+
+        - Keep your system up-to-date with the latest security patches.
+
+        - Ensure that only people with authorization for a system can use its systems.
+
+    - Botnet Attacks:
+
+      - A bot can be defined as an online software program that performs automated and repetitive tasks. They are a means of creating a Denial of Service to an organization. If a trojan attack is a subtle attempt to circumnavigate an application's defenses, a bot attack could be described as a full scaling of the walls.
+
+      - These attacks are orchestrated so that a system is plagued with innumerable requests for information and services. These requests can come from any capable devices on the Internet of Things (IoT) that have an IP address.
+
+      - This type of attack can be coupled with the trojan attack, when some of the code maliciously embedded in a system in used to make the request of another system. In this way, an attacker makes use of someone else's digital resources to negate the resources of a targeted victim. One defensive approach to mitigate against these types of attacks is to monitor network traffic for suspicious activity. If a particular source is identified as making repeated calls that impact the operations of a system, then this address can be blocked. However, more sophisticated approaches must be employed when a variety of compromised systems are used.
 
 - Explain Malware:
 
-  - A software that attackers design to harm computer systems. Malware can do many things, fro causing damage to the
-    computer, to allowing unauthorixed parties remote access to the computer, to collection and tranmitting sensitive information to unauthorised thrird parties. There are several, including: - Computer Viruses: This type of malware replicates by inserting a copy of its executable code into other
-    applications, operating- system files, data files, or hardware components, such as the BIOS or boot sector files. - Computer Worms: Worms are a special form of malware that replicate without direct intervention. Worms spread
-    across networks and can infect other computers on a network, without requiring a user to open an email attachment or file. - Trojan Horses: This type of malware provides an attacker remote access to the infected computer. - Ransomware" This type fo amlware encrypts user data, and you can recover your data only if you pay a ransom to
-    the malware authors. - Spyware: This type of malware tracks how a computer is used without the user's consent.
+  - A software that attackers design to harm computer systems. Malware can do many things, fro causing damage to the computer, to allowing unauthorized parties remote access to the computer, to collection and transmitting sensitive information to unauthorized third parties. There are several, including:
+
+  - Computer Viruses: This type of malware replicates by inserting a copy of its executable code into other applications, operating system files, data files, or hardware components, such as the BIOS or boot sector files.
+
+  - Computer Worms: Worms are a special form of malware that replicate without direct intervention. Worms spread across networks and can infect other computers on a network, without requiring a user to open an email attachment or file.
+
+  - Trojan Horses: This type of malware provides an attacker remote access to the infected computer.
+
+  - Ransomware" This type fo malware encrypts user data, and you can recover your data only if you pay a ransom to the malware authors.
+
+  - Spyware: This type of malware tracks how a computer is used without the user's consent.
 
   - Determine possible mitigations for malware threats.
 
-    - Ensure that you apply all software and operating system updates to your deviices>
-    - Ensure that you install and activate anti-malware software on your deviices.
+    - Ensure that you apply all software and operating system updates to your devices
+    - Ensure that you install and activate anti-malware software on your devices.
     - Ensure that anti-malware definitions are current.
     - Avoid risky behavior, such as consuming pirated software or media.
     - Avoid opening suspicious email attachments, even if they are from senders you trust.
 
   - Understanding Phishing Scams:
 
-    - Phishing is a type of online indentity theft. It uses email, phone calls, texts, and fraudulent websites that are
-      designed to steal your personal data or information such as credit card numbers, passwords, account data, or other information.
+    - Phishing is a type of online identity theft. It uses email, phone calls, texts, and fraudulent websites that are designed to steal your personal data or information such as credit card numbers, passwords, account data, or other information.
 
     - Mitigating Phishing Threats:
 
-      - Some of the tricks cybercriminals use:
+      - Some of the tricks cyber-criminals use:
 
-        - Fakes Websites: If you receive a suspicious email message and it prompts you to select on a link, hover over
-          the link. If the link does not match the name in your email, you could have received a phishing email, If you link points to a website or compnay you've never heard of or visited before, this could be a phishing attempt.
+        - Fakes Websites: If you receive a suspicious email message and it prompts you to select on a link, hover over the link. If the link does not match the name in your email, you could have received a phishing email, If you link points to a website or company you've never heard of or visited before, this could be a phishing attempt.
 
-        - Threats: Emails that threaten account closure could be from a cypercriminal. If you reveive an email that urges
-          you to take action by threatening that your account will be closed, be careful. Cybercriminals use a variety of techniques to steal your information and gain access to your data through threats and mis-information.
+        - Threats: Emails that threaten account closure could be from a cyber-criminal. If you receive an email that urges you to take action by threatening that your account will be closed, be careful. Cyber-criminals use a variety of techniques to steal your information and gain access to your data through threats and mis-information.
 
-        - Spoofing companies or people you know: Scam artists use graphics in emial that appear to be connected to
-          legitimate websites but actually take you to phony scam sites or legitimate-looking pop-up windows. Spoofing also can occur when a scammer imitates someone you know by mimicking thier email address. Always check that the address you're replying to is the correct one.
+        - Spoofing companies or people you know: Scam artists use graphics in email that appear to be connected to legitimate websites but actually take you to phony scam sites or legitimate-looking pop-up windows. Spoofing also can occur when a scammer imitates someone you know by mimicking their email address. Always check that the address you're replying to is the correct one.
 
       - How to tell if an email is legitimate:
-        - Hover over links to uncover the URL. Always check a url before you click on the link - Sometimes bad links
-          are embedded into an email as a way to trick the reader.
-        - Check for poor grammar and spelling errors. Companies rarely send out messages without proofreading content,
-          so multiple spelling and grammar mistakes can signal a scam message.
-        - Look for company contact information and brand accuracy. Most companies will have a brand identity that is
-          recognizable in their emails. Look for logos, brand colors, and contact infromation in the message.
+
+        - Hover over links to uncover the URL. Always check a url before you click on the link - Sometimes bad links are embedded into an email as a way to trick the reader.
+
+        - Check for poor grammar and spelling errors. Companies rarely send out messages without proofreading content, so multiple spelling and grammar mistakes can signal a scam message.
+
+        - Look for company contact information and brand accuracy. Most companies will have a brand identity that is recognizable in their emails. Look for logos, brand colors, and contact information in the message.
 
   - Explain common network-related security threats:
 
-    - Eavesdropping: Also known as network sniffing, occurs when a hacker captures network packets that workstations
-      connected to your network send and receive. Eavesdropping attacks can compromise your organization's sensitive data, such as passwords, which can lead to other, more damaging attacks.
+    - Eavesdropping: Also known as network sniffing, occurs when a hacker captures network packets that workstations connected to your network send and receive. Eavesdropping attacks can compromise your organization's sensitive data, such as passwords, which can lead to other, more damaging attacks.
 
-    - Denial of Service (DoS) attack: This type of attack limits the function of a nerwork apps, or renders an app
-      or network resource unavailable. Hackers can initiate a DoS attack in several ways, and often are aware of vulnerabilities in the target app that they can exploit to render it unavailable. Hackers typically perform a DoS attackby overloading a service that replies to network requests, such as Domain Name Systems (DNS), with a large number of fake requests in an attempt to overload and shut down a service or the server that hosts the service. A distributed denial of service (DDoS) attack is a version of a DoS attack.
+    - Denial of Service (DoS) attack: This type of attack limits the function of a network apps, or renders an app or network resource unavailable. Hackers can initiate a DoS attack in several ways, and often are aware of vulnerabilities in the target app that they can exploit to render it unavailable. Hackers typically perform a DoS attack by overloading a service that replies to network requests, such as Domain Name Systems (DNS), with a large number of fake requests in an attempt to overload and shut down a service or the server that hosts the service. A distributed denial of service (DDoS) attack is a version of a DoS attack.
 
-    - Port Scanning: Apps that run on a computer using the TCP/IP protocol use Transmission Control Protocal (TCP)
-      or User Datagram Protocol (UDP) parts to identify themselves. One way that attackers exploit a network is to query hosts for open ports on which they listen for client requests. Once attackers identify an open port, they can use othere attack techniques to access the services that are running on the computer.
+    - Port Scanning: Apps that run on a computer using the TCP/IP protocol use Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) parts to identify themselves. One way that attackers exploit a network is to query hosts for open ports on which they listen for client requests. Once attackers identify an open port, they can use other attack techniques to access the services that are running on the computer.
 
-    - Man-in-the-middle (MITM) attack: The network attacker uses a computer to impersonate a legitimate host on the
-      network with which your computers are communicating. The attacker intercepts all of the communications that are inteded for a destination host. The attackers might wish to view the data in transit between the two hosts, but also can modify that data before forwarding the packets to the destination host.
+    - Man-in-the-middle (MITM) attack: The network attacker uses a computer to impersonate a legitimate host on the network with which your computers are communicating. The attacker intercepts all of the communications that are intended for a destination host. The attackers might wish to view the data in transit between the two hosts, but also can modify that data before forwarding the packets to the destination host.
 
-  - Determine mitigations for newtork-related securtiy treats:
+  - Determine mitigations for network-related security treats:
 
     - Eavesdropping : IPsec, VPNs, DirectAccess, Intrusion detection.
+
     - DoS: Firewalls, Perimeter networks, IPsec, Server Hardening.
+
     - Port Scanning: Server Hardening, Firewalls.
+
     - MITM: IPsec, DNSSEC.
+
     - Virus, Malicious Code: Software Updates.
 
     - Internet Protocol security (IPsec): Which authenticates IP-Based communications between two hosts and, where
       desirable, encrypt that network traffic.
     - Firewalls: Which allow or block network traffic based on the type of traffic.
     - Perimeter Networks: Which are isolated areas on your network to and from which you can define network traffic
-      flow. When you need to make network services available on the internet, it isn't advisable to connecct hosting servers directly to the internet. However, by placing these servers in a perimeter network, you can make them available to internet users without allowing those users access to your corporate intranet.
-    - VPNs and Direct Access: It's important that users have the ability to connect to their organization's intranet
-      from the internet as securely as possible. The internet is a public network, and data in transit across the internet is susceptible to eavesdropping or MITM attacks, However, by using VPNs or DirectAccess, you can authenticate and encrypt connections between remote users and your organizations's intranet. This can help to mitigate risk.
-    - Server Hardening: When you run only ther services that you need, you can make servers inherently more secure. To
-      determine what services you require, you must estavlish a security bseline among your servers. To determine precisely which Windows Server servieces you need to support the functionality that you or your enterprise requires, you can use tools such as the Securtiy Configuration Wizard or the Microsoft Baseline Security Analyzer.
-    - Intrusion Detection: It's important to implement the preceding techniques to secure your network, and it also is
-      sensible to monitor your network regularly for signs of attack. You can use intrusion-detection systems to do this by implementing them on perimeter devices, such as internet-facing routers.
-    - Domain NAme system Securtiy Extension (DNSSEC): Which use digital signatures for validation, so that DNS servers
-      and resolvers can trust DNS responses. The DNS zone contains all signatures that are generated in the new resource records. When a resolver issues a query for a name, the DNS server returns the accoplanying digital signature in the response. The resolver then validates the dignature by using a preconfigured trush anchor, Successful validation proves that no data modification or tampering has occurred.
+      flow. When you need to make network services available on the internet, it isn't advisable to connect hosting servers directly to the internet. However, by placing these servers in a perimeter network, you can make them available to internet users without allowing those users access to your corporate intranet.
 
-  -
+    - VPNs and Direct Access: It's important that users have the ability to connect to their organization's intranet from the internet as securely as possible. The internet is a public network, and data in transit across the internet is susceptible to eavesdropping or MITM attacks, However, by using VPNs or DirectAccess, you can authenticate and encrypt connections between remote users and your organizations's intranet. This can help to mitigate risk.
+
+    - Server Hardening: When you run only there services that you need, you can make servers inherently more secure. To determine what services you require, you must establish a security baseline among your servers. To determine precisely which Windows Server services you need to support the functionality that you or your enterprise requires, you can use tools such as the Security Configuration Wizard or the Microsoft Baseline Security Analyzer.
+
+    - Intrusion Detection: It's important to implement the preceding techniques to secure your network, and it also is sensible to monitor your network regularly for signs of attack. You can use intrusion-detection systems to do this by implementing them on perimeter devices, such as internet-facing routers.
+
+    - Domain Name system Security Extension (DNSSEC): Which use digital signatures for validation, so that DNS server and resolvers can trust DNS responses. The DNS zone contains all signatures that are generated in the new resource records. When a resolver issues a query for a name, the DNS server returns the accompanying digital signature in the response. The resolver then validates the signature by using a pre-configured trust anchor, Successful validation proves that no data modification or tampering has occurred.
+
+- Network Attacks:
+
+  - Sniffing: is part of eavesdropping and involves listening to the communication between two devices, intercepting it, capturing it and then analyzing it. This type of attack can steal your dta from a distance, without even physically accessing your computer. The sniffing software just sits between the communication process, sees what's coming and going and reads everything.
+
+    - Sniffing Procedures: Sniffing can be done with hardware or software. Hardware-based sniffing involves using specialized network devices, such as network taps or port mirroring on network switches, to capture network traffic. These devices are physically connected to the network and can capture data without being detected by the target system or network monitoring tools.
+
+    - Software-based sniffing utilized tools or applications installed on a computer to monitor and capture network traffic. These tools can run on the attacker's device or, in some cases, run on the target system to capture data remotely. Some popular sniffing tools are Wireshark ad Tcpdump.
+
+  - Spoofing: refers to a cyber-attack where an attacker impersonates a legitimate user or device by falsifying the source information, such as an IP address or email. The main goal is to deceive the target system or user into believing that the attack comes from a trustworthy source.
+
+  - Types of Spoofing:
+
+    - IP Spoofing: Attackers forge the source IP address in packets, making it appear as if they originate from a trusted IP address.
+
+    - ARP Spoofing: An attacker sends falsified Address Resolution Protocol (ARP) messages to associate their MAc address with the IP address of another device, intercepting the target't network traffic.
+
+    - DNS Spoofing: By manipulating the Domain Name System (DNS), and attacker redirects users to false websites by providing a fake IP address associated with a legitimate domain name.
+
+    - SSL/TLS Spoofing: An attacker intercepts and alters SSL/TLS certs, allowing them to eavesdrop on or modify encryption communications between users and secure websites.
+
+  - Spoofing Procedures: Spoofing is done using specialized software or tools to modify packer headers, forge DNS responses, or craft ARP packets. This allows the attackers to intercept or redirect network traffic, bypass security controls, or gain unauthorized access to sensitive systems and data. In IP spoofing, for example, the attackers alters the source IP address in the IP packer header, making it appear as if the packer originates from a legitimate source. In DNS spoofing, the attacker provides a forged DNS response, directing the user to a malicious website. The primary goal of spoofing is to deceive network components or suers, allowing the attacker to carry out various malicious activities while masquerading as a trusted entity. Tools like hping, scapy or Nmap are used to perform spoofing attacks.
+
+- Man-in-the-middle attack (MITM):
+
+  - A form of network attack that involves sniffing and spoofing in which the attacker intercepts and may alter the communication between two parties without their knowledge. The goal of a MITM attack is often to eavesdrop on sensitive information or manipulate communication to achieve a specific outcome.
+
+  - MITM Procedures: To carry out a MITM attack, the attacker must first position themselves between the two communicating parties. This can be achieved through various techniques, such as ARP spoofing, DNS spoofing, or SSL/TLS hijacking. Once in the middle of the communication, the attacker can passively monitor the data being exchanged, modify it as needed, or even inject new data into the conversation, all while maintaining the appearance of a normal communication flow between the two parties. Ettercap is a package suite used for man-in-the-middle attacks and cam execute both passive and active sniffing.
+
+  - DoS & DDoS: aim to disrupt a target system or network, rendering it unavailable to its intended users. One of the key elements in executing DDoS attacks is the use of botnets, which are networks of compromised devices controlled by an attackers.
+
+    - Types of DoS and DDoS attacks:
+
+    - Volume-based attacks: Attackers flood the target system with excessive traffic, overwhelming its resources and bandwidth.
+
+    - Protocol attacks: Attackers exploit vulnerabilities in network protocols, causing server crashing or resource exhaustion.
+
+    - Application-layer attacks: Attackers target specific applications, exploiting vulnerabilities to consume system resources and disrupt service.
+
+  - DoS and DDoS procedures: In volume-based attacks, the botnet is used to flood the target with a large amount of traffic, saturating its bandwidth and making it inaccessible to legitimate users. Protocol attacks exploit vulnerabilities in network protocols, causing the target system to become overwhelmed with requests and unable to process legitimate traffic. And application-layer attacks focus on specific applications or services running on the target system.
+
+  - In a DDoS attack, the attacker leverages the combined resources of a botnet to generate a massive amount of traffic or requests directed towards the target system or network. Initially, attackers compromise many devices by exploiting vulnerabilities, social engineering, or distributing malware. Once the devices are infected, the attacker gains control over them and incorporates them into the botnet. Then, from a command-and-control center, which is also called C&C, the attacker initiates the DDoD attack on the target system.
+
+  - There are numerous freely available DDoS attack tools, including LOIC (Low Orbit ION Cannon), HOIC (High Orbit ION Cannon), Tor's Hammer, and RUDY (R-U-Dead-Yet).
+
+  - Wi-Fi Password Cracking: in specific Wi-fi password crackling which is the process of deciphering a Wi-fi network's security key or passphrase to gain unauthorized access. The common intention of the attackers is to gain unauthorized access to the device in the network, as well as avoiding detection by using the network to perform fraudulent activities.
+
+  - Wi-Fi password procedures:
+
+    - Dictionary Attack: The attackers uses a list of commonly used passwords or phrases to attempt to gain access to the network systematically.
+
+    - Brute force attack: The Attackers systematically attempts all possible combinations of characters to crack the password. This method can be time-consuming and resource intensive.
+
+    - Rainbow table attack: The attackers uses precomputed tables of hashed password combinations (called rainbow tables) to quickly look up the plaintext password corresponding to a given hash. This method can be faster than brute force but requires significant storage resources. A password hash is a mathematically calculated encrypted version of your password.
