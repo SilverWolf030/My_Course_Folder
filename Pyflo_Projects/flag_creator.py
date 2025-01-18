@@ -1,8 +1,8 @@
 def main():
-    width = input("Flag width:\n")
-    width = int(width)
-    height = input("Flag height:\n")
-    height = int(height)
-    
-    
+    width = int(input("Flag width:\n"))
+    height = int(input("Flag height:\n"))
+    for i in width / 2:
+        print("#" + "-") * height / 2
+        print("-" * width) * height /2
+        
 main()
