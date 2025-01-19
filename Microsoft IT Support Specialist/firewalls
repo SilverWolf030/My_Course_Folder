@@ -43,3 +43,29 @@
   - Implicit Deny: also known as deny all. This is typically an invisible rule applied when a firewall is initially set up, and it blocks all traffic from the start. It enables a firewall to protect the network as soon as it's activated. This rule remains active the whole time, so many firewall policies have permit statements (also known as allow statements) to allow necessary traffic through. Implicit deny is always the last rule on the rules list. And because it's active by default and invisible, it's important to remember it's there.
 
   - Even though it's invisible and usually there by default, it's best practice always to check that the implicit deny rule is active so your website is protected. The implicit deny rule specifies the whole IP suite, not just existing protocols that make up the IP suite, like TCP and UDP. This educes the number of rules you need to create because now you don't need two separate rules; one for TCP and another for UDP. But with only the implicit deny rule in place, no traffic will be allowed, so another rule has to be created.
+
+- https://learn.microsoft.com/en-us/training/modules/network-fundamentals-2/
+
+- https://learn.microsoft.com/en-us/training/paths/implement-network-security/
+
+- https://learn.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/security/common-threats
+
+- https://learn.microsoft.com/en-us/training/modules/introduction-azure-ddos-protection/2-what-is-azure-ddos-protection
+
+- https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-protection-spoofing-about?view=o365-worldwide
+
+- https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-sstp/4a6778bc-a4a9-46c6-9120-7493c61f95e5
+
+- https://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=azure-portal
+
+- https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/
+
+- https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-next-generation-firewall.html#~choose-an-ngfw-firewall
+
+- https://docs.rackspace.com/docs/best-practices-for-firewall-rules-configuration
+
+- https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal
+
+- https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu
+
+- https://learn.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/docker-defined
