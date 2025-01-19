@@ -16,4 +16,30 @@
 
 - Firewall Rules:
 
--
+- A firewall is configured with many different rules, and together they create a firewall policy. The rules are per interface and direction. this is also dependent on the interface that is involved. A network interface can refer to any kind of software to any kind of networking hardware. For instance, if you have two printers on your network you can control the interface for them independently. A printer could have an incoming interface and an outgoing interface and have different rules for each.
+
+- Wherever the firewall is places, the rules making up the policy determine that is and isn't allowed in out of a network.
+
+  - Source Address: where the data has come from. This is typically an IP address burt can also be a fully qualified domain name or FQDN. An FQDN is the name of a device on the internet, verified by an external DNS server.
+
+  - Destination Address: where the data is going. This is usually an IP address but can also be a fully qualified domain name (FQDN).
+
+  - Port and Protocol numbers: the services that applications require.
+
+  - The interface: rules can be associated with particular interface or port on a firewall.
+
+  - Directions: whether the traffic is inbound or outbound.
+
+  - Time: specify when the dat will or won't be permitted.
+
+  - The Decision: whether to permit or deny the packet.
+
+- When creating firewall protocols, it's important to remember the following three rules:
+
+  - Top-Down Processing: a firewall starts at the top of a policy list, making its way down to the bottom, so the order of the rules is critical.
+
+  - Rule matched: if any incoming traffic matches the criteria or a firewall rule, the firewall will apply the specified allow or deny action without proceeding to the next rule. Any of the other rules below the matched rule will not be considered because firewalls implements top-down processing.
+
+  - Implicit Deny: also known as deny all. This is typically an invisible rule applied when a firewall is initially set up, and it blocks all traffic from the start. It enables a firewall to protect the network as soon as it's activated. This rule remains active the whole time, so many firewall policies have permit statements (also known as allow statements) to allow necessary traffic through. Implicit deny is always the last rule on the rules list. And because it's active by default and invisible, it's important to remember it's there.
+
+  - Even though it's invisible and usually there by default, it's best practice always to check that the implicit deny rule is active so your website is protected. The implicit deny rule specifies the whole IP suite, not just existing protocols that make up the IP suite, like TCP and UDP. This educes the number of rules you need to create because now you don't need two separate rules; one for TCP and another for UDP. But with only the implicit deny rule in place, no traffic will be allowed, so another rule has to be created.
