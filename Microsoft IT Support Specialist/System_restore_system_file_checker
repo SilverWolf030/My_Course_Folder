@@ -160,11 +160,11 @@
 
     - Restart network services: Using sudo systemctl restart networking (debian-based) or sudo systemctl restart NetworkManager(RHEL-based).
 
-    - Diagnose with tools: Use diagnostic tools liek ping, traceroute, and netstat to identify network issues.
+    - Diagnose with tools: Use diagnostic tools like ping, traceroute, and netstat to identify network issues.
 
-    - Review firewall settings: Ensure firewall settings are not blocking required traffic. Use iptables or ufw to configure furewall rules.
+    - Review firewall settings: Ensure firewall settings are not blocking required traffic. Use iptables or ufw to configure firewall rules.
 
-    - Check logs: Review nework logs in /var/log/syslog or /var/log/messages or error messages related to network issues.
+    - Check logs: Review network logs in /var/log/syslog or /var/log/messages or error messages related to network issues.
 
 - Leveraging Linux's open-source nature:
 
@@ -172,8 +172,8 @@
 
     - dmesg: displays kernel-related messages, useful for diagnosing hardware and driver issues.
 
-    - journalctl: Queries and dislplay logs form systemd services.
+    - journalctl: Queries and display logs form systemd services.
 
-    - strace: Traces system calls and signals, usefull for debugging programs.
+    - strace: Traces system calls and signals, useful for debugging programs.
 
-    - tcpdump: Caputures network packets for network troubleshooting.
+    - tcpdump: Captures network packets for network troubleshooting.
