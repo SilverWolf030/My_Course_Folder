@@ -1,0 +1,35 @@
+- System Restore:
+
+  - System Restore allows users to revert their computer's state, including system files, installed applications, Windows Registry, and system settings, to a previous point in time. This capability is crucial ofr recovering from system malfunctions or other problems that arise after installing new programs, drivers, or updates. System Restore operates by creating "restore points" st specific intervals or before significant system changes. These restore points act as snapshots of your system at a particular moment, capturing the state of system files and settings. When a user initiates a system restore, Windows reverts the system to the state captured in the chosen restore point, effectively undoing any changes made since that time.
+
+- System File Checker (SFC):
+
+  - SFC is a Windows utility that allows users to scan for and restore corrupted or missing system files. It ensures the integrity of system files by replacing incorrect versions with the correct Microsoft versions. This tool is vital for maintaining the stability and functionality of the operating system, especially when issues arise due to corrupted or missing files.
+
+  - Running SFC form the command prompt involves the following steps:
+
+    - Open the command prompt as an administrator. To do this, search for "cmd" in the Start menu, right-click on command prompt, and select Run as administrator.
+
+    - In the command prompt window, type sfc /scannow and press Enter.
+
+    - The scan will begin, SFC will attempt to repair any detected issues automatically. Depending on the system's speed and the number of files, this process may take some time.
+
+  - Interpreting SFC results is straightforward:
+
+    - No integrity violations found: No issues were detected.
+
+    - Found corrupt files and successfully repaired them: Issues were detected and fixed.
+
+    - Found corrupt files but was unable to fix some of them: SFC detected issues but could not repair all of them. In this case, additional steps, such as using DISM (Deployment Imaging Service and Management tool), may be necessary.
+
+- Using the DISM tool for advanced repair:
+
+- DISM can be used to mount and service Windows images before deployment, manage drivers and features, and fix corrupted Windows system files. It's a powerful tool for IT professionals and system administrators for maintaining and repairing Windows installations.
+
+- If SFC cannot repair all issues, the DISM tool can be used to repair the Windows image:
+
+  - Open the command prompt as an administrator.
+
+  - Type DISM /Online /Cleanup-Image /RestoreHealth
+
+  - Once DISM completes, run sfc /scannow again to ensure all issues are resolved.
