@@ -1,0 +1,23 @@
+- Single-factor authentication (SFA) is the simplest form of authentication, requiring users to provide only one piece of information to verify their identity. This could be a password, PIN, or biometric data such as a fingerprint. The advantage of this approach is that it is easy to implement and use. It is, however, vulnerable to phishing and brute-force attacks.
+
+- Multi-factor: Multi-factor authentication (MFA) enhances security by requiring users to provide multiple forms of identification to access a system or data. This typically includes three things:
+
+  - Something a user knows (e.g., a password)
+
+  - Something a user has (e.g., a smartphone, key fob, or any physical device)
+
+  - Something a user is (e.g., biometric data like fingerprints or facial features.)
+
+- Studies show that MFA significantly reduces the risk of unauthorized access. the drawback of this approach is that it requires more input when accessing a resource and is more complicated to implement than SFA.
+
+- Knowledge-based: This is using some information from the user to access the resource. It was often used in older systems before more secure approaches like MFA existed. However, this approach still serves as a secondary means of establishing identity. For example, say a user gets locked out of their account and cannot access a required password or specific user can answer. This way, you can establish the user is who he claims to be. The advantage of this approach item, like a lost phone or forgotten password. However, it is very vulnerable to phishing attacks and is therefore not generally used as the primary form of gaining entry to an account.
+
+- Biometric: Biometric authentication verifies a user's identity using distinct physical characteristics like fingerprints, facial recognition, or iris scans. Since biometric data is challenging to replicate, it is a highly secure form of authentication. The advantage of this approach is that it is very difficult to circumnavigate. However, capturing biometric information often requires expensive devices, and users are not always comfortable sharing personal information like fingerprints and so on.
+
+- Token-based: Token-based authentication involves using physical or virtual tokens that generate one-time passwords, (OTPs) for user verification. Tokens can be hardware devices like security keys or software applications that generate temporary codes. This method adds an extra layer of security to the authentication process. However, it can be cumbersome if the user cannot access the token generator.
+
+- OAuth: (Open Authorization) is an open standard for access delegation, enabling users to authorize third-party applications to access their resources without disclosing their credentials. OAuth is commonly used for social media logins and API authorizations. It enhances security by reducing the exposure of user credentials. The drawback of this approach is that it requires storing personal user information. Consequently, you need to maintain to database but also get users consent which can be challenging.
+
+- SAML: Security Assertion Markup Language (SAML) is an XML-based standard for exchanging authentication and authorization data between identity and service providers. SAML enables Single Sign-On (SSO) functionalities, allowing users to access multiple applications with a single set of credentials. It simplifies user authentication across different platforms. However, SAML is susceptible to man-in-the-middle attacks, which might compromise the user.
+
+- Risk-based authentication (RBA): This is recording and monitoring user activities to establish normal habits. Actions that fall outside of these parameters will raise an alarm. RBA is often combined with other safeguards, such as reducing user access when irregular activity has been raised. For example, preventing a user from downloading company information or triggering a request for MFA, RBA is a less intrusive means of tightening security as it is only triggered when behavior deviates from the norm. Although it's a very effective security measure, it can be a hindrance if an employee travels to a different country or works late.
