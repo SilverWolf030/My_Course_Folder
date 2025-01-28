@@ -1,0 +1,37 @@
+- Real-life application of access control:
+
+  - Access control systems are an approach to managing who can access specific resources within an organization. In real life, organizations control access through mechanisms such as user authentication, authorization, role-based access, privileged management, and accountability. For example, in a corporate environment, employees may be granted access to specific files and folders based on their job roles and responsibilities. Access control ensures that sensitive information is only accessible to authorized individuals, reducing the risk of data breaches.
+
+- Challenges in implementing access control systems:
+
+  - From the onset, implementing access control can appear like a daunting challenge. However, there are established methodologies from which to draw.
+
+  - One common challenge is the complexity of managing access rights for many users and resource. Employees are fluid in association with the company and their role within an organization. These are some considerations that arise:
+
+    - Who should be tasked with deciding what access is to be granted?
+
+    - For how long is that access given, and when should it be revoked?
+
+    - Should a company grant access on a project-by-project basis, and if so, what if an individual as collaborating on multiple projects?
+
+    - How should employees' roles impact what they can access?
+
+  - There are just some of the many considerations organizations must consider before defining access control policies. Additionally, ensuring secure authentication mechanisms and protecting against unauthorized access attempts are critical challenges in access control implementation.
+
+- Strategies for overcoming access control challenges:
+
+  - Organizations can adopt various strategies to overcome challenges in implementing access control systems. One effective strategy is Role-Based Access Control (RBAC), where access rights are assigned based on users' roles within the organization. RBAC simplifies access management by grouping users with similar job functions. Regular security audits and monitoring access logs can also help organizations identify and address potential security vulnerabilities in their access control systems.
+
+  - This is augmented through the use of group policies. Instead of assigning permissions to each individual employee, an organization can create groups with clearly defined permissions. Employees added to a specific group then adhere to the group permissions. Groups can also be assigned to projects. The group permissions expire when the project is complete, significantly reducing the overhead for a project manager.
+
+- Privilege Management in preventing insider threats:
+
+  - Earlier, you've learned that privilege management is crucial in preventing insider threats and maintaining the principle of least privilege. Insider threats are when authorized users misuse their access rights to compromise data security. This is a challenging issue to overcome as the perpetrator has already been legitimately authorized to access company resources. You can use privilege management to intervene by restricting users' access rights to only the resources necessary for their job roles.
+
+  - Consider a scenario where a company hires a sales representative to engage with the public. Their role should never include access to information about other employees or company secrets. However, they need access to company products and other information for daily tasks. By implementing least privilege principles, organizations can minimize the impact of insider threats and enhance overall data security. Moreover, if an employee has their credentials compromised, a perpetrator will only be able to misuse the privileges assigned to that employee.
+
+- From theory to practice: Healthcare case study:
+
+  - One of the highest priorities of healthcare services is to protect the privacy of an individual's healthcare records. The challenge lies in allowing shared patient information between interested parties without inadvertently sharing too much. How do IT departments establish such a system in practice?
+
+  - Take a hospital that uses an electronic health record (EHR) system. Access control ensures doctors only view authorized patient records based on their roles and specific needs. Nurses might have access to basic medical history, while pharmacists can access medication details. This granular control safeguards sensitive patient information to comply with HIPAA regulations, which is the Health Insurance Portability and Accountability Act of 1996, which defines standards for the use and disclosure of patient data within the healthcare and healthcare insurance industries in the United States.
