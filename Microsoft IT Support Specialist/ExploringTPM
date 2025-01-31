@@ -1,0 +1,25 @@
+- Defining Trusted Platform Module (TPM):
+
+  - The Trusted Platform Module is based on a set of standards created by the Trusted Computing Group (TCG) in 2003. The TCP is a nonprofit organization established to create, promote, and define a hardware-based root or trust. As you will learn more about later, a root of trust is an approach to making computers and devices more secure.
+
+  - TPM refers to a platform that has been safeguarded to the standards established by the TPM. This can be achieved in several ways; one common approach is using a specialized microchip on your motherboard, which enforces these standards each time the device boots up. TPM is designed to provide a secure foundation for various security processes, including data protection, encryption, and authentication.
+
+  - A TPM is established when a trusted component (such as a microchip) is added to a computing platform. The TPM chip is applied at the time of manufacture. They are hard-wired to the functionality of the device. It creates a root of trust by ensuring that specific devices, procedures, and locations can be trusted. A root of trust can be defined as a certainty that the device initialization processes are safe. It is performed by the firmware. To ensure that the initialization functions during boot-up, as well as the computer components being called upon, are legitimate, it performs a number of checks. Such checks involve data encryption, certificate validation, and key management. TPM cannot be removed, applied to other devices, or added later. By leveraging TPM, organizations ban establish a robust security framework that mitigates potential threats and vulnerabilities.
+
+  - The TPM operates by ensuring a root of trust for measurement. It does this by having a record of which processes should run on boot-up. During each boot-up execution, it draws on these signatures, which are stored in a safe location. It compares them to the activities that occur at start-up. This information is stored in the Secure Platform Configuration Registers.
+
+- Integration of TPM with Windows operating systems:
+
+  - TPM seamlessly integrates with Windows operating systems to bolster security measures and enhance overall system protection. Through its integration with Windows, TPM facilitates secure boot processes, enuring that the system boots up securely and mitigates the risk of unauthorized access. Additionally, TPM supports BitLocker drive encryption, a crucial feature for safeguarding sensitive data stored on Windows devices. The TPM significantly bolsters security in Windows environments and is crucial for a range of features, including:
+
+    - Windows Hello: TPM securely stores keys used for biometric authentication (facial recognition, fingerprints), enabling convenient yet secure login.
+
+    - BitLocker Drive Encryption: TPM protects the keys used to encrypt and decrypt entire drives, safeguarding data even if the drive is physically removed.
+
+    - System integrity Verification: The TPM stores measurements of the boot process using Platform Configuration Registers (PCRs). This allows the system to prove that it hasn't been tampered with.
+
+    - Device Identity: TPM can generate unique device identifiers, aiding in secure communication and authentication.
+
+- Practical application of TPM in Windows:
+
+  -
