@@ -1,0 +1,23 @@
+- Physical access management:
+
+  - Managing physical device access in an organizational setting relates to the practices implemented when accessing the device. The goal is to ensure easy employee access while limiting the scope for unauthorized access. One approach used is applying access controls, which limits which data can be accessed by whom on a given device. This can be achieved through applying biometric authentication, strong passwords, multi-factor authentication (MFA) configured for risky sign-on triggers, and educating staff on secure storage solutions.
+
+  - By restricting physical access to devices, organizations can mitigate the risk of data breaches and unauthorized use of company resources. As the device is personal, an employee may not wish to have these restrictive access feature enabled every time they use a device. Therefore, it is possible to selectively apply them to relate to directories assigned to company use or when accessing company networks.
+
+- BYOD policies:
+
+  - The dramatic rise in work-from-home operations due to the pandemic has led to the increased use of BYOD when engaging with company tasks. While BYOD can increase work productivity and satisfaction by enabling a familiar environment, it does come with additional challenges. For one, the security specifications for a personal device may not be on the same stringent standard as those found on company devices. Organizations must also establish clear guidelines for BYOD usage, including device registration, security software requirements, and data encryption protocols. Additionally, it is paramount that the device is shown to be up-to-date about patches and software updates. A company engaging in this practice might consider extending specific antivirus software licenses to the employee's device.
+
+  - Devices registered as personal devices ban be further safeguarded by restricting the access they are granted on the company network. This can be accomplished using network segmentation techniques like VLANs (Virtual Local Area Networks) or firewalls to isolate personal devices. VLANs logically devices from directly communicating with sensitive company systems. Firewalls further enforce this separation, allowing strict control over the types of traffic permitted between BYOD devices and company resources. It can be beneficial to implement strict access controls, limiting which systems and data BYOD devices can access based on user roles and job functions.
+
+- Challenges in physical access and BYOD policies:
+
+  - One of OD policies is striking a balance between accessibility and security. Employees require easy access to devices to perform their tasks efficiently, but this accessibility must not compromise data security. BYOD environments must also address the risks of shadow IT. Shadow IT refers to unsanctioned software, hardware, or cloud services employees use without explicit IT department approval. While often well-intentioned, shadow IT can introduce security vulnerabilities, compliance issues, and data management problems.
+
+- Addressing physical access and BYOD challenges:
+
+  - There are a few ways to securely implement physical access an dBYOD policies without hindering employees' ability to perform work tasks. These including requiring device authentication for any personal devices used to connect with company networks and ensuring that employees are knowledgeable about potential dangers.
+
+  - Devices authentication mechanisms play a crucial role in verifying the identity of users and ensuring that only authorized individuals can access sensitive information. Device authentication can relate to strong passwords, one-time passwords (OTP) tokens, and biometric features. Hello for Windows can be enabled on a mobile device to verify biometric. Company data can be made more secure by applying strong encryption algorithms. Encryption can be applied to both data at rest as well as data in transit.
+
+  - Educating employees about the risks of shadow IT and establishing transparent processes for requesting and approving new tools and services can also be helpful. Regular security audits can help identify and mitigate unauthorized technology within the BYOD environment.

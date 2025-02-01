@@ -22,4 +22,8 @@
 
 - Practical application of TPM in Windows:
 
-  -
+  - Practical aspects of TPM in Windows include checking TPM presence and status to ensure that the security feature is active and functioning correctly. Each TPM contains a storage root key, which is used for encryption. As with standard cryptographic practices, the TPM can create a public and private key, which is used to interact with components, processes, software, and users. How these keys are used is configurable; thus, understanding that the TPM exposes is integral to safeguarding against cyber threats. The TPM uses its own internal firmware and logical circuits to process instructions. Thus, it is insulated from incursions that might affect the operating system. It can then serve Windows by providing a secure foundation for encryption and authentication processes.
+
+- Safeguarding against cyber threats:
+
+  -TPM is pivotal in protecting Windows systems from a range of threats. Its integration with Windows Hello prevents unauthorized access though stolen credentials. BitLocker Drive Encryption secures data against theft or unauthorized access, mitigation risks of data breaches. TPM's role in integrity verification thwarts malware attacks and unauthorized modifications, enhancing system resilience against cyber threats.
