@@ -1,6 +1,6 @@
 - Local Area Network (LAN):
 
-  - a local area network, or LAN, is a network that connects devices within a small area, such as a home, office, or school. LANs can be wired or wireless, and the bandwidth and the number of devices connnected to a LAN network depend on thr router's capacity.
+  - a local area network, or LAN, is a network that connects devices within a small area, such as a home, office, or school. LANs can be wired or wireless, and the bandwidth and the number of devices connected to a LAN network depend on thr router's capacity.
     - Advantages of LAN:
       - Easy to set up and maintain
       - Fast data transfer speeds
@@ -24,7 +24,7 @@
     - Disadvantages of WLAN:
       - Limited range and signal strength compared to wired networks, requiring additional access points for larger areas
       - Security risks due to the wireless signal being accessible to anyone within range, requiring strong encryption and authentication measures
-      - Slower speeds compared to wired networks, especially over longer distances or when multipl users are connected.
+      - Slower speeds compared to wired networks, especially over longer distances or when multiple users are connected.
       - May require additional equipment and maintenance, such as repeater and signal boosters, to maintain connectivity and performance
 
 - Wide Area Networks (WAN):
@@ -33,41 +33,41 @@
     - Advantages of WAN:
       - Enables communication and sharing of resources across large distances.
       - Allows for remote access and collaboration
-      - Can improve efficiency and productivity in a distributed organizaiton
-      - Keeps working if there is a failure in one part of the network without affecting the overall performace of the system.
+      - Can improve efficiency and productivity in a distributed organization
+      - Keeps working if there is a failure in one part of the network without affecting the overall performance of the system.
     - Disadvantages of WAN:
       - Needs expensive, high bandwidth, and dependable connections
       - Could face security threats and attacks over public connections
       - Troubleshooting and maintenance over a large area can be challenging
       - Performance and user experience could be affected by network congestion and latency
 
-- Metroplitan Area Network (MAN):
+- Metropolitan Area Network (MAN):
 
-  - This is a type of network that connects multiple LANs within a city or metropolitan area. MANs are used to provide high-speed connectivity for organizations that have multiple locations across a city. Large business entities or govermment agencies typically use them
+  - This is a type of network that connects multiple LANs within a city or metropolitan area. MANs are used to provide high-speed connectivity for organizations that have multiple locations across a city. Large business entities or government agencies typically use them
     - Advantages of MAN:
       - Allows communication among devices over a large geographic area than a LAN
-      - High-speed data transfer capabiliy
-      - Provides centrailized management of network resources
+      - High-speed data transfer capability
+      - Provides centralized management of network resources
       - Enables remote access and collaboration between employees at separate locations
       - Can be customized to fit the specific needs of an organization
     - Disadvantages of MAN:
-      - Can be expensibe to install and maintain
-      - May require specialized knowledge and experitse to manage
+      - Can be expensive to install and maintain
+      - May require specialized knowledge and expertise to manage
       - can be vulnerable to security breaches if not properly secured
-      - May experience performance issues due to network congestion or didstnace between locations
+      - May experience performance issues due to network congestion or distance between locations
 
 - Storage Area Network (SAN):
 
   - SANs are commonly used to enterprise-level environments to provide fast and reliable storage for many servers and applications.
   - Banks and financial institutions need to store and access large amounts of data for their day-to-day operations. SANs are commonly used to provide fast and reliable data storage, including customer information, financial transactions, and more.
   - Hospitals and other healthcare facilities generate and store a significant amount of data, including patient records, medical images, and other resources. A SAN can be used to provide storage for this data, which is critical for patient care and research.
-  - Media and entertainment companies such as movies studios television networks, and streaming services generate and store a vast amount of digital content. A SAN can be used to provide fast ans reliable sotrage for this contect, which is critical for content delivery and post-production workflow.
+  - Media and entertainment companies such as movies studios television networks, and streaming services generate and store a vast amount of digital content. A SAN can be used to provide fast ans reliable storage for this context, which is critical for content delivery and post-production workflow.
     - Advantages of SAN:
       - Provides fast, reliable, and centralized storage for a large amount of data
       - Can be easily scaled and expanded to accommodate growing storage needs
-      - Allows for backups, disaster recovery, and business continutiy solutions.
-      - Offers high-speed data transfer and improved perfromance for critical applications
-      - Provides security and data procection with access controls and encryption.
+      - Allows for backups, disaster recovery, and business continuity solutions.
+      - Offers high-speed data transfer and improved performance for critical applications
+      - Provides security and data protection with access controls and encryption.
     - Disadvantages of SAN:
       - Can be complex and expensive to implement and maintain, requiring specialized hardware and software
       - May require dedicated IT staff for management and maintenance
@@ -78,7 +78,7 @@
 
   - Personal Area Network (PAN):
 
-    - This type of network can help simplify task by allowing devices to communicate with each other, and it's especially useful for people who are on the go and need to share files or connect ot the internet quickly. However, PANs are limited in range, and devies need to be close to each other to work properly.
+    - This type of network can help simplify task by allowing devices to communicate with each other, and it's especially useful for people who are on the go and need to share files or connect ot the internet quickly. However, PANs are limited in range, and devices need to be close to each other to work properly.
 
   - Desktop Area Network (DAN):
 
@@ -89,4 +89,4 @@
     - A TAN links devices in a small area, usually within a few meters of each other, such as in a room. It is designed to consume low power and is often used for smart homes and connecting wearable technology and IoT devices. TANs are similar to PANs and DANs because they have limited range and data transfer rates.
 
   - Campus Area Network (CAN):
-    - CANs connect multiple building within a small geographical area, such as a college campus, university, or office complex. A CAN is typically designed to provide high-speed connectivity between buildings and support many users. This type of network can be complex to set up and maintain, requiring specialized equipment and experiise.
+    - CANs connect multiple building within a small geographical area, such as a college campus, university, or office complex. A CAN is typically designed to provide high-speed connectivity between buildings and support many users. This type of network can be complex to set up and maintain, requiring specialized equipment and expertise.

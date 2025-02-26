@@ -1,10 +1,10 @@
-- This encompasses all areas associated with running the business, from managing payroll to compiling and presenting customer analytics. In this reading, you'll becaome familiar with the considerations that go into selecting suitable software.
+- This encompasses all areas associated with running the business, from managing payroll to compiling and presenting customer analytics. In this reading, you'll become familiar with the considerations that go into selecting suitable software.
 - Considerations for choosing business software:
   - Business Size: How many people in you company would use the software? Would this be affected by the staff size changing over time?
-  - Business Needs: Are there funcions that the business cannot currently perform, or would like to do more effectively or efficiently?
+  - Business Needs: Are there functions that the business cannot currently perform, or would like to do more effectively or efficiently?
   - Task that can be Automated: Are there tasks that the business completes manually which could be done by software instead?
 - Software Types:
-  - Accouting Software: for recording and managing financial transactions.
+  - Accounting Software: for recording and managing financial transactions.
   - Billing Software: for handling invoices and payments.
   - Database Software: for creating and maintaining databases.
   - Payroll Software: for calculating and administering payments to employees.
@@ -13,9 +13,9 @@
 
   - Microsoft Customer Relationship Management (CRM) combines popular standalone applications, such as Word and Excel, and more advanced applications such as Power Bi, Power Automate, and Power Virtual Agents. A business whishing to manage its need could use Dynamics CRM to organize its marketing, sales, and services that could be selted include that following:
 
-  - Microsoft Dynamics 365 Marketing: This easy-to-use business application providesa a graphical interface for plotting the customer journey. A customer journey is a real-time marketing tool that monitors customer behavior and enables push notificats, alers and updates to direct a customer to engage with a product. This service includes customizable emails and text messages that can be automated to execite after a specific trigger condition is met. The success of each approach can be recored to generate analytics on how best to engage your customers.
+  - Microsoft Dynamics 365 Marketing: This easy-to-use business application provides a graphical interface for plotting the customer journey. A customer journey is a real-time marketing tool that monitors customer behavior and enables push notificats, alers and updates to direct a customer to engage with a product. This service includes customizable emails and text messages that can be automated to execute after a specific trigger condition is met. The success of each approach can be recoded to generate analytics on how best to engage your customers.
 
-  - Microsoft Dynamics 365 Sales: An adaptive sales system that actively monitors sales signals. It uses AI and machine learning to generate sales initiatives from everydat workflows. This application allows you to iport Excel worksheets that ocntain your sales data. Form this, the applicastion can perform sales analysis and identify trends.
+  - Microsoft Dynamics 365 Sales: An adaptive sales system that actively monitors sales signals. It uses AI and machine learning to generate sales initiatives from everydat workflows. This application allows you to import Excel worksheets that ocntain your sales data. Form this, the applicastion can perform sales analysis and identify trends.
 
   - Microsoft Dynamcis 365 Customer Service: This is a knowledge management center. It retains customer and agent experiences to provide company-wide-knowledge-based for interactions witha company's customers.
 
@@ -66,34 +66,34 @@
 - Practical solutions to hardware and software limitations:
 
   - Gathering Information: Determine the specific hardware components of the computer, including the CPU model, RAM size, Storage type, and Capacity. Next, identify the hardware requirements of the application or software.
-  - By understanding the specific applicastions the person runs and finding its resource requirements form the respective product supports pages, you will have more infromation to pinpoint the applicastions causeing the performance bottlenecks.
-  - Check the system's hardwaer configuration and confirm it matches the software requirements.
+  - By understanding the specific applicastions the person runs and finding its resource requirements form the respective product supports pages, you will have more information to pinpoint the applications causing the performance bottlenecks.
+  - Check the system's hardware configuration and confirm it matches the software requirements.
 
   - Identify the Root cause:
-    - Excessive resource consumption: If the resource-intensive applications condidtently max out the CPU, RAM, or Storage, they are likely the primary cause of the performance issues.
-    - Background Processes: You should also check for unnecessary or rogue background processes that might be consuming system resouces.
-    - Hardware limitations: If you find that the person's system ahs suitable hardware, the resource requirements of the person's applications may have outgrown the hardware's capabilities, leading to the perofmrance degradation.
+    - Excessive resource consumption: If the resource-intensive applications consistently max out the CPU, RAM, or Storage, they are likely the primary cause of the performance issues.
+    - Background Processes: You should also check for unnecessary or rogue background processes that might be consuming system resources.
+    - Hardware limitations: If you find that the person's system ahs suitable hardware, the resource requirements of the person's applications may have outgrown the hardware's capabilities, leading to the performance degradation.
     - Software optimization: Check for outdated software versions or configurations. This may be contributing to the performance issues.
-  - Gathering the nesesssary data and locating the root cause can be a complx process. While completing your investigations, you may find more than one cause for the problem the person is experiencing and more than one answer to fix the issue.
+  - Gathering the necessary data and locating the root cause can be a complex process. While completing your investigations, you may find more than one cause for the problem the person is experiencing and more than one answer to fix the issue.
 
 - Propose Solutions:
 
   - A proposed solution based on the data already acquired can comprise of one or more of the following.
-  - Reduce application usage: Encourage the person to optimize their resource-intensive applications by adjusting settings, using lighter alernatives, or temporarliy suspening non-essential background proceses.
+  - Reduce application usage: Encourage the person to optimize their resource-intensive applications by adjusting settings, using lighter alternatives, or temporarily suspending non-essential background processes.
   - Clean up unnecessary files: Remove any unnecessary temporary files, clear the browser cache, ad delete unused applications.
-    This will not only clear up disk space but also enhance performence by stopping background processes that are no longer needed.
-  - Optimize startup programs: Review the startup program list and disable any unneccessary programs that start automatically; this will reducie the load on the system during boot and initial usage.
+    This will not only clear up disk space but also enhance performance by stopping background processes that are no longer needed.
+  - Optimize startup programs: Review the startup program list and disable any unnecessary programs that start automatically; this will reducing the load on the system during boot and initial usage.
   - Upgrade Hardware: If the system is significantly underpowered for the user's workload, consider upgrading the CPU, RAM,or storage to provide better performance headroom.
   - Cloud-based Solutions: Recourse-intensive applications performance issues, consider migrating them to cloud-based alternatives that can leverage the scalability and power of cloud infrastructure.
 
 - Implement and Monitor:
 
   - In most scenarios, this involves a multi-faceted approach, For example, try completing the following steps;
-    - First, delete the browser cahce and temporary files.
+    - First, delete the browser cache and temporary files.
     - Next, remove any unused applications.
-    - Now, ensure only applicasiotn used regularly are beginning on startup.
-    - Lastly, if necessar, upgrade hardware where applicable. For example, install additional RAM.
-  - Once these steps are completed, it's crucial to monitor the system's performance metrics meticulously to evaluate the effectiveness of the implemented solutions. This monitoring process regularly tracks various performance indicators, such as COU usage, memory usage, disk activitly, network activiy, and applications responsiveness.
+    - Now, ensure only application used regularly are beginning on startup.
+    - Lastly, if necessary, upgrade hardware where applicable. For example, install additional RAM.
+  - Once these steps are completed, it's crucial to monitor the system's performance metrics meticulously to evaluate the effectiveness of the implemented solutions. This monitoring process regularly tracks various performance indicators, such as COU usage, memory usage, disk activity, network activity, and applications responsiveness.
   - One practical tool for monitoring these metrics is the Task Manager, which provides real-time insight into the performance of your system.
 
 - Outgoing solutions:

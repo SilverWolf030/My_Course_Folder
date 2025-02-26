@@ -1,34 +1,34 @@
-- In computer architeture, the server is an essential compnonent of the client-server model. A server will provide a service for aclient. Typically, one computer called the server will be reserved entirley for the execution of a given task. Then, additional coputers are connected to this server, which awaits a request for a service. Much like your waiter is tasked with taking your order to the kitchen and returning with food, the server is tasked with providing a service to a client. This was highlighted previously when web servers and databse servers were discussed.
+- In computer architecture, the server is an essential component of the client-server model. A server will provide a service for client. Typically, one computer called the server will be reserved entirely for the execution of a given task. Then, additional computers are connected to this server, which awaits a request for a service. Much like your waiter is tasked with taking your order to the kitchen and returning with food, the server is tasked with providing a service to a client. This was highlighted previously when web servers and database servers were discussed.
 
 - Storage:
 
-  - Modern businesses often kep their records in a digital format. Much like the application server, a database server wil provide the service of returning stored information. Therefore, businesses should think about using dedicated databse solutions if there is a larger amount of data to keep. If the storage requirementts are samll, a Microsoft Excel sheet or dedicated acounting software suffices.
+  - Modern businesses often kep their records in a digital format. Much like the application server, a database server wil provide the service of returning stored information. Therefore, businesses should think about using dedicated database solutions if there is a larger amount of data to keep. If the storage requirements are small, a Microsoft Excel sheet or dedicated amounting software suffices.
 
-  - RAM, is volatile, so if the power is cut, the information will be lost. Therefore, it is crucial to save your information on a regualr basis in your main memory. It is worth keeping a backup of your information. There are four considerations when making a backup.
+  - RAM, is volatile, so if the power is cut, the information will be lost. Therefore, it is crucial to save your information on a regular basis in your main memory. It is worth keeping a backup of your information. There are four considerations when making a backup.
 
   - Durability: Most storage decisions should meet the durability requirements. Data is durable when the information is saved from RAM into a secondary storage location.
 
-  - Scalability: Purchasing the hardware to act as a database server means you must have money available to acquire the machines. This involves sufficient planning because you need to know how much memory is needed. Buying too much memory is wawsteful: if it's not utilized, it is better to invest the money elsewhere. Alternatively,not buying enough hard drives might require acquiring and configuring more later. This potentially present an additional expense of hiring a professional to perform the task.
-    Using the cloud to store the information is preferable in this situation because you only pay or the storage you use. So, if a business wants to expand its current cloud storage capacity, it will pay for more space. Equally, if there is an excess amout of space, it can easily let go of the extra space at no additional cost. This option is ofter challenging fi the hardware was purchased.
+  - Scalability: Purchasing the hardware to act as a database server means you must have money available to acquire the machines. This involves sufficient planning because you need to know how much memory is needed. Buying too much memory is wasteful: if it's not utilized, it is better to invest the money elsewhere. Alternatively,not buying enough hard drives might require acquiring and configuring more later. This potentially present an additional expense of hiring a professional to perform the task.
+    Using the cloud to store the information is preferable in this situation because you only pay or the storage you use. So, if a business wants to expand its current cloud storage capacity, it will pay for more space. Equally, if there is an excess amount of space, it can easily let go of the extra space at no additional cost. This option is ofter challenging fi the hardware was purchased.
 
-  - Availabiltiy: Cloud storage is always available. Large online storage companies keep duplicates of your data in different geographic locations. So, if an earthquake impacts the storage centers in one location such as America, your data is backed-up and available in another geographical location liek Europe. This, however, is dependent on your premises having an internet connection.
-    If a business decides to keep a backup using cloud storage, the internet connection must be strong enought to access it. This is not a concern for direct-attached storage (DAS) because the databse server is not dependent on being online. However, it does require being physically connected to the server to access the information.
+  - Availability: Cloud storage is always available. Large online storage companies keep duplicates of your data in different geographic locations. So, if an earthquake impacts the storage centers in one location such as America, your data is backed-up and available in another geographical location like Europe. This, however, is dependent on your premises having an internet connection.
+    If a business decides to keep a backup using cloud storage, the internet connection must be strong enough to access it. This is not a concern for direct-attached storage (DAS) because the database server is not dependent on being online. However, it does require being physically connected to the server to access the information.
 
-  - Security: Data stored onthe cloud is encrypted, and by using one of the big storage companies, you benefit from the proctection they guarantee for your data. Note that there are several ways that this security can be overcome. Information online does nto guarantee saftey, there is a chance it can get lost or corrupted due to viruses, loss of passwords, or an issue occuring with your online storage provider. Alternatively, DAS can be used to retain the data on-premises, but if a business becomes physically compromised, it is vulnerable to cyperattacks.
+  - Security: Data stored on the cloud is encrypted, and by using one of the big storage companies, you benefit from the protection they guarantee for your data. Note that there are several ways that this security can be overcome. Information online does nto guarantee safety, there is a chance it can get lost or corrupted due to viruses, loss of passwords, or an issue occurring with your online storage provider. Alternatively, DAS can be used to retain the data on-premises, but if a business becomes physically compromised, it is vulnerable to cyber attacks.
 
   - https://learn.microsoft.com/en-us/sql/relational-databases/linked-servers/linked-servers-database-engine?view=sql-server-ver16
   - https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/2-azure-backup-features-scenarios
   - https://learn.microsoft.com/en-us/archive/msdn-technet-forums/be0d2a56-07ba-4757-8bad-774bec521a8c
 
   - Linked Servers (Database Engine):
-  - Linded servers enable the SQL Server Database Engine and Azure SQL Managed Instance to read data from the remote data sources and execute commands against the remote database server (for example, OLE DB data sources) outside of the instance of SQL Server. Typically linked servers an configured to enable the Database Engine to execute a Transact-SQL statement that includes tables in another instance of SQL Server, or another database product such a Oracle. Many types OLE DB data sources can be configured as linked servers, including third-party databse providers and Azure Cosmos DB.
+  - Linked servers enable the SQL Server Database Engine and Azure SQL Managed Instance to read data from the remote data sources and execute commands against the remote database server (for example, OLE DB data sources) outside of the instance of SQL Server. Typically linked servers an configured to enable the Database Engine to execute a Transact-SQL statement that includes tables in another instance of SQL Server, or another database product such a Oracle. Many types OLE DB data sources can be configured as linked servers, including third-party database providers and Azure Cosmos DB.
 
   - When to use Linked servers?
-  - Linked servers anable you to implement distributed databases that can fetch and update data in other databases. They are a good solution in the scenarios where you need to implement database sharding without need to create a custom application code or directly load from remote data sources. Linked servers offer the following advantages:
+  - Linked servers enable you to implement distributed databases that can fetch and update data in other databases. They are a good solution in the scenarios where you need to implement database sharding without need to create a custom application code or directly load from remote data sources. Linked servers offer the following advantages:
     - The ability to access data from outside of SQL Server.
-    - The ability to issue distributes queries, updates, commands, and transactions on heterogeneous data sources acreoss the enterprise.
+    - The ability to issue distributes queries, updates, commands, and transactions on heterogeneous data sources across the enterprise.
     - The ability to address diverse data sources similarly.
-  - You can configure a linked server by using SQL Server Management Studio or by using the ap_addlinkedserver (Transact-SQL) statement. OLE DB providers vary greatly in the type and number of parameters required. For example, some providers require you to provide a security context for the connection using sp_addlinkedsevlogin (TRansact-SQL). Some OLD DB providers allow SQL SErver to update data on the OLE DB source. Others provide only read-only data accesss. For information about each OLE DB provider, consult documentation for the OLE DB provider.
+  - You can configure a linked server by using SQL Server Management Studio or by using the ap_addlinkedserver (Transact-SQL) statement. OLE DB providers vary greatly in the type and number of parameters required. For example, some providers require you to provide a security context for the connection using sp_addlinkedsevlogin (TRansact-SQL). Some OLD DB providers allow SQL SErver to update data on the OLE DB source. Others provide only read-only data access. For information about each OLE DB provider, consult documentation for the OLE DB provider.
 
   - Linked Server Components:
   - A linked server definition specifies the following objects:
@@ -40,41 +40,41 @@
 
   - Linked servers to Microsoft Access and Excel sources are only supported by Microsoft when using the 32-bit Microsoft,JET.OLEDB.4.0 DB provider.
   
-  - Linked Server Detaisl:
-    - Typically, Microsoft, linked servers are used to handle distributed queries. When a client applicaion executes a distributed query through a linked server, SQL Server parses the command and sends requests to OLE DB. The rowset request may be in the form of executing a query against the provider or opening a base table form the providers.
+  - Linked Server Details:
+    - Typically, Microsoft, linked servers are used to handle distributed queries. When a client application executes a distributed query through a linked server, SQL Server parses the command and sends requests to OLE DB. The lowest request may be in the form of executing a query against the provider or opening a base table form the providers.
     - For a data source to return data through a linked server, the OLE DB provider (DLL) for that data source must be present on the same server as the instance of SQL Server.
     - When an OLE DB provider is used, the account under which the SQL Server service runs must have read and execute permissions for the directory, and all the subdirectories, in which the provider is installed. This includes Microsoft-released providers, and any third-party providers.
-    - Linked servers support Active Directory pass-through authenticaion with constrained delegationis also supported; however, resource-based constrained delegation in not supported.
+    - Linked servers support Active Directory pass-through authentication with constrained delegations also supported; however, resource-based constrained delegation in not supported.
 
   - Manage Providers:
     - There is a set of options that control how SQL Server loads and uses OLE DB providers that are specified in the registry.
   - Manage linked servers definitions:
-    - When you are setting up a linked server, register the connection information and ata source information wit SQL Server. After bieng regestered, that data source ca be referred to with a single logical name.
+    - When you are setting up a linked server, register the connection information and ata source information wit SQL Server. After being registered, that data source ca be referred to with a single logical name.
     - You can use stored procedures and catalog views to manage linked server definitions:
       - Create a linked server definition by running sp_addlinkedserver.
-      - View information about the linked server defined in a specific instance of SQL Server by running a query agianst the sys.servers system catalog view.
+      - View information about the linked server defined in a specific instance of SQL Server by running a query against the sys.servers system catalog view.
       - Delete a linked server definition by running sp_dropserver. You can also use this stored procedure to remove a remote server.
     - You can also define linked server by using SQL Server Management Studio. In the Object Explorer, right-click Server Objects, select New, and select Linked Server. You can delete a linked server definition by right-clicking the linked server name and selected Delete.
-    - When you execute a distributed query agianst a linked server, include a fully qualified, four-part table linked_server_name.catalog.schema.object_name.
+    - When you execute a distributed query against a linked server, include a fully qualified, four-part table linked_server_name.catalog.schema.object_name.
       - Linked servers can be defined to point back (loop back) to the server on which they are defined. Loopback server are most useful when testing an application that uses distributed queries on a single server network. Loopback linked servers are intended for testing and are not supported for many operations, such as distributed transactions.
 
   -  Linked server with Azure SQL Managed Instance:
-    - Azure SQL Managed Instance linked servers support both SQL authentication and authenticaiotn with Microsoft Entra aID (formerly Azure Active Directory)
+    - Azure SQL Managed Instance linked servers support both SQL authentication and authentication with Microsoft Entra aID (formerly Azure Active Directory)
     - To use SQL Agent jobs on Azure SQL Managed Instance to query a remote server through a linked server, use sp_addlinkedsrvlogin to create a mapping from a login on the local server on the remote server. When the SQL Agent job connects to the remote server through the linked server, it executes the T-SQL query in the context of the remote login.
     https://learn.microsoft.com/en-us/sql/ssms/agent/implement-sql-server-agent-security?view=sql-server-ver16#linked-servers
 
-  - Microsoft Entra aunthentication:
+  - Microsoft Entra authentication:
     - Two supported Microsoft Entra authentication modes are: managed identity and pass-through. Managed identity authentication can be used to allow local logins to query remote linked servers. Pass-through authentication allows a principle that can authenticate with a local instance to access a remote instance via a linked server.
     - To use Microsoft Extra pass-through authentication for a linked server in Azure SQL Managed Instance, you need the following prerequisites:
       - The same principle is added as a login on the remote server.
       - Both instances are members of the SQL trust group.
-      - Existing definitions of linked servers that were configured for pass-through mode support Microsoft Entra authenticaiton. The only requirement for this would be to add SQL Managed Instance to the Server Trust Group :https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/server-trust-group-overview?view=azuresql
-    - The following limitations apply to Microsoft Entra authenticaiton for linked servers in Azure SQL Managed Instance:
-      - Microsoft Entra authenticaitonis not supported for SQL managed instances in different Microsoft Entra tenants.
+      - Existing definitions of linked servers that were configured for pass-through mode support Microsoft Entra authentication. The only requirement for this would be to add SQL Managed Instance to the Server Trust Group :https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/server-trust-group-overview?view=azuresql
+    - The following limitations apply to Microsoft Entra authentication for linked servers in Azure SQL Managed Instance:
+      - Microsoft Entra authentications not supported for SQL managed instances in different Microsoft Entra tenants.
       - Microsoft Entra authentication for linked severs is supported only with OLE DB driver version 18.2.1 and higher.
-      - Microsoft Entra authentication for linked servers from SQL Managed Instance to SQL Server is supported for mapped local logins only. Propagating security context in not supported. That measn that managed identity authenticaion is supported, while pass-through authenticaion is not supported.
+      - Microsoft Entra authentication for linked servers from SQL Managed Instance to SQL Server is supported for mapped local logins only. Propagating security context in not supported. That means that managed identity authentication is supported, while pass-through authentication is not supported.
 
   - MSOLEDBSQL19 and linked server:
-    - Currently, MSOLEDBSQL19 prevents the creation of linked servers without encryption and a trusted certificate (a self-signed certificate is insufficeint). If linked servers are required, use the existing supported version of MSOLEDBSQL19.
+    - Currently, MSOLEDBSQL19 prevents the creation of linked servers without encryption and a trusted certificate (a self-signed certificate is insufficient). If linked servers are required, use the existing supported version of MSOLEDBSQL19.
 
   - 
