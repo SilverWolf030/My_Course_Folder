@@ -1,0 +1,71 @@
+- Binary is just another number system like decimal numbers. The "Bi" in binary means "two". Thus, instead of having ten digits to work with before needing to add an additional one, we only have two. The principles of how we count, how numbers grow, and how math is done follows the same exact patterns as decimal numbers, but will likely seem odd at first.
+
+- Binary Ex:
+
+  - 0 = 0
+  - 1 = 1
+  - 2 = 10
+  - 3 = 11
+  - 4 = 100
+  - 5 = 101
+  - 6 = 110
+  - 7 = 111
+  - 8 = 1000
+  - 9 = 1001
+  - 10 = 1010
+
+- Humans think in decimal and computers "think" in binary. Due to this, a useful skill for programmers to develop is the ability to quickly convert between decimal and binary numbers. One approach to this would be to count from zero up to N whenever you need to do the conversion to some value N. This would work well for small numbers (say, less than 20 or 30), but after that this would start to become very unruly. What would you do if you need to convert the "503 square feet" to binary? That's a lot of counting. A better procedure for completing these conversions is presented in the next lesson.
+
+- Converting to and from Binary:
+
+- Exponentiation involves two numbers: The base and the exponent. In order to complete the operation of exponentiation, you must multiply the base numbers by itself exponent number of times.
+
+- Exponentiation is important to understand if we want a better technique for converting from a decimal to binary. When dealing with binary numbers, you can think about the 1 at each digit representing one of the powers of 2 (2 as a base raised to some power N).
+
+  - 1 = 2^0 = 1
+  - 10 = 2^1 = 2
+  - 100 = 2^2 = 4
+  - 1000 = 2^3 = 8
+  - 10000 = 2^4 = 16
+  - 100000 = 2^5 = 32
+  - 1000000 = 2^6 = 64
+  - 10000000 = 2^7 = 128
+  - 100000000 = 2^8 = 256
+
+- This pattern continues for all exponents. If a 1 is present in a binary number at some position N, that corresponds to the decimal value 2^N-1. This property of binary numbers provides a quick mechanism for conversion, as long as you can memorize (or calculate) any exponent for 2. The steps for this are as follows:
+
+  - Determine what number you want to convert. We'll use 147 for this example.
+
+  - Write out all of exponent values of 2 that are less then out target number (147). 128, 64, 42, 16, 8, 6, 4, 2, 1.
+
+  - Stating with the largest number, see if you can subtract it from the target. If you can subtract it without going negative, do the subtraction and continue with the lower numbers on the result. Otherwise, skip to the next lowers number. In this case, we can:
+
+    - Subtract 147 - 128 = 19
+    - Cannot do 19 - 64 so skip
+    - Cannot do 19 - 32 so skip
+    - Subtract 19 - 16 = 3
+    - Cannot do 3 - 8 so skip
+    - Cannot do 3 - 4 so skip
+    - Subtract 3 - 2 = 1
+    - Subtract 1 - 1 = 0
+
+  - You should always end up with 0 after doing this. if not, something went wrong, and you should probably restart.
+
+  - We then create the binary number. The places where we were able to subtract correspond to a 1, and the others correspond to a 0, giving us 10010011.
+
+  - The same principle can be used to go the other direction. If you are starting with a binary number and want to know its decimal equivalent, write out the necessary powers of two, select the ones with a corresponding 1 in the binary. and then sum those together.
+
+- Representing Text in Binary:
+
+- This is basically all that computers do to store text, through there are a a few additional things we need to consider. The first is digit length, say you want to store the word "ACED" in the computer's memory or hard drive. the sequence of binary we'd have to save would be like 111101100 (1 for :A", then 11 for "C", 101 for "E" and 100 for "D"). This is only 9 bits of information. But there is a problem with is this, there are more than one word that 111101100 could be interpreted as, depending on how the digits are divided up,
+
+- This is an unacceptable standard to adopt. We need to a way to avoid this ambiguity. One answer, and the way it is often handled on computers, is to make each character be represented with the same number of bits. Since there are 26 letters in the alphabet, ad the binary number for 26 is 11010, we should be able to represent all of the letters with a 5-bit, fixed width value.
+
+  - A = 00001
+  - ...
+
+- With this updated system, we would use 00001 00011 00101 00100 to represent "ACED". With these 5-bit sequences, we cannot misinterpret this binary as being any other word. We could put 0001 00011 00101 00100 into the computers memory and be confident that it is accurately spelling out the word we want.
+
+- We now have a better representation, but it is still imperfect. The model we have chosen can only represent upper-case alphabetical letters. If we want out text files to be able to contain other things such as lowercase letters, punctuation, numeric characters, and spaces, we will need to upgrade our solution. We now have many more characters to represent. If we add up the number of upper-case letters (26) lower-case (another 26), decimal digit (10), punctuation (at least 1, but perhaps maybe more) and spaces (1) we now have easily at least 26 + 26 + 10 + 10 + 1 = 73 characters to represent. The binary number for 73 is 1001001 and is 7 digits long, so we would have to increase the size of each letter.
+
+- With this, the word "ACED" would now have to be 0000001 0000011 0000101 0000100. Again it takes more space, but eliminates ambiguity and also allows for more flexability with what text we write. In the real-world, there are several popular, and widely-agreed-upon standard for storing text on computers. One very popular one if referred to as ASCII also uses 7-bit binary numbers to store each character in the encoding.
