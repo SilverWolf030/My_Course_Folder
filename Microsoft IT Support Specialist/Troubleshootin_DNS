@@ -1,0 +1,35 @@
+- Unable to resolve domain names:
+
+  - A common DNS issue is the inability to resolve domain names, which can result in websites being inaccessible despite an active internet connection.
+
+  - Causes and solutions:
+
+    - Incorrect DNS server configuration: Ensure the DNS server addresses are correctly configured on client devices. To do so open a command prompt on the client device. Type nslookup <domain> and press enter. Verify that the DNS server listed in the output is the correct one and is resolving domain names correctly.
+
+    - DNS server downtime: Verify that the DNS server is operational and reachable. Use the ping command to test connectivity to the DNS server by typing ping <DNS_server_IP_or_hostname> into the command prompt. If successful, you should see replies indicating that the server is reachable. Note that you have to enter the details of the specific DNS server, IP address, or hostname, not just type "DNS_server_IP_or_hostname". For example, you can ping 8.8.8.8, which is Google's public DNS server IP address.
+
+    - Propagation delays: Checking with DNS resolvers can help. To query a DNS record use nslookup <domain> to verify propagation status. nslookup will display the IP address(es) associated with the domain name, along with the DNS server(s) that provided the resolution. And then use dig <domain> to view detailed DNS query information. Changes to DNS records can take time to propagate, so patience is required.
+
+- Commands:
+
+  - Use nslookup <domain> to query the DNS server for domain resolution.
+
+  - Use dig <domain> for detailed DNS query information.
+
+  - Use ping to test connectivity to the DNS server.
+
+- DNS server not responding:
+
+  - When a DNS server does not respond, clients cannot resolve domain names, which can lead to a failure to access internet resources.
+
+  - Causes and solutions;
+
+    - Server Issues: Restart the DNS server or check for software updates.
+
+    - Firewall settings: Ensure firewalls are not blocking DNS traffic (port 53).
+
+    - Network issues: Check the network path between clients and the DNS server for disruptions.
+
+  - Tools and commands:
+
+    -
