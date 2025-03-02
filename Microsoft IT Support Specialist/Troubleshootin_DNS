@@ -32,4 +32,78 @@
 
   - Tools and commands:
 
-    -
+    - Use tracert <DNS server> if you are using your computer to trace the route and identify where the communication fails. Remember to enter the specific DNS server's details, don't just type "DNS server".
+
+    - Review DNS server logs for indications of failure. To :do so, log into the server where the DNS service is running, and locate the directory where DNS server logs are stored. This can vary depending on the DNS server software and configuration.
+
+- Incorrect DNS records:
+
+  - Incorrect DNS records can lead to domain resolution issues, such as pointing to the wrong IP address or non-existent domains.
+
+  - Causes and solution:
+
+    - Manual entry errors: Double-check DNS entries for typos or incorrect values by using nslookup and dig.
+
+    - Expired records: Ensure DNS records are up to date and refresh if necessary. To d so you should log into your DNS management console. This could be hosted by your domain registrar, DNS hosting provider, or within your organization's network infrastructure (e.g., Windows Server DNS Manager). Locate the section where DNS records are managed. This is often labeled as DNS Zone, DNS Records, or similar terminology. Scan through the list of DNS records to identify any records that may have expired or are due for renewal Modify or renew expired DNS records as necessary.
+
+    - Tools and commands:
+
+      - Use nslookup and dig to verify DNS records.
+
+      - Check the DNS management console for correct configuration.
+
+- Using diagnostic utilities:
+
+  - ipconfig: a command-line tool used primarily on Windows systems to display and manage network configuration settings. It provides detailed information about network interfaces IP addresses, DNS settings, and more, which is essential for network troubleshooting and configuration management.
+
+    - ipconfig /flushdns : can be used to clear the DNS resolver cache
+
+    - ipconfig /all can be used to check DNS server settings on client devices
+
+  - nslookup: is used to query DNS servers and obtain domain name information. It helps diagnose DNS resolution issues and verify DNS configurations. Common commands include:
+
+    - nslookup <domain>: to resolve a domain name to an IP address.
+
+    - nslookup: followed by server address to switch to a different DNS server for queries.
+
+  - dig (Domain Information Groper): is a powerful tool for querying DNs servers and analyzing DNS responses. It provides more detailed output than nslookup. Common commands include:
+
+    - dig <domain> for a basic DNS query.
+
+    - dig +trace <domain> to perform a trace from the root servers to the authoritative server for the domain.
+
+    - dig @<DNS server> <domain> to query a specific DNS server.
+
+- Advanced troubleshooting techniques for DNS:
+
+  - These are essentially the same as the techniques used for DHCP troubleshooting but can also be applied to DNS issues.
+
+  - Network scanning: helps identify all devices on the network, their assigned IP addresses, and potential conflicts.
+
+    - Use nmap for comprehensive network scanning and host discovery
+
+    - Use arp -a to view ARP cache and identify IP assignments.
+
+  - Packet analysis: provides detailed insights into network traffic, helping identify DNS communication issues.
+
+    - Use Wireshark for capturing and analyzing network packets.
+
+    - Filter DNS traffic to isolate relevant packets for troubleshooting.
+
+  - Server log analysis: can reveal configuration errors, software bugs, or network issues impacting DNS services.
+
+    - Review DNS server logs for query handling and resolution failures.
+
+- Practical scenario: Fixing domain name resolution failures:
+
+  - Users report that they cannot access specific websites due to DNS resolution failures. These are the steps you should follow to resolve the problem.
+
+    1. Verify DNS configuration: Use ipconfig / all to check DNS server settings on client devices.
+
+    2. Query DNS records: Use nslookup <domain> and dig <domain> to check the DNS resolution.
+
+    3. Check DNS server status: Ensure the DNs server is operational and reachable using ping and tracert if you are using your computer.
+
+    4. Update DNS records: Verify and correct DNS records in the DNS management console.
+
+    5. Clear DNS cache: Use ipconfig /flushdns to clear the DNS cache on client devices.
