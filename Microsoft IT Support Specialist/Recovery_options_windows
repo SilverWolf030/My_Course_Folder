@@ -1,0 +1,111 @@
+- System Restore:
+
+- System Restore allows you to restore your computer's stake to a previous point in time. This includes system files, installed applications, the Windows Registry, and system setting. It can bve particularly useful for recovering from system malfunctions for software problems without affecting personal files.
+
+- How to access System Restore:
+
+  - Open the Start Menu
+
+  - Type "Create a restore point" and select it from the results.
+
+  - In the System Properties window, select the System Restore button.
+
+  - Follow the prompt to choose a restore point and start the restoration process.
+
+- Impact:
+
+  - Data: Personal files are not affected
+
+  - Settings: System settings are reverted to the chosen restore point.
+
+  - Programs: Any software installed after the restore point will be uninstalled.
+
+- Reset this PC:
+
+- Reset this PC is a robust recovery feature in Windows that slows users to reinstall the operating system while providing flexibility in how much data is preserved. This feature is particularly beneficial when dealing with severe software problems that cannot be resolved through simpler troubleshooting steps.
+
+- This option is useful when the system is plagued with persistent software problems, malware, or corrupt system files that simpler recovery methods cannot fix. It can also be used when a device needs to be handed over to a new user. Resetting ensure that all personal data and installed applications are removed, provided a clean slate.
+
+- How to Reset this PC:
+
+  - Open the Settings app
+
+  - Navigate to System > Recovery
+
+  - Under Reset this PC select Reset PC
+
+  - Choose Remove everything
+
+- Impact:
+
+  - Data: All personal files are deleted
+
+  - Settings: All settings are reverted to default
+
+  - Programs: All apps and programs are removed.
+
+- Key aspects:
+
+  - Reinstallation of Windows: This feature reinstalls the Windows operating system,ensuring that nay corrupted system files are replaced with fresh copies.
+
+  - System stability and performance: Resetting the PC can significantly improve system performance by removing unwanted programs and resolving deep-seated software issues.
+
+- Fresh Start;
+
+- Fresh Start is a sub-feature of Reset this PC, designed to help users reinstall and update the operating system while keeping files and certain settings intact. It focuses on providing a cleaner system environment by allowing you to choose to remove most installed applications, including bloatware and pre-installed software that often comes with new PCs. Its primary goal is to improve system performance and stability without the complete data wipe that other recovery options may entail.
+
+- How to implement Fresh Start:
+
+  - Open the Setting app
+
+  - Navigate to System > Recovery
+
+  - Under Reset the PC select Reset PC
+
+  - Select Keep my files
+
+  - Set Change Settings > Preinstalled apps to Off
+
+- Impact:
+
+  - Data: Personal files are retained
+
+  - Settings: Removed changes you made to settings
+
+  - Programs: Setting Preinstalled apps to Off removed any apps your PC manufacturer installed.
+
+- Key aspects:
+
+  - Reinstallation and update of Windows: Fresh Start reinstalls Windows and updates it to the latest version ensuring all system files are current and free from corruption.
+
+  - Data retention: Personal files, such as documents, pictures, and videos, are preserved, making it less disruptive option compared to a full system reset.
+
+  - Removal of non-essential application: Installed applications are removed, including any apps your PC manufacturer installed. This helps to declutter the system and potentially improve performance.
+
+- Advance Startup:
+
+- Advanced Startup provides several recovery tools and options that can help troubleshoot and fix problems with your PC. this includes options like System Restore, System Image Recovery, Startup Repair, and more.
+
+- How to access Advanced Startup:
+
+  - Open the Settings app
+
+  - Navigate to System > Recovery
+
+  - Under Advanced startup, Select Restart now
+
+  - Your PC will restart to the Advanced Startup menu
+
+- Impact:
+
+  - Startup Repair: Fixes problems that prevent Windows from starting correctly
+
+  - System Image Recovery: Restores your PC using a system image file.
+
+  - Command prompt: Provides a command line interface for advanced troubleshooting.
+
+  - Startup settings: Allows you to change Windows startup behavior, including enabling safe mode.
+
+- System Image Recovery:
+
+  -
