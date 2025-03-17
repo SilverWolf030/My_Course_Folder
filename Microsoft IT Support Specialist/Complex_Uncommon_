@@ -1,0 +1,31 @@
+- Gather and analyze diagnostic data:
+
+  - Collect logs from all relevant system components like servers, databases, and network devices such as routers, switches, and firewalls.
+
+  - Review performance metrics to identify patterns or anomalies that coincide with performance issues.
+
+  - Use monitoring tools to create a timeline of events leading up to the performance degradation.
+
+  - Document any error messages, warnings, or unusual activity found in the logs.
+
+- Identify potential causes:
+
+  - Cross-reference the collected data with the system's documentation to understand normal versus abnormal behavior.
+
+  - Based on the diagnostic data, create a list of potential causes, such as hardware failures, software bugs, of network issues.
+
+  - Prioritize the list based on the likelihood and potential impact of each cause.
+
+  - Develop a hypothesis for the most probable cause of the issues.
+
+- Isolate and test hypotheses:
+
+  - Use system documentation to identify safe methods for isolation each potential causes without disrupting critical operations.
+
+  - Test the highest-priority hypothesis first by isolation the suspected component and observing the system's performance.
+
+  - If the hypothesis is disproven, move on to the next potential cause and repeat the testing process.
+
+- Implement a solution:
+
+  - Once
