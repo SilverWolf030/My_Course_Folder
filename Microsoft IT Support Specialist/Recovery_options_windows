@@ -108,4 +108,92 @@
 
 - System Image Recovery:
 
-  -
+- System Image Recovery is a powerful recovery feature in Windows that allows users to restore their computer to a previous state using a system image backup. Unlike other recovery options that might only affect system files or settings, System Image Recovery restores everything on the computer, including the operating system, installed programs, personal files, and system settings. This comprehensive approach ensures that the system can be restored to a fully functional state exactly as it was at the time system image was created.
+
+- How to access System Image Recovery:
+
+  - Open the Advanced Startup menu.
+
+  - Select Troubleshoot > Advanced options > System Image Recovery.
+
+  - Follow the prompt to restore your computer from the system image.
+
+- Impact:
+
+  - Data: All data is restored to the state when the image was created.
+
+  - Settings: All settings are restored to the state when the image was created.
+
+  - Programs: All programs are restored to the state when the image was created.
+
+- Key aspects:
+
+  - Complete backup restoration: A system image is a complete snapshot of your computer's hard drive, capturing every detail from the operating system to personal files and settings. This means that when you restore from a system image, you get back a precise replica of your system at the time the image was created.
+
+  - Disaster recovery: This feature is particularly useful for recovering from catastrophic failures, such as severe malware infections, major system crashes, of hardware failure that requires the replacement of the hard drive.
+
+  - Preservation of software environment: By restoring the entire system, users can regain their familiar work environment with all installed applications and configured settings, minimizing downtime and the need for reconfiguration.
+
+- Windows Recovery Environment (WinRE):
+
+- WinRE is a set of tools based on a Windows Pre-installation Environment that can help diagnose and recover from serious errors that may be preventing Windows from booting successfully.
+
+- How to access WinRE:
+
+- WinRE automatically launches if Windows detects a boot failure. It can also be manually accessed through Advanced Startup.
+
+- Tools available in WinRE:
+
+  - Startup Repair: Fixes issues that prevent Windows from starting.
+
+  - System Restore: Reverts system files and settings to a previous point.
+
+  - System Image Recovery: Restores your PC from a system image.
+
+  - Command prompt: Accesses the file system and enables you to perform advanced troubleshooting.
+
+  - UEFI firmware settings: Allows changes to the system's firmware settings.
+
+  - Startup settings: Changes Windows startup behavior, such as enabling Safe Mode.
+
+- Impact:
+
+- The effects and consequences depend on the specific tool used within WinRE, similar to their standalone counterparts described above.
+
+- Safe Mode:
+
+- Safe Mode is a diagnostic mode of Windows that start the system with a minimal set fo driver and services. It is useful for troubleshooting and fixing problems within the operating system.
+
+- How to access Safe Mode:
+
+  - Open the Advanced Startup menu:
+
+  - Select Troubleshooting > Advanced options > Startup Settings:
+
+  - Select Restart and then choose the option to enable Safe Mode.
+
+- Impact:
+
+  - Data: Personal files are not affected
+
+  - Settings: Minimal system settings are loaded.
+
+  - Programs: Only essential system programs and services are loaded.
+
+- Refresh Windows Tool:
+
+- The Refresh Windows Tool is designed to reinstall and update Windows 10 while keeping your personal files and some Windows settings. It removes most of your apps but retains those that come standard with Windows or were pre-installed by the manufacturer. The tool ensures that all system files are current and free from corruption.
+
+- How to access the Refresh Windows Tool:
+
+  - Download the tool from the Microsoft website.
+
+  - Run the tool the follow the on-screen instruction to refresh your Windows installation.
+
+- Impact:
+
+  - Data: Personal files are retained.
+
+  - Settings: Some Windows settings are kept:
+
+  - Programs: Most apps are removed, but those pre-instaled by the manufacturer are kept.
