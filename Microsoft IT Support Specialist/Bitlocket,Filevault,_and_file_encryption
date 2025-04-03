@@ -74,4 +74,10 @@
 
 - Recovering encrypted data: Safeguarding access
 
--
+- While encryption offers unparalleled security, it's crucial to remember that losing your password or recovery key can render your data inaccessible. Therefore, it's essential to:
+
+  - Choose a solid and memorable password: For optimal strength, use a combination of uppercase and lowercase letters, numbers, and symbols.
+
+  - Store your recovery key securely: Never store your recovery key on your encrypted device. Consider writing it down on paper and keeping it in a secure location, or utilize a trusted password manager.
+
+  - Regularly back up your recovery key: Create backups or your recovery key and store them in separate locations for added security.
