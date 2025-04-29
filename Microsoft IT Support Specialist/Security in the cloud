@@ -1,0 +1,13 @@
+- Cloud security measures:
+
+  - Encryption:
+
+  - Data encryption is fundamental to cloud security, safeguarding sensitive information from potential breaches through unauthorized access. Cloud service providers implement robust encryption mechanisms to protect data both at rest and in transit.
+
+  - At rest encryption involves encrypting data stored in cloud storage services, databases, and virtual machine instances. CSPs typically leverages industry-standard encryption algorithms, such as Advanced Encryption Standard (AES) and RSA (Rivest-Shamir-Adleman),along with secure key management practices. Keys are often manged and rotated automatically, ensuring that data remains encrypted even if the underlying storage medium is compromised.
+
+  - In-transit encryption, on the other hand, secures data s it moves between the cloud and on-premises environments or between different cloud services. CSPs employ secure protocols like Transport Layer Security (TLS) and internet Protocols Security (IPsec) to establish encrypted communication channels, preventing eavesdropping and man-in-the-middle attacks.
+
+  - Identity and access management (IAM):
+
+  -
