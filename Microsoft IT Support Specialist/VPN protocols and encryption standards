@@ -76,4 +76,18 @@
 
 - 3DES (Triple Data Encryption Standard):
 
-  - 3DES, or Triple DES, is an encryption algorithm that applies the Data Encryption Standard
+  - 3DES, or Triple DES, is an encryption algorithm that applies the Data Encryption Standard (DES) cipher algorithms three times to each data block. IT was developed as a more secure alternative to the original DES algorithms.
+
+  - Widely supported and compatible with various systems and protocol, 3DES ensures a decent level of interoperability. However, its drawbacks include relatively slow and computationally intensive operations compared to more modern algorithms like AES. Additionally, its security is deemed inadequate by modern standards due to its relatively short effective key length of 112 bits.
+
+- Choosing the right VPN protocol and encryption standard:
+
+  - Several factors should be considered when selecting a VPN protocol and encryption standard, including security requirements, performance needs, compatibility with existing infrastructure, and ease of use. Let's examine some examples.
+
+  - OpenVPN with AES-256 encryption can provide a robust and secure solutions for individuals or small organizations with basic privacy needs. It offers both security and performance while being compatible with various devices and operating systems.
+
+  - In corporate or enterprise environments with strict security requirements, L2TOP/IPsec with AES-256 encryption or IKEv2 with AES-256 encryption is a reliable choice. They provide strong security, support a wide range of authentication methods, and are compatible with various network configurations and devices.
+
+  - For mobile uses or environments with frequent network changes, IKEv2 with AES-256 encryption or WireGuard with its modern cryptographic implementation can be excellent options due to their fast reconnection times and mobility support.
+
+  - It's important to note that no single VPN protocol or encryption standard is a one-size-fits-all solution. Organizations and individuals should carefully evaluate their specific needs, threat models, and compatibility requirements before making a choice.
