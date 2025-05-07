@@ -1,0 +1,73 @@
+- Technical terms related to network traffic:
+
+  - Bandwidth: Bandwidth refers to the maximum amount of data that can be transmitted over a network or internet connection within a given time period. IT is measured in bits per second (bps) or bytes per second.
+
+  - Latency: also known as network delay, it the time it takes for data to travel from the source to the destination across a network. It is measured in millisecond (ms) and can be influenced by factors such as network distance, congestion, and routing paths.
+
+  - Jitter: is the variation in latency over time that causes packets to arrive at irregular intervals. It can significantly impact real-time applications such as voice over IP (VoIP) and video conferencing, leading to choppy audio or video quality.
+
+  - Packet loss: Packet loss occurs when data packets transmitted over a network fail to reach their intended destination. It can be caused by network congestion, hardware failures, or transmission errors and can result in missing or corrupted data, impacting the overall quality of service.
+
+  - Quality of service. (QoS) : refers to a network's ability to prioritize and manage different types of traffic to ensure consistent and reliable performance for critical applications or services.
+
+  - Content delivery network (CND): A CDN is a distributed network of servers strategically placed across multiple locations to efficiently deliver web content, such as images, videos, and other static files, to end-users based on their geographic location.
+
+- Network traffic classification:
+
+  - Unicast traffic: The most common type of network communication, where data is transmitted from a single source to a single destination. This one-to-one communication is widely used for activities such as web browsing, file transfers, and email exchanges. Unicast traffic efficiently utilized bandwidth, as the data is sent directly to the indented recipient without replication.
+
+    - Scenario: Consider a suer accessing a website hosted on a remote server. The user's web browser sends as a request (unicast traffic) to the server's IP address, and the server responds with the requested webpage data via unicast traffic.
+
+  - Multicast Traffic: involves sending data from a single source to multiple destinations simultaneously. This type of traffic is particularly useful for applications that require efficient data distribution to a grasp of recipients, such as video streaming, online gaming, and software updates. Compared to sending individual unicast streams to each recipient, multicast traffic reduces network congestion and bandwidth consumption.
+
+  - Scenario: Imagine a company hosting a live webinar for its employees across multiple office locations. Instead of sending separate unicast streams to each participant, the webinar content con be efficiently distributed using multicast traffic, reducing network load and ensuring optimal performance.
+
+  - Broadcast traffic: A type of network communication where data is transmitted from a single source to all devices on the same network segment or broadcast domain. This type of traffic is typically used for network discovery and configuration purposes, such as Address Resolution Protocol (ARP) request and Dynamic Host Configuration Protocol (DHCP) messages. While broadcast traffic is necessary for certain network operations, excessive broadcast traffic can lead to network congestion and performance degradation.
+
+  - Scenario: Consider a user connecting a new device tot he office network. This device may send out a broadcast ARP request to discover the MAC address (hardware or physical address) of the default gateway, allowing it to communicate with other devices on the network.
+
+  - Anycast Traffic: A routing methodology where data is transmitted from a single source to the nearest available destination among a group of potential receivers. This type of traffic is commonly used in content delivery networks (CSNs) and distributed denial-of-service (DDoS) mitigation services, where requests are routed to the nearest available server or mitigation point for optimal performance and load balancing.
+
+  - Scenario: A user accessing a popular video streaming service may be directed to the nearest available content delivery server via anycast routing, ensuring low latency and efficient content delivery.
+
+- Network performance metric and traffic types:
+
+  - Bandwidth utilization:
+
+    - Unicast traffic efficiently utilizes bandwidth, as data is transmitted directly from the source to the destination without replication.
+
+    - Multicast traffic can significantly reduce bandwidth consumption compared to sending multiple unicast streams, as data is replicated only when necessary at branch points in the network
+
+    - Excessive broadcast traffic can lead to increased bandwidth consumption and network congestion as data is transmitted to all devices on the network segment.
+
+    - Anycast traffic optimizes bandwidth utilization by direction requests to the nearest available server or service point, reducing the amount of data traversing long distance across the network.
+
+  - Latency:
+
+    - Latency in unicast traffic depends on factors such as network distance, routing paths, and congestion levels.
+
+    - Multicast traffic can introduce additional latency due to the need for replication of branch points and the potential for suboptimal routing paths.
+
+    - Broadcast traffic typically has low latency, as it is limited to the local network segment.
+
+    - Anycast traffic can minimize latency by routing request to the nearest available server or service point, reducing the distance data needs to travel.
+
+  - Jitter:
+
+    - Variation in latency can occur in unicast traffic due to network congestion, routing changes, or buffer overflow.
+
+    - Multicast traffic may experience higher jitter compared to unicast traffic, as replication and routing paths can introduce additional variability.
+
+    - Broadcast traffic is typically not affected by jitter, as it is confined to the local network segment.
+
+    - Anycast traffic can help reduce jitter by dynamically selecting the nearest available server or service point, minimizing the impact of network congestion or routing changes.
+
+  - Packet Loss:
+
+    - Packet loss in unicast traffic can occur due to network congestion, hardware failures, or transmission errors.
+
+    - Multicast traffic is more susceptible to packet loss, as lost packets may not be retransmitted due to the one-to-many nature of the communication.
+
+    - Broadcast traffic is generally less affected by packet loss, as it is limited to the local network segment and can be retransmitted if necessary.
+
+    - Anycast traffic can mitigate the impact of packet loss by dynamically selecting alternative servers or service points, providing redundancy and failover capabilities.
