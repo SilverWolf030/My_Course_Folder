@@ -88,3 +88,60 @@
   https://blog.hubspot.com/website/http-vs-https
   https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/setup-nat-network
   https://brightwhiz.com/demystifying-nat-network-address-translation-and-port-forwarding/
+
+- Common ports
+
+  - Common or well-known ports are a range of port numbers (0 to 1023) that are assigned to commonly used Internet services and protocols. These ports are standardized and widely recognized across various operating systems and networks. Some examples of well-known ports include the following.
+    HTTP (port 80)
+
+  - The Hypertext Transfer Protocol (HTTP) port 80 is the default port used for accessing websites and web servers. When you enter a URL in your web browser, it establishes a connection with the web server on port 80 and retrieves the requested web page or content.
+    HTTPS (port 443)
+
+  - The Hypertext Transfer Protocol Secure (HTTPS) port 443 is used for secure communication over the Internet. It employs encryption to protect data transmission, making it ideal for sensitive transactions such as online banking, e-commerce, and other secured services.
+    FTP (port 21)
+
+  - The File Transfer Protocol (FTP) port 21 is used for transferring files between computers over a network. FTP clients establish connections with FTP servers on this port to upload, download, or manage files and directories.
+
+21 : File Transfer Protocol (FTP) control
+
+22 : Secure Shell (SSH) for secure remote access
+
+23 : Telnet for unencrypted remote access
+
+25 : Simple Mail Transfer Protocol (SMTP) for email transmission
+
+53 : Domain Name System (DNS) for domain name resolution
+
+80 : Hypertext Transfer Protocol (HTTP) for unencrypted web browsing
+
+110 : Post Office Protocol version 3 (POP3) for email retrieval
+
+143 : Internet Message Access Protocol (IMAP) for email retrieval
+
+443 : Hypertext Transfer Protocol Secure (HTTPS) for encrypted web browsing
+
+There are some other ports that are often used by some common applications that are not in this range of 0-1023. Here is a list of those ports.
+
+3306 : MySQL database server
+
+3389 : Remote Desktop Protocol (RDP) for remote desktop access
+
+5900 : Virtual Network Computing (VNC) for remote desktop sharing
+
+8080 : Alternative port for HTTP web servers
+
+- Registered ports
+
+  - Registered ports range from 1024 to 49151 and are assigned to specific applications or services by the Internet Assigned Numbers Authority (IANA). Proprietary software, gaming applications, and various other services commonly use these ports.
+
+  - Unlike well-known ports, which are standardized and used by widely recognized internet protocols and services, registered ports are allocated to specific organizations or software vendors. This allocation process helps prevent conflicts and ensures that different applications or services can coexist without interfering with each other's network communications.
+
+  - Commercial software applications, multimedia streaming services, online games, and other proprietary solutions often use registered ports. For example, many popular online games use registered ports for data transfer, voice chat, and other in-game communications. Similarly, video conferencing applications, remote desktop software, and file-sharing utilities frequently utilize registered ports to facilitate their respective functionalities.
+
+- Dynamic or private ports
+
+  - Dynamic or private ports range in number from 49152 to 65535. These ports are typically used for temporary or ephemeral connections and are not officially assigned to any specific application or service. Ephemeral connections refer to temporary or short-lived connections between devices or systems.
+
+  - Unlike well-known and registered ports, which are reserved for specific purposes, dynamic or private ports are used for short-lived connections initiated by client applications. When a client application needs to connect with a server, it randomly selects an available port from the dynamic or private port range to serve as the source port for the outgoing connection.
+
+  - This approach helps ensure that multiple client applications running on the same system can establish connections simultaneously without conflicting with each other's port usage. Once the connection is terminated, the dynamic or private port is released and can be reused by other applications.
