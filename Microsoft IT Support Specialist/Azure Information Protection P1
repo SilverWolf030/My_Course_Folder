@@ -1,0 +1,89 @@
+What is Azure Information Protection Plan 1?
+
+Azure Information Protection Plan 1 is a foundational information protection solution from Microsoft. It offers various features and capabilities to safeguard sensitive data within your organization.
+
+With AIP P1, you can identify and classify data based on sensitivity levels, such as public, internal, confidential, or highly confidential. It allows you to apply visual labels to documents, emails, and files, indicating their sensitivity level and promoting user awareness. AIP P1 also enables you to enforce data protection actions, including encryption, access control, and rights management policies. You can monitor and audit data access, usage, and protection activities for compliance and incident response purposes. AIP P1 seamlessly integrates with other Microsoft products and services and third-party applications and services for a unified data protection experience.
+
+With this overview in mind, Let’s have a deeper look at the data classification, labeling and protection features of AIP P1.
+Data classification: The foundation of information protection
+
+Data classification is the first step in implementing an effective information protection strategy. AIP P1 provides a robust classification engine that enables organizations to identify and categorize their data based on sensitivity levels, such as public, internal, confidential, or highly confidential. Depending on the organization's requirements, this classification process can be automated or performed manually.
+
+AIP P1 leverages machine learning and advanced analytics to analyze the content and context of data, helping to accurately identify sensitive information. It can recognize patterns, keywords, and data types, including personally identifiable information (PII), financial records, and intellectual property. By classifying data accurately, organizations can prioritize their protection efforts and ensure that the most sensitive information receives the highest level of security.
+
+Here are some examples of data types that align with different sensitivity levels in the context of data classification:
+
+Public data:
+
+    News articles: Publicly available news articles or press releases.
+
+    Marketing brochures: Information shared openly for promotional purposes.
+
+    General FAQs: Frequently Asked Questions are accessible to everyone.
+
+Internal data:
+
+    Employee records: Employees' Personal details (e.g., names, addresses, payroll information).
+
+    Project documentation: Internal project plans, timelines, and progress reports.
+
+    Meeting minutes: Notes from internal team meetings.
+
+Confidential data:
+
+    Financial reports: Detailed financial statements, balance sheets, and income statements.
+
+    Customer lists: Lists of clients or customers with contact information.
+
+    Legal contracts: Agreements, contracts, and legal documents.
+
+Highly confidential data:
+
+    Health records: Medical history, diagnoses, and treatment information.
+
+    Trade secrets: Proprietary information critical to a company’s competitive advantage.
+
+    Research and development (R&D) data: Cutting-edge research findings or experimental data.
+
+Labeling: A visual representation of data sensitivity
+
+Once data is classified, AIP P1 enables organizations to apply visual labels that clearly indicate the information's sensitivity level. These labels can be applied automatically based on the classification or manually by users, ensuring a consistent and reliable labeling approach throughout the organization.
+
+Below, you’ll find some examples of data labeling in various situations:
+
+    User awareness: Visual labels help users easily identify the sensitivity level of the data they are working with, promoting responsible data handling and preventing accidental disclosure. For example, a document labeled "Confidential" or an email marked "Internal Use Only" immediately alerts users to handle the information carefully.
+
+    Automated protection: Labels can trigger specific protection actions, such as encryption, access control, and auditing, ensuring that sensitive data is properly protected based on its classification. For example, a label like "Highly Confidential" might automatically encrypt the document and restrict access to only authorized personnel.
+
+    Compliance: Labels can be configured to align with organizational policies, industry regulations, or legal requirements, helping organizations maintain compliance and avoid penalties. For instance, labels like "HIPAA Sensitive" or "PCI DSS Compliant" can be used to indicate compliance with specific regulations.
+
+AIP P1 supports various label types, including header, footer, and watermark labels, allowing organizations to choose the most appropriate representation for their needs. Examples of label types include:
+
+    Header labels: "Confidential - For Internal Use Only"
+
+    Footer labels: "This document contains proprietary information. Unauthorized distribution is strictly prohibited."
+
+    Watermark labels: A faint "Confidential" text overlaid on the document content.
+
+Protection: Securing data across its lifecycle
+
+Data protection is the ultimate goal of AIP P1, and it offers a comprehensive set of protection capabilities to secure data throughout its lifecycle, both within and outside the organization. Let’s become familiar with the approaches that AIP P1 offers in pursuit of this goal:
+Encryption
+
+AIP P1 enables organizations to encrypt sensitive data at rest and in transit, ensuring that it remains unreadable and secure even if it is intercepted or accessed by unauthorized parties. The encryption process is seamless and transparent to users, minimizing workflow disruptions.
+Access control
+
+AIP P1 provides granular access control mechanisms that allow organizations to restrict access to sensitive data based on user roles, locations, or other criteria. This ensures that only authorized users can access and manipulate sensitive information, reducing the risk of data breaches or misuse.
+Rights management
+
+With AIP P1, organizations can implement rights management policies that govern how users interact with sensitive data. These policies can define actions such as printing, copying, editing, or forwarding, ensuring that data remains protected even after it leaves the organization's boundaries.
+Auditing and reporting
+
+AIP P1 offers comprehensive auditing and reporting capabilities, enabling organizations to monitor and track data access, usage, and protection activities. This information can be used for compliance purposes, incident response, or identifying potential security risks and vulnerabilities.
+Implementation and integration
+
+AIP P1 is designed to seamlessly integrate with various Microsoft products and services, including Office 365, Azure Information Protection client, Microsoft Defender for Identity, and Microsoft Cloud App Security. This integration ensures a consistent and unified information protection experience across the organization's technology stack.
+
+Additionally, AIP P1 supports integration with third-party applications and services through APIs and connectors, allowing organizations to extend and adapt their capabilities to their specific business requirements.
+
+Azure Information Protection Plan 1 is typically included in various Microsoft 365 and Office 365 subscription plans, such as Microsoft 365 E3 and Office 365 E3. It can also be purchased as a standalone subscription.
