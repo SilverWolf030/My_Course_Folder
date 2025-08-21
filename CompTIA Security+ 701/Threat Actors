@@ -1,0 +1,53 @@
+- Threat Actors
+
+  - Familiarize yourself with the following threat actors, understand their motivations, their level of sophistication, funding and if they are interanl or external to an organization.
+
+    - Nation-state (aka Advanced Persistent Threat)
+    - Unskilled attacker (aka Script Kiddie)
+    - Hacktivist
+    - Organized Crime
+    - Insider threat
+    - Shadow IT
+
+  - Nation-state or APT - High Skill Level - High Funding
+
+    - Aka Advanced Persistent Threat (APT)
+    - Carry out attacks against foreign countries or organizations for the benefit of their parent country
+    - Can be made up of the country's military or cyber-operations group
+    - Compromise network security of their targets with innovative, sophisticated network attacks through advanced tools and techniques.
+    - Motivations: National interests, Espionage, Disruption, and war
+
+  - Unskilled attacker - Low Skill Level - Low Funding
+
+    - Aka "Script Kiddie"
+    - Low-skilled attacker who know enough to be dangerous but may not be able to carry out attacks on their own. Instead, they leverage tools created by others without fully understanding how or why a vulnerability works.
+    - Motivations: Disruption, and Prestige
+
+  - Hacktivist - Moderate Skill Level - Moderate Funding
+
+    - A person who hacks to further a social or political cause
+    - Target groups out of ethical or philosophical differences
+      - Political, media or financial groups
+    - Actions include defacing websites, leaking information and performing DoS attacks
+    - Motivation: Disruption, Ethics/Philosophy, and Politics
+
+  - Organized Crime - High Skill Level - High Funding
+
+    - Organized criminals that use hacking to further their criminal enterprise ($)
+    - Cyber-crime is gaining popularity due to the ability to operate from different countries, making prosecution more complex
+    - Examples include ransomware data theft, extortion, blackmailing and identity theft
+    - Ransomware-as-a-Service is a form of attack perpetrated by organized crime groups who will carry out a ransomware attack on a target organization. You bring them the target and ways to deliver the ransomware and they'll split the proceeds with you 80/20 or 90/10
+    - Motivations: Money
+
+  - Insider Threat - Moderate Skill - Low Funding
+
+    - A threat actor that comes from inside the organization
+    - Threats can be due to malicious action or simply incompetence
+    - Examples include disgruntled or uneducated employees
+    - Motivations: Disruption, Revenge, or Blackmail
+
+  - Shadow IT - Low/Moderate Skill - Low Funding
+
+    - The installation and use of IT systems or software without the permission of the IT department
+    - May be trying to be helpful to colleagues but might circumvent policy or undermine security controls in the process
+    - Motivations: Prestige
