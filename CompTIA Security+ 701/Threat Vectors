@@ -1,0 +1,85 @@
+- Threat Vectors
+
+  - Social engineering attacks:
+
+    - Message-based attacks:
+
+      - Email phishing
+      - SMS or text message
+      - Chat - Direct messages (DM) or instant messaging (IM)
+
+    - Voice-based attacks:
+      - Aka "vishing" or "voice phishing"
+      - Method of talking an individual into doing something they normally would not do
+
+  - File-based attacks:
+
+    - Many forms of malware attack system through a downloaded file or email attachment
+    - File-less malware is a form of attack where there is no file that stays resident on the system
+
+      - Usually a "downloader" pulls the malware form online, runs the malware, does the damage and removes itself making it hard to identify or spot
+
+    - Images can also be malicious:
+      - Through use of steganography
+      - Can contain malware hidden inside
+      - Can contain sensitive information being exfiltrated
+
+  - Vulnerable software:
+
+    - Software can have a number of security flaws baked in:
+      - inadvertent, oversights
+      - Malicious inclusion, "backdoor"
+    - To correct discovered vulnerabilities, we much watch for patches and update at necessary
+
+  - Removable media:
+
+    - Mass storage devices
+    - Data can be exfiltrated from a organization through removable media
+    - Malware can be introduced to an organization through removable media
+    - 'Airgapped" systems can be compromised through removable media
+      - Example: Stuxnet attack on iranian nuclear facility
+
+  - Unsupported systems and applications:
+
+    - Any system connected to an organization's network should be identified and monitored
+    - Any software in use at an organization should be listed and watched for updates
+    - If users are introducing other systems or software that are not receiving regular patches or update, this is a vulnerability
+    - Two ways to scan for these:
+      - Client-based scanning (agent-based)
+        - Use of software agent on the endpoint systems to scan software and report back to central server
+      - Agentless:
+        - Use of a network service to scan for (enumerate) hosts and query software installed on those hosts
+
+  - Insecure networks:
+
+    - Wired:
+      - Active network ports within facility, especially those in public or obscure areas (e.g., lobby, dinning facility, hallways, vacant offices)
+    - Wireless
+      - Lack of wireless security, use of insecure protocols
+      - Transmitting beyond confines of the facility
+    - Bluetooth:
+      - Disable Bluetooth if not needed
+      - Monitor connections via Bluetooth
+      - Be aware that Bluetooth can be an attack vector
+
+  - Open ports;
+
+    - Any point where data can connect to an internal service is potential point of attack
+    - Any open ports on a host or firewall is a potential vulnerability
+    - All unnecessary, unneeded services should be disabled and their ports closed
+    - Only required ports should be opened on a firewall
+      - Data passing through these ports should be monitored and managed for malicious activity
+
+  - Default credentials
+
+    - admin : admin
+    - Leaving the default settings on a system can open an organization up to widespread attacks. Numerous scanner exist that attempt to exploit default login information on commercially available devices.
+
+  - Supply chain attacks:
+
+    - Type of cyber-attack where an attacker goes for a less secure system within supply chain
+    - Rather than attacking a company directly, attackers may realize the target information may be in a less protected system elsewhere in the supply chain.
+    - Supply chain consists of:
+      - Managed Service Providers (MSP)
+      - Vendors
+      - Suppliers
