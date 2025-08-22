@@ -1,0 +1,36 @@
+- Social Engineering:
+
+  - Phishing:
+
+    - Phishing is a method of sending digital correspondences that appear legitimate but actually is meant to lure the potential victim into providing personal information for malicious purpose.
+    - Most often conducted through email
+    - Spear Phishing
+      - Targeting specific users because of their level of authorization
+    - Whaling:
+      - Going after the "big fish"
+    - Vishing: Portmanteau of "voice" and "phishing"
+      - Using phishing techniques over voice calls
+    - Smishing: Portmanteau of "SMS" and "phishing"
+      - Using phishing techniques over SMS or text messages
+
+  - Impersonation:
+
+    - Impersonation
+      - When an attacker pretends to be someone that a target is likely to trust consider an authority
+      - This trust is used to solicit information from the target that they would not otherwise divulge
+    - Brand Impersonation:
+      - When an attacker pretends to represent a company or sends out messages claiming to work with a company
+
+  - Misinformation and pretexting:
+
+    - Misinformation/disinformation:
+      - Providing false or misleading information to a potential victim to sway their line of thinking or trick them into doing something
+      - Example: "Your computer is at risk! Click here to download the latest security patch now!"
+    - Pretexting:
+      - Form of social engineering where an attacker creates a fake backstory to trick a user into doing something against the user's organization's interest.
+      - Example; Calling ahead to let the front desk known an "inspector" will arrive that afternoon and will need access the elevator control room and the primary data center.
+
+  - Watering hole:
+    - Why work hard breaking into a network? Instead, attackers lie in wait and let victims to come to them.
+    - Typosquatting:
+      - Buying up a domain that is similar to a popular site, hoping to catch victims who mistype a URL or will go to a site because the link appears similar to the intended trusted site.

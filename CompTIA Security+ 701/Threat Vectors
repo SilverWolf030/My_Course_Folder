@@ -62,7 +62,7 @@
       - Monitor connections via Bluetooth
       - Be aware that Bluetooth can be an attack vector
 
-  - Open ports;
+  - Open ports:
 
     - Any point where data can connect to an internal service is potential point of attack
     - Any open ports on a host or firewall is a potential vulnerability
