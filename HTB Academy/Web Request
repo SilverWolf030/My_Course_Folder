@@ -55,3 +55,41 @@
   - With -s flag cURL prints nothing, as the output was saved into the index.html file. Finally, we use the -h flag to see what other options we may use with cURL.
 
   - We may use --help all to print a more detailed help menu, or --help category (e.g. -h http) to print the detailed help of a specific flag. If we ever need to read more detailed documentation, we can use man curl to view the full cURL manual page.
+
+- Hypertext Transfer Protocol Secure (HTTPS):
+
+  - HTTPS Overview:
+
+    - If we examine an HTTP request, we can see the effect of not enforcing secure communications between a web browser and a web application.
+
+      - Example: ![alt text](https_clear.webp)
+
+    - We can see that the login credentials can be viewed in clear-text. This would make it easy for someone on the same network (such as a public wireless network) to capture the request and reuse the credentials for malicious purposes.
+
+    - In contrast, when someone intercepts and analyzes traffic from an HTTPS request.
+
+      - Example: ![alt text](https_google_enc.webp)
+
+    - As we can see, the data is transferred a a single encrypted stream, which makes it very difficult for anyone to capture information such as credentials or any other sensitive data.
+    - Websites that enforce HTTPS can be identified through https:// in their URL, as well as the lock icon in the address bar of the web browser to the left of the URL.
+    - Although the data transferred through the HTTPS protocol may be encrypted, the request may still reveal the visited URL if it contacted a clear-text DNS server. For this reason, it is recommended to utilize encrypted DNS servers (e.g. 8.8.8.8 ro 1.1.1.1), or utilize a VPN service to ensure all traffic is properly encrypted.
+
+- HTTPS Flow:
+
+  - How HTTPS operates at high level:
+
+    - Example : ![alt text](HTTPS_Flow.webp)
+
+  - If we type http:// instead of https:// to visit a website that enforces HTTPS, the browser attempts to resolve the domain and redirects the user to the webserver hosting the target website. A request is sent to port 80 first, which is the unencrypted HTTP protocol. The server detects this and redirects the client to secure HTTPS port 443 instead. This is done via the 301 Moved Permanently response code, which we will discuss in an upcoming section.
+  - Next, the client (web browser) sends a "client hello" packet, giving information about itself. After this, the server replies with "server hello", followed by a key exchange to exchange SSL certificates. The client verifies the key/certificate and sends one of its own. After this, an encrypted handshake is initiated to confirm whether the encryption and transfer are working correctly.
+  - Once the handshake completes successfully, normal HTTP communication continues, which is encrypted after that. This is a very high-level overview of the key exchange, which is beyond this module's scope.
+
+  - Depending on the circumstances, an attacker may be able to perform an HTTP downgrade attack, which downgrades HTTPS communication to HTTP, making the data transferred in clear-text. This is done by setting up a Man-in-the-Middle (MITM) proxy to transfer all traffic through the attacker's host without the user's knowledge. However, most modern browsers, servers, and web applications protect against this attack.
+
+- cURL for HTTPS:
+
+  - cURL should automatically handle all HTTPS communication standards and perform a secure handshake and then encrypt and decrypt data automatically. However, if we ever contact a website with an invalid SSL certificate or an outdated one, then cURL by default would not proceed with the communication to protect against the earlier mentioned MITM attacks.
+
+  - Modern web browsers would do the same, warning the user against visiting a website with an invalid SSL certificate.
+
+  - We may face such an issue when testing a local web application or with a web application hosted for practice purposes, as such web applications may not yet have implemented a valid SSL certificate. To skip the certificate check with cURL, we can use the -k flag.
