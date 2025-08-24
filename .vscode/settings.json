@@ -1,5 +1,11 @@
 {
-  "cSpell.words": ["inlanefreight", "Keysteps", "smartct", "Wireshark"],
+  "cSpell.words": [
+    "ciphertext",
+    "inlanefreight",
+    "Keysteps",
+    "smartct",
+    "Wireshark"
+  ],
   "cSpell.customDictionaries": {
     "custom-dictionary-workspace": {
       "name": "custom-dictionary-workspace",

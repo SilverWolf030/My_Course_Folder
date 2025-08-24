@@ -1,0 +1,39 @@
+- Password Attacks:
+
+  - Brute force:
+
+    - Attempting to guess a password by trying each combination and permutation.
+
+  - Dictionary attacks:
+
+    - Trying a list of many possible passwords to guess the password for one account
+    - Dictionary lists are publicly available online, some are enormous in size reaching over 1TB.
+    - Each compromised system can yield more possible passwords that get thrown onto the heap of known passwords making up dictionary lists.
+
+  - Password Spraying:
+    - Trying one "known-goog" password across many accounts
+    - Less likely to trigger account lockouts or failed password timeouts.
+
+- Cryptographic attacks:
+
+  - Birthday Attack:
+
+    - A birthday attack is a subset of a collision attack. A collision attack is simply when a process is found that can produce the same value. These are associated with cryptographic hashing.
+
+  - Collision Attack:
+
+    - An attack that exploits weak cryptographic hash functions. It works by finding separate input values that produce the same hashed value.
+
+  - Known plaintext attack:
+
+    - When an attacker has access to both the plaintext and ciphertext of an encryption method.
+    - The attacker can use this to look for weaknesses in the encryption method and easily decipher future encrypted messages.
+
+  - Known ciphertext attack:
+
+    - The attacker known the ciphertext bus has no access to the plaintext. This can make finding weaknesses more difficult.
+
+  - Rainbow tables:
+
+    - A table of previously-computed values for reversing hashing functions
+    - Used to crack hashed passwords.

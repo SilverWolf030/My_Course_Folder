@@ -1,0 +1,18 @@
+- Physical attacks:
+
+  - Malicious USB cables
+
+    - Cables that have been altered to allow for malware to infect computers.
+    - Cables that exfiltrate data out thought their own cellular connection
+
+  - Malicious flash drives:
+
+    - Malware-filled USB that infects a computer once inserted. Usually dropped in a parking lot and preys on a victim's sense of curiosity to plus it in on their work computer.
+
+  - Card Cloning:
+
+    - Special hardware to copy the contents of an electronic card. Often used to copy building access credentials off employees' access cards
+
+  - Skimming:
+
+    - Special hardware that copies the information from a magnetic strip. Usually appended to ATMs or gas pumps to steal PIN and card information.
