@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["Keysteps", "smartct", "Wireshark"]
+  "cSpell.words": ["inlanefreight", "Keysteps", "smartct", "Wireshark"],
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:My_Course_Folder}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  }
 }

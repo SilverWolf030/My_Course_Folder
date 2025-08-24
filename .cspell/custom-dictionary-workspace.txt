@@ -1,0 +1,5 @@
+# Custom Dictionary Words
+- Example URL:
+                {user}                      {port}             {query string}
+      http://admin:password@inlanefreight.com:80/dashboard.php?login=true#status
+      {scheme}                  {host}            {path}                 {fragment}
