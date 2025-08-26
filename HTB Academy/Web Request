@@ -142,3 +142,25 @@
   - Example: ![alt text](devtools_network_requests.jpg)
 
   - Clicking on any of the requests to view their details, then click on the Response tab to view the response body, and then click the Raw button to view the raw (unrendered) source code of the response body.
+
+- HTTP Headers:
+
+  - HTTP headers pass information between the client and the server. Some headers are only used with either requests or responses, while some other general headers are common to both.
+
+  - Headers can have one or multiple values, appended after the header name and separated by a colon.
+
+  - General Headers:
+
+    - General headers are used in both HTTP requests and responses. They ar contextual and are used to describe the message rather than its contents.
+
+    - Date - Holds the data and time at which the message originated. It's preferred to convert the time the standard UTC time zone.
+
+    - Connection - Dictates if the current network connection should stay alive after the request finishes. Two commonly used values fo this head are close and keep-alive. The close value from wither the client or server means that they would like to terminate the connection, while the keep-live header indicates that the connection should remain open to receive more data and input.
+
+  - Entity Headers:
+
+    - Similar to general header, Entity Headers can be common to both the request and response. These headers are used to describe the content (entity) transferred by a message. They are usually found in the POST or PUT request.
+
+    - Content-Type - Used to describe the type of resource being transferred. The value is automatically added by the browsers on the client-side and returned in the server response. The charset field denotes the encoding standard, such as UTF-8.
+
+    - Media-Type -
