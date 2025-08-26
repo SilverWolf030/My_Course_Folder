@@ -129,3 +129,16 @@
 - cURL:
 
   - In earlier examples with cURL, we only specified the URL and got the response body in return. However, cURL also allows us to preview the full HTP request and the full HTTP response, which can become very handy when performing web penetration testing or writing exploits. The view the full HTP request and response, we can simply add the -v verbose flag to our earlier commands, and it should print both the request and response.
+
+  - The -vvv flag shows an even more verbose output. Try to use this flag to see what extra request and response details get displayed with it.
+
+- Browser DevTools:
+
+  - Most modern web browsers com with built-in developer tools (DevTools), which are mainly intended for developers to test their web applications. However, as web penetration testers, these tools can be vital asset in any web assessment we perform.
+
+  - Whenever we visit any website or access any web application, our browser sends multiple web requests adn handles multiple HTTP responses to render the final view we see in the browser window. To open the browser DevTools in either Chrome or Firefox, we can click [CTRL+SHIFT+I] or simply click [F12]. The devtools contain multiple tabs, each of which has its own use.
+
+  - If we click on the network tab and refresh the page, we should be able to see the list of request sent by the page:
+  - Example: ![alt text](devtools_network_requests.jpg)
+
+  - Clicking on any of the requests to view their details, then click on the Response tab to view the response body, and then click the Raw button to view the raw (unrendered) source code of the response body.
