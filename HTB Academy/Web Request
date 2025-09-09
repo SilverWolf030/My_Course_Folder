@@ -220,3 +220,7 @@
     - Example: ![alt text](devtools_network_requests_details.jpg)
 
   In the first Headers tab, we see both the HTTP request and HTTP response headers. The devtools automatically arrange the headers into sections, but we can click on the Raw button to view their raw format. Furthermore, we can check the Cookies tab to see any cookies use by the request.
+
+- HTTP Methods and Codes:
+
+  -
