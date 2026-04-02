@@ -1,0 +1,51 @@
+- Work Breakdown Structure (WBS):
+  ![alt text](image.png)
+  - It's the goal of the WBS to provide a complete picture of the work involved to create the project deliverable. The WBS is thus the foundation for the project schedule, resource planning, and the determination of project budget.
+
+  - In Context:
+    You are the project manager for a house construction project. The creation of a WBS must be a collaboration between you and the members of the project team or others who have knowledge of the work.
+
+    Any individuals on the project team who are responsible for the work toward deliverables should be involved. This includes all the trades that are part of the construction, such as those who create the structure of the house, install the roof, or place the plumbing and electrics.
+
+    Subject matter experts should also be involved. These are individuals with specialized knowledge that relates to the project goals or deliverables. When building an energy efficient house, subject matter experts may not work on the project, but might just provide advice that defines the work.
+
+    Any individuals who have experience with similar projects should be consulted and have the project manager should review the WBS or schedules for any projects that have similar deliverables.
+
+- Sticky Note Method:
+  A WBS is often represented as a hierarchy and one method that works well to create it is called the sticky note method. In this method, each element of the WBS is written on a sticky note. These notes can then be easily moved around as more information comes in from collaborators
+
+  This works better than a document or a whiteboard because the structure is more flexible. Since the notes can be easily moved, collaborators do not feel locked into certain workflows during the brainstorming process.
+  - Project Name:
+    The first sticky note will have the name of the project. So our first note my have "Dream Home" written on it to represent the name of the project.
+
+  - Deliverables;
+    The first level of the hierarchies is project deliverables. While these should usually be defined in the project scope, occasionally new project deliverable will be identified during the WBS process. If new project deliverables emerge, be sure to modify the project scope and notify the stakeholders of the change.
+
+    for the house project, the scope is taken from the house plans. Perhaps you are in charge of building a singe story, 1,500 square foot range home.
+    - Term to know:
+      - Project Deliverables:
+        Defined outcomes that are the focus of a project and are the basis for all project activities.
+
+  - Activities:
+    The next level is project activities. These are the major pieces of work necessary to create the deliverables, and they are generally expressed as verbs.
+
+    for the house project, these can be listed as, Create the Foundation, Build External Structure, Install the Internal Systems.
+    - Term to know:
+      - Project Activities:
+        Work elements that are required to complete or manage a project.
+
+  - Tasks:
+    Project tasks are the specific work needed to complete an activity. Unlike activities, however, project tasks will be assigned to the individuals performing the work.
+
+    for the house project, one the foundation activity is complete, there are corresponding tasks such as. Excavate the footings, Lay the concrete forms, Pour the concrete, Install the Water Lines.
+    - Terms to know:
+      - Project Task:
+        Discrete work that is required to complete project activities.
+
+  - Sequence:
+    Once all the tasks have been identified, the proper sequence of the WBS needs to be confirmed. The WBS must represent the correct order. The sticky note method makes it easy to move these projects tasks to their proper locations.
+
+    With the house project, the water lines must be installed before the concrete is poured, so this needs to be moved to the proper location.
+
+  - Review:
+    The last step is to review the work breakdown structure. For any type of project, it is important to analyze and verify the work, ensure the sequence is logical for the work that is being done, and make sure nothing is missing.
