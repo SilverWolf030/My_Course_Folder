@@ -1,7 +1,7 @@
 - People Resource Planning:
-  People resources planning involves the personnel needed to complete or manage a project. All the expertise needed for a project must be included in the people resource plan.
+  - People resources planning involves the personnel needed to complete or manage a project. All the expertise needed for a project must be included in the people resource plan.
 
-  These people might be part of the project team, or they might be individuals outside the team, such a consultants, vendors, or suppliers. The project manager is also included int he people resources plan, as are other staff members who mange the project directly.
+  - These people might be part of the project team, or they might be individuals outside the team, such a consultants, vendors, or suppliers. The project manager is also included int he people resources plan, as are other staff members who mange the project directly.
   - In Context:
     You are a project manager and your project has the goal of installing a new voicemail system. The people resource plan would include:
     - Project manager
@@ -10,6 +10,25 @@
     - Any quality assurance testers who validate that the system is working.
 
     As the project manager, you would confirm that the required personnel would be assigned to the project team. If skill gaps exist, then you may need to fill those gaps with new hires, consultants, or other people from outside the team.
-    - Term to know:
-      - People Resource Planning:
-        A process for identifying the people and/or expertise needed to complete a project.
+
+  - Term to know:
+    - People Resource Planning:
+      A process for identifying the people and/or expertise needed to complete a project.
+
+- Non-People Resource Planning:
+  - Resources including technology, materials, and equipment needed to complete the project deliverable3s. In other words, anything that is not person that the project needs is included as part of the non-people resource plan.
+    - In Context
+      For the voicemail project, the non-people resource plan would include:
+      - Purchase of voicemail software
+      - Computer system necessary to run the software
+      - Any phone or network wiring needed to install the system.
+
+    To successfully manage your voicemail project, you may include project management software to build the schedule and assign and monitor tasks. If the resource must be obtained, then it has a cost tot he project and must be included in the project budget.
+
+  - For non-people resources, you should identify any tools needed for the management, communication, or success of the project. It should be noted whether the organization already owns the resources, or whether they need to be obtained. If they do need to be purchased. sources for the resource should be listed.
+
+  - To find people or non-people resources, the project manager should review the WBS, and document anyone or anything needed to complete each task. Remember that the project manager must include all resources in the project plan.
+
+  - Term to know:
+    - Non-People Resource Planning:
+      A process for identifying equipment, materials, and technology that are required to complete a project.
