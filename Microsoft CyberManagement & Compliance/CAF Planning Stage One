@@ -1,0 +1,68 @@
+- The migration to cloud technology is an essential evolution for organizations looking to leverage the benefits of scalability, agility, and cost-effectiveness. The Microsoft Azure Cloud Adoption Framework (CAF) is a proven guide that helps businesses adopt cloud services effectively to achieve their desired outcomes. Stage one of Azure CAF planning involves assessing the current state of an organization's cloud readiness.
+
+- Identifying desired cloud outcomes:
+  - Before embarking on cloud adoption, it is imperative for an organization to identify its desired outcomes. These outcomes should align with the overall business strategy. Ensure that you understand these goals because they provide direction and context for the cloud adoption process.
+
+  - The Azure CAF's Strategic Migration Assessment and Readiness Tool (SMART) is an excellent resource for assessing readiness. The tool guides organizations through a series of questions addressing different aspects, such as the:
+
+    - Current business strategy
+    - Partner support system 
+    - Inventory and assets
+    - Business goals
+    - Migration plan
+    - Technical skills
+    - Governance
+  
+  - This assessment helps organizations understand areas requiring improvement before actioning migration and provides resources for addressing these areas.
+
+- Developing a strategy:
+
+  - After identify desired cloud outcomes, an organization must develop a strategy for achieving these goals.
+
+  - A successful strategy encompasses various components, including:
+
+    - Assessing the current state
+    - Determining the future state.
+    - Devising a detailed plan for transitioning from the current state to the desired future state.
+
+  - The CAF provides several tools to support this process. For example, the Cloud Adoption Strategy Evaluator assesses your cloud adoption strategy and provides recommendations. Additionally, the Strategy and Plan Template helps with documenting decisions as you execute your cloud adoption strategy and plan.
+
+- Readiness and best practices;
+
+  - The Azure CAF readiness plan is an essential phase in the cloud adoption process that prepares an organization for successful migration to or integration with cloud. This involves both settling up the technical aspects, such as the landing zones, and ensuring that the people involved have the necessary skills for cloud technologies. There is also an assessment and training aspects.
+
+    - Creating a landing zone: Before cloud adoption begins, it's essential to create a landing zone to host the workloads that you plan to build in or migrate to the cloud. The landing zone is a set of guidelines, best practices, and resources that provides a roadmap for setting up an environment in Azure. Additionally, consider the following:
+
+      - Cloud Operation Model: Understand the right operating model to support your cloud adoption. It's critical to explore how your organization will operate in a cloud environment, including governance, management, and security considerations.
+
+      - Azure Landing Zones: Learn about the Azure landing zone conceptual architecture and Azure landing zone accelerator. This includes templates and guidance that help set up and environment that adheres to best practices for security, governance, and compliance.
+
+      - Journey to the Target Architecture: Validate your starting point for landing zone implementation against the three core concepts: start, align, and enhance. This means starting with a basic architecture, aligning it with your organization's requirements and best practices, and enhancing it for scalability and additional capabilities.
+
+    - Skills Readiness: As cloud technologies require a different set of skill, it's essential for It professionals to adapt and learn these skills. The Cloud Adoption Framework provides resources and learning paths to develop necessary skills for each phase of the adoption lifecycle.
+
+      - Strategy Phase: Develop the skills needed to prepare and actionable migration plan, including business justification and other required business-planning skills.
+
+      - Readiness Phase: Develop the skills needed to prepare the business, culture, people, and environment for the coming changes.
+
+      - Migration Phase: Gain the skills required to implement the cloud migration plan.
+
+      - Management Phase: Gain the skills needed to monitor a cloud environment.
+
+    - Assessments and Training: Plan your cloud journey by engaging in assessments that measure the difference between your current state and cloud adoption goals. Assessment results provides curated technical guidance to help you reach your goals. This can include Cloud Adoption Strategy Evaluation, App and Data Modernization Readiness, and Strategic Migration Assessment and Readiness.
+
+- Identify gaps:
+
+  - Identifying gaps is another important aspect of organization readiness. A gap is a role, skill, or process that is required for your digital transformation. Emphasize new responsibilities and existing responsibilities to be retired.
+
+  - Identify the area that aligns with each responsibility. For each new responsibility, check how closely it aligns with the area. Some responsibilities might span several areas. This crossover represents and opportunity for better alignment that you should document as a concern. In the case where no area is identified as being responsible, document this gap.
+
+  - Identify the skills necessary to support each responsibility, and check if your enterprise has existing resources with those skill. Where there are no existing resources, determine the training programs or talent acquisition necessary to fill gaps. Also determine the deadline by which you must support each responsibility to keep your digital transformation on schedule.
+
+  - Identify the roles that will execute these skills. Some of your existing workforce will assume parts of the roles. In other cases, entirely new roles might be necessary.
+
+- Align strategy and planning:
+
+  - Planning for cloud adoption can be a significant change for some organizations. IT organizations have long focused on the application of linear or sequential models of project management, like the Agile and waterfall models. In traditional IT, this approach models of project management, like the Agile and waterfall models. In traditional IT, this approach was entirely logical. Most large IT projects started with a procurement request to acquire expensive hardware resources. Capital expense requests, budget allocations, and equipment acquisition often represented a large percentage of project execution. And after it was acquired, the hardware itself became a constraint on what could be delivered.
+
+  - The acquisition models of the cloud change the core dependencies that make a sequential model necessary. The replacement of acquisition cycle with an operating-expense approach helps businesses move more quickly and with smaller financial commitment. This approach helps teams to engage in projects before all requirements are well known. It also creates room for a growth mindset, which frees the team to experiment, learn, and deliver without artificial constraints. For all these reasons and more, we highly recommend that teams use agile or iterative approaches to cloud adoption planning.
