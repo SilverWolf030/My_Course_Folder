@@ -48,3 +48,18 @@
     - cd hklm:
 
   - To modify registry values, you must:
+
+    - Use the Set-Location cmdlet to change to the appropriate registry drive.
+    - Use the Set-ItemProperty cmdlet to assign a new value to the registry property.
+
+    - For example, 
+      - Set-Location HKCU:\Software\Example
+
+        Set-ItemProperty . examplevaluename "assigned value"
+
+  - In the preceding code sample, assigned value is assigned to a value called examplevaluename in the registry path, HKEY_CURRENT_USER\Software\Example.
+
+
+- Group Policy Preferences;
+
+  - You can create, update, replace, and delete registry keys and values when you use Group Policy Preference in the domain GPO. This approach is very effective if you need to manage registry updates on many computers in an Active Directory environment.
